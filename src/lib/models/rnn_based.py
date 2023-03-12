@@ -9,7 +9,7 @@ class Encoder(tf.keras.Model):
         self.layer_type = layer_type
         self.n_layers = n_layers
         
-        print("Initializing the Encoder...")
+        logger.info("Initializing the Encoder...")
         
         self.embedding = tf.keras.layers.Embedding(vocab_size, embedding_dim)
         
@@ -21,12 +21,12 @@ class Encoder(tf.keras.Model):
             elif self.layer_type.lower() == "gru":
                 self.encoder_layers[i] = tf.keras.layers.GRU(self.enc_units, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"encoder_gru_{i}")
             elif self.layer_type.lower() == "lstm":
-                print("CREATING LSTM LAYER")
+                logger.info("CREATING LSTM LAYER")
                 self.encoder_layers[i] = tf.keras.layers.LSTM(self.enc_units, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"encoder_lstm_{i}")
             elif self.layer_type.lower() == "blstm":
                 self.encoder_layers[i] = tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(self.enc_units, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"encoder_blstm_{i}"))
             else:
-                print("Wrong layer type! Correct input might be LSTM, BLSTM, GRU or BGRU")
+                logger.info("Wrong layer type! Correct input might be LSTM, BLSTM, GRU or BGRU")
                 break
                             
     def call(self, x, hidden):
@@ -126,7 +126,7 @@ class BahdanauAttention(tf.keras.layers.Layer):
 class Decoder(tf.keras.Model):
     def __init__(self, vocab_size, embedding_dim, dec_units, batch_sz, n_layers, layer_type, attention_type):
         super(Decoder, self).__init__()
-        print("Initializing the Decoder...")
+        logger.info("Initializing the Decoder...")
         
         self.n_layers = n_layers
         self.layer_type = layer_type
@@ -143,18 +143,18 @@ class Decoder(tf.keras.Model):
         for i in range(self.n_layers):
             if self.layer_type.lower() == "bgru":
                 self.decoder_layers[i] = tf.keras.layers.GRU(self.dec_units*2, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"decoder_gru_{i}")
-                print("Creating BGRU layer...")
+                logger.info("Creating BGRU layer...")
             elif self.layer_type.lower() == "gru":
                 self.decoder_layers[i] = tf.keras.layers.GRU(self.dec_units, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"decoder_gru_{i}")
-                print("Creating GRU layer...")
+                logger.info("Creating GRU layer...")
             elif self.layer_type.lower() == "lstm":
                 self.decoder_layers[i] = tf.keras.layers.LSTM(self.dec_units, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"decoder_lstm_{i}")
-                print("Creating LSTM layer...")
+                logger.info("Creating LSTM layer...")
             elif self.layer_type.lower() == "blstm":
                 self.decoder_layers[i] = tf.keras.layers.LSTM(self.dec_units*2, return_sequences=True, return_state=True, recurrent_initializer='glorot_uniform', name=f"decoder_lstm_{i}")
-                print("Creating BLSTM layer...")
+                logger.info("Creating BLSTM layer...")
             else:
-                print("Wrong layer type!")
+                logger.info("Wrong layer type!")
                 break
 
         
@@ -163,13 +163,13 @@ class Decoder(tf.keras.Model):
         # used for attention
         if self.attention_type.lower() == "bahdanau":
             self.attention = BahdanauAttention(self.dec_units)
-            print("Creating Bahdanau attention...")
+            logger.info("Creating Bahdanau attention...")
         elif self.attention_type.lower() == "luong":
             self.attention = LuongAttention(self.dec_units, self.layer_type)
             self.wc = tf.keras.layers.Dense(self.dec_units, activation='tanh')
-            print("Creating Luong attention...")
+            logger.info("Creating Luong attention...")
         else:
-            print(f"Chosen Attention Type: '{self.attention_type}'")
+            logger.info(f"Chosen Attention Type: '{self.attention_type}'")
 
     def call(self, x, hidden, enc_output):
         if self.attention_type.lower() == "bahdanau":
