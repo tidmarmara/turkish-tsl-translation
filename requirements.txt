@@ -1,0 +1,10 @@
+tensorflow
+matplotlib
+sklearn
+unicode_tr
+sty
+loguru
+tqdm
+sacrebleu
+jiwer
+evaluate
