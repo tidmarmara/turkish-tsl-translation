@@ -1,0 +1,3 @@
+train: r"C:\Users\PC\Desktop\turkish-tsl-translation\dataset\train-tr2tsl-wordbased.txt"
+valid: r"C:\Users\PC\Desktop\turkish-tsl-translation\dataset\valid-tr2tsl-wordbased.txt"
+test: r"C:\Users\PC\Desktop\turkish-tsl-translation\dataset\test-tr2tsl-wordbased.txt"
