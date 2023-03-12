@@ -1,0 +1,1250 @@
+onlar hızlı	onlar hızlı
+hızlı olacağım	ben hızlı olmak
+hızlı olacağız	biz hızlı olmak
+hızlı çalışıyorsun	sen hızlı çalışmak
+hızlı koşabilirim	ben hızlı koşmak
+fazla ödeyeceğim	ben fazla ödemek
+saat iki	saat iki
+ilaç aldım	ben ilaç almak
+ilaç kullanıyor	o ilaç kullanmak
+ilaç almalıyım	ben ilaç almak
+onunla konuş	sen onun ile konuşmak
+gezmeyi seviyorum	ben gezmek sevmek
+onunla çalışırım	ben onun ile çalışmak
+arabayla gidelim	biz araba ile gitmek
+arkadaşımla gideceğim	ben benim arkadaş ile gitmek
+onunla ilgilendi	o onun ile ilgilenmek
+onlarla ilgilendi	o onlar ile ilgilenmek
+bebekle ilgilendi	o bebek ile ilgilenmek
+kuşla ilgilendi	o kuş ile ilgilenmek
+evleri sıcak	onların ev sıcak
+yemek yapıyorum	ben yemek yapmak
+kitap okuyorum	ben kitap okumak
+sonucu buldum	ben sonuç bulmak
+yemeği beğenmedim	ben yemek beğenmek değil
+bence kazanacaklar	onlar bence kazanmak
+gidip yedim	ben gitmek yemek
+çok beğendim	ben çok beğenmek
+arkadaşımla eğlendim	ben benim arkadaş ile eğlenmek
+evi temizledin	sen ev temizlemek
+evi temizledik	biz ev temizlemek
+çok üzüldün	sen çok üzülmek
+çok hastayım	ben çok hasta
+çok hasta	o çok hasta
+çok beğendiler	onlar çok beğenmek
+hiç beğenmedim	ben hiç beğenmek değil
+hepsini düzelttim	ben hepsi düzeltmek
+nedenini anlamadım	ben neden anlamak değil
+adresi bilmiyordum	ben adres bilmek değil
+çok sevindim	ben çok sevinmek
+çok sevindi	o çok sevinmek
+çok memnunum	ben çok memnun_olmak
+yemeği yedim	ben yemek yemek
+çok sağolun	çok sağol
+film izledim	ben film izlemek
+beraber gideceğiz	biz beraber gitmek
+ben yanılmışım	ben yanılmak
+kaç para	kaç_para ?
+hasta oldum	ben hasta_olmak
+hasta oldu	o hasta_olmak
+markete gidiyorum	ben market gitmek
+markete gitti	o market gitmek
+merhaba nasılsın	merhaba nasılsın ?
+hava yağmurlu	hava yağmur
+kitap ucuz	kitap ucuz
+telefon aldım	ben telefon almak
+gitarım eskidi	benim gitar eski
+raporumu yazdım	ben benim rapor yazmak
+günler geçer	gün geçmek
+yerini almıştır	yer almak
+yerimizi aldılar	onlar bizim yer almak
+duygu yoktur	duygu yok değil
+herkes yaşamaktadır	herkes yaşamak
+insanlar sever	insan onlar sevmek
+lise mezunudur	o lise mezun
+amca başardık	biz amca başarmak
+yemek hazırladı	o yemek hazırlamak
+yazıyı gösterebilirim	ben yazı göstermek
+çocuğu olmamıştı	onun çocuk olmak değil
+hayvanları sevmez	o hayvan onlar sevmek değil
+iyileşmeye başlıyor	o iyileşmek başlamak
+gözleri görmüyor	onun göz görmek değil
+dün evlendiler	onlar dün evlenmek
+memleketine döndü	o onun memleket dönmek
+ne istiyorlar	onlar ne istemek ?
+herkes izledi	herkes izlemek
+sağlığı bozuldu	onun sağlık bozulmak
+ders çalışmaktayım	ben ders çalışmak
+ben inanmıyorum	ben inanmak değil
+benimle ilgilendi	o ben ile ilgilenmek
+onunla ilgilenmeliyim	ben onun ile ilgilenmek
+onunla ilgilenmeliyiz	biz onun ile ilgilenmek
+ilgilenmek istiyorum	ben ilgilenmek istemek
+sorunlarım var	benim sorun var
+sorunlarımız var	bizim sorun var
+ebeveynlerimizle ilgilenmeliyiz	biz bizim ebeveyn ile ilgilenmek
+çocuklarımızla ilgilenmeliyiz	biz bizim çocuk onlar ile ilgilenmek
+ailelerimiz var	bizim aile var
+ilk sıradayım	ben ilk sıra
+o imkansız	o imkansız
+bu imkansız	bu imkansız
+çok imkansız	çok imkansız
+inanmak istiyorum	ben inanmak istemek
+inanmak zordu	inanmak zor
+inanmak zor	inanmak zor
+ona inanmıyorum	ben o inanmak değil
+buna inanmıyorum	ben bu inanmak değil
+sana inanmıyorum	ben sana inanmak değil
+allaha inanmıyorum	ben allah inanmak değil
+allaha inanıyorum	ben allah inanmak
+gözlerime inanmıyorum	ben benim gözler inanmak değil
+inanmıyorum işte	ben inanmak değil işte
+kazanacağıma inanmıyorum	ben kazanmak inanmak değil
+kazanabileceğime inanmıyorum	ben kazanmak inanmak değil
+lanetlere inanmıyorum	ben lanet inanmak değil
+tanıştığımıza inanmıyorum	ben biz tanışmak inanmak değil
+indirim istiyorum	ben indirim istemek
+indirim veririz	biz indirim vermek
+acele geldi	o acele gelmek
+hızlıca yürüdüm	ben hızlı yürümek
+filmi gördüm	ben film görmek
+bilgisayarı kurtarabilirim	ben bilgisayar kurtarmak
+akşam çalışmalıyız	biz akşam çalışmak lazım
+birbirimizi anlıyoruz	ben anlamak sen
+ben utanmadım	ben utanmak değil
+ikimiz çalışmalıyız	iki biz çalışmak lazım
+ikiniz çalışmalısınız	iki siz çalışmak lazım
+kız koşuyor	kız koşmak
+babam memur	benim baba memur
+çanta ağır	çanta ağır
+kitap aldım	ben kitap almak
+kitap aldı	o kitap almak
+okumak güzel	okumak güzel
+film seyredeceğiz	biz film seyretmek
+spora gittim	ben spor gitmek
+spora gideceğim	ben spor gitmek
+arkadaşını görmedim	ben senin arkadaş hiç görmek değil
+ben geldim	ben gelmek
+babam öğretmen	benim baba öğretmen
+annem evde	benim anne ev iç
+annem öğretmen	benim anne öğretmen
+araba kırmızı	araba kırmızı
+bilgisayar yavaş	bilgisayar yavaş
+bilgisayarım yavaş	benim bilgisayar yavaş
+çocuk gitmedi	çocuk gitmek değil
+filmi izlemedim	ben film izlemek değil
+çayını içmiyor	o onun çay içmek değil
+çayını içmemişti	o onun çay içmek değil
+çayımı içmedim	ben benim çay içmek değil
+henüz denemedim	ben henüz denemek değil
+kamyon süremem	ben kamyon sürmek değil
+dışarı çıkamayız	biz dışarı çıkmak olmaz
+oyun oynayamazsın	sen oyun_oynamak olmaz
+seni sevemem	ben sen sevmek olmaz
+patron geldi	patron gelmek
+doğru söylüyorsun	sen doğru söylemek
+herkes korkuyordu	herkes korkmak
+haberleri dinledin	sen haber dinlemek
+ben hastayım	ben hasta
+sen istiyordun	sen istemek
+ağlamak istiyordu	o ağlamak istemek
+açmak istiyordum	ben açmak istemek
+kanıt istiyorum	ben kanıt istemek
+sen iyiydi	sen iyi
+onlar izledi	onlar izlemek
+o kaybetti	o kaybetmek
+umudunu kaybetti	o onun umut kaybetmek
+kaçmak istemiyor	o kaçmak istemek değil
+komik miydi	o komik ?
+kayboldu mu	o kaybolmak ?
+yürüyebiliyor mu	o yürümek ?
+sarhoş mu	o sarhoş ?
+ölüyor mu	o ölmek ?
+mutlu mu	o mutlu ?
+yaptı mı	o yapmak ?
+silahlı mısın	sen silah ?
+sen nasılsın	sen nasılsın ?
+insan ölümlüdür	insan ölü
+insanlar ölüyor	insan onlar ölmek
+insanlar eğlenceli	insan onlar eğlence
+insanlar tuhaf	insan onlar tuhaf
+insanlar konuşacak	insan onlar konuşmak
+insanlar aptal	insan onlar aptal
+insanlar kızgın	insan onlar kızgın
+insanlar tuhaftır	insan onlar tuhaf
+insanlar acayiptir	insan onlar acayip
+insanlar konuşuyor	insan onlar konuşmak
+insanlarla konuşamam	ben insan onlar ile konuşmak değil
+onunla evlendi	o onun ile evlenmek
+o evlendi	o evlenmek
+kim evlendi	kim evlenmek
+gençken evlendi	o genç evlenmek
+onlar evlendiler	onlar evlenmek
+o evliydi	o evli
+onlar evliydi	onlar evli
+o eğlendi	o eğlenmek
+herkes eğlendi	herkes eğlenmek
+hepimiz eğlendik	biz hepimiz eğlenmek
+çok eğlendik	biz çok eğlenmek
+onunla eğlendik	biz onun ile eğlenmek
+dün eğlendik	biz dün eğlenmek
+partide eğlendik	biz parti eğlenmek ?
+burada eğlendim	ben burada eğlenmek
+biraz eğlendim	ben biraz eğlenmek
+ben eğlendim	ben eğlenmek
+onunla eğlendim	ben onun ile eğlenmek
+çok eğlendim	ben çok eğlenmek
+orada eğlendim	ben orada eğlenmek
+çok eğleneceğiz	biz çok eğlenmek
+biz eğleneceğiz	biz eğlenmek
+bununla eğleneceğiz	biz bu ile eğlenmek
+bugün eğleneceğiz	biz bugün eğlenmek
+fazla yavaşım	ben fazla yavaş
+ondan uzak duruyorum	ben o uzak durmak
+onu çok beğeniyorum	ben o çok beğenmek
+bir daha içmedim	ben bir daha içmek değil
+sen nasıl oldun	sen nasıl olmak ?
+her şey tamam	her_şey tamam
+doktorun söylediklerini yaptım	ben doktor onun söylemek yapmak
+o askere gitti	o asker gitmek
+o benim kızım	o benim kız
+allaha emanet ol	allaha_emanet_ol
+senin memleketin neresi	senin memleket neresi ?
+onun memleketi neresi	onun memleket neresi ?
+çok iyiyim teşekkürler	ben çok iyi teşekkür_etmek
+annemi çok özledim	ben benim anne çok özlemek
+babamı çok özledim	ben benim baba çok özlemek
+bazen dışarı çıkıyorum	ben bazen dışarı çıkmak
+bazen dışarı çıkar	o bazen dışarı çıkmak
+onun soyadı ne	onun soyadı ne ?
+kendini iyi hissetmiyor	o kendi iyi hissetmek değil
+galiba hasta oldum	ben galiba hasta_olmak
+galiba hasta oldu	o galiba hasta_olmak
+televizyon seyretmeyi sevmiyorum	ben televizyon seyretmek sevmek değil
+televizyon seyretmeyi seviyor	o televizyon seyretmek sevmek
+televizyon seyretmeyi sevmiyor	o televizyon seyretmek sevmek değil
+televizyon seyretmeyi seviyorum	ben televizyon seyretmek sevmek
+kitap okumayı sever	o kitap okumak sevmek
+annem avrupada çalışıyor	benim anne avrupa orada çalışmak
+dışarıda yağmur yağıyor	dışarı orada yağmur yağmak
+telefonumu değiştirmek istiyorum	ben benim telefon değiştirmek istemek
+telefonunu değiştirmek istiyor	o onun telefon değiştirmek istemek
+annem için endişeleniyorum	ben benim anne için endişelenmek
+babam için endişeleniyorum	ben benim baba için endişelenmek
+onun için endişeleniyorum	ben onun için endişelenmek
+arabasının rengi kırmızıydı	onun araba renk kırmızı
+odasında ders çalışıyor	o onun oda orada ders çalışmak
+ben markete gidiyorum	ben market gitmek
+o markete gitti	o market gitmek
+annem markete gitti	benim anne market gitmek
+babam markete gitti	benim baba market gitmek
+televizyonda haberleri seyrediyorum	ben televizyon haber seyretmek
+televizyonda haberleri seyrediyor	o televizyon haber seyretmek
+babam avrupada çalışıyor	benim baba avrupa orada çalışmak
+arkadaşım avrupada çalışıyor	benim arkadaş avrupa orada çalışmak
+babası avrupada çalışıyor	onun baba avrupa orada çalışmak
+annesi avrupada çalışıyor	onun anne avrupa orada çalışmak
+arkadaşı avrupada çalışıyor	onun arkadaş avrupa orada çalışmak
+araba sürmeyi bilmiyorum	ben araba sürmek bilmek değil
+araba sürmeyi biliyorum	ben araba sürmek bilmek
+araba sürmeyi biliyor	o araba sürmek bilmek
+bugün dışarı çıkacağım	ben bugün dışarı çıkmak
+onunla konuşmak istiyorum	ben onun ile konuşmak istemek
+onunla konuşmak istemiyorum	ben onun ile konuşmak istemek değil
+seninle konuşmak istiyorum	ben senin ile konuşmak istemek
+seninle konuşmak istemiyorum	ben senin ile konuşmak istemek değil
+telefonumun sarjı bitti	benim telefon şarj bitmek
+telefonunun sarjı bitti	senin telefon şarj bitmek
+tatilde ne yaptın	sen tatil orada ne yapmak ?
+neden işe gitmedin	sen neden iş gitmek değil ?
+neden işe gitmedi	o neden iş gitmek değil ?
+ne is yapıyor	o ne iş yapmak ?
+arkadaşlarımla dışarı çıktım	ben benim arkadaş onlar ile dışarı çıkmak
+yakında üniversiteye gideceğim	ben yakında üniversite gitmek
+yakında üniversiteye gitmiyorum	ben yakında üniversite gitmek değil
+yakında üniversiteye gideceksin	sen yakında üniversite gitmek
+başarılı bir profesör	başarılı bir profesör
+senin için endişelendim	ben senin için endişelenmek
+bugün hava yağmurlu	bugün hava yağmur
+bilgisayar kullanmayı biliyorum	ben bilgisayar kullanmak bilmek
+bu kitap ucuz	bu kitap ucuz
+yeni telefon alıyorum	ben yeni telefon almak
+ben telefon aldım	ben telefon almak
+evde çiçek bakıyorum	ben ev çiçek bakmak
+hayvanları çok seversiniz	siz hayvan onlar çok sevmek
+yataktan ayağa kaktı	o yatak ayak kalkmak
+akşamları erken yatıyorum	ben akşam erken yatmak
+başarılı olmak istiyorum	ben başarılı olmak istemek
+sen çok başarılısın	sen çok başarılı olmak
+çocuklarla iyi anlaşırım	ben çocuk onlar ile iyi anlaşmak
+bugün markete gittim	ben bugün market gitmek
+çok bekledin mi	sen çok beklemek ?
+bugün hastaneye gittim	ben bugün hastane gitmek
+haberlerde ünlüleri gördük	biz haber ünlü onlar görmek
+şimdi dışarı çıkacağım	ben şimdi dışarı çıkmak
+raporumu bugün yazdım	ben benim rapor bugün yazmak
+ben raporumu yazdım	ben benim rapor yazmak
+sen ışıkları kapat	sen ışık kapatmak
+siz çok yorulmuşsunuz	siz çok yorulmak
+günler hızlı geçer	gün hızlı geçmek
+her şey pahalı	her_şey pahalı
+ben akşamları çalışıyorum	ben akşam çalışmak
+sen sabahları çalışıyorsun	sen sabah çalışmak
+ben liseyi bitirdim	ben lise bitirmek
+onun yerini aldım	ben onun yer almak
+onu hastaneye gönderdiler	onlar o hastane göndermek
+olumlu sonuç verdi	olumlu sonuç vermek
+yüksekte yer almaktadır	yüksek yer almak
+bizimle oynamak istedi	o bizim ile oynamak istemek
+elma yemeyi sever	o elma yemek sevmek
+televizyon programı hazırladı	o televizyon program hazırlamak
+oyunda yer aldılar	onlar oyun yer almak
+makale çok uzundu	makale çok uzun
+birkaç kitap yazdı	o birkaç kitap yazmak
+televizyon ve film	televizyon ve film
+bu maçı kazandılar	onlar bu maç kazanmak
+sorusunun cevabını buldu	o onun soru cevap bulmak
+öğretmene sorusu olmuştu	o öğretmen soru sormak
+spor yapmaya başladı	o spor yapmak başlamak
+bu maçı kaybettiler	onlar bu maç kaybetmek
+yazmaya yeni başladı	o yazmak yeni başlamak
+şu çiçek kırmızıdır	şu çiçek kırmızı
+yeni mezun oldum	ben yeni mezun olmak
+zaman kaybedilmemesini istedi	o istemek zaman kaybetmek değil
+şaşırtıcı ama evet	şaşırmak ama evet
+tutuklularla nazikçe ilgilendiler	onlar tutuklu onlar ile nazik ilgilenmek
+biz onunla ilgilenmeliyiz	biz onun ile ilgilenmek
+yakında onunla ilgilenmeliyim	ben yakında onun ile ilgilenmek
+bu konuyla ilgilenmeliyim	ben bu konu ilgilenmek
+biri seninle ilgilenmeli	biri senin ile ilgilenmek
+biri onunla ilgilenmeli	biri onun ile ilgilenmek
+şimdi onunla ilgileneceğiz	biz şimdi onun ile ilgilenmek
+bir şeyle ilgilenmeliyim	ben bir_şey ilgilenmek
+durumla ilgilenmeye mecburuz	biz durum ilgilenmek mecbur
+seninle ilgilenmek istiyorum	ben senin ile ilgilenmek istemek
+ilk kim geliyor	ilk kim gelmek ?
+ilk ben konuştum	ilk ben konuşmak
+ilk gidebilir miyim	ben ilk gitmek
+ilk o gitti	ilk o gitmek
+ilk ben arayacağım	ilk ben aramak
+ilk sen gidebilirsin	ilk sen gitmek
+ilk biz vardık	ilk biz olmak
+ilk biz ulaştık	ilk biz ulaşmak
+ilk ben gidiyorum	ilk ben gitmek
+ilk defa duyuyorum	ben ilk_defa duymak
+ilk kez duyuyorum	ben ilk_defa duymak
+ilk o geldi	ilk o gelmek
+ilk sen geldin	ilk sen gelmek
+ilk önce gidecek	o ilk önce gitmek
+bu imkansız değil	bu imkansız değil
+bu imkansız gibi	bu imkansız gibi
+o imkansız değil	o imkansız değil
+o imkansız olacak	o imkansız olmak
+bunu düzeltmek imkansız	bu düzeltmek imkansız
+o sadece imkansız	o sadece imkansız
+onu yenmek imkansız	o yenmek imkansız
+bu imkansız olabilir	bu imkansız olmak
+bu imkansız olurdu	bu imkansız olmak
+sanırım bu imkansız	ben sanmak bu imkansız
+bu galiba imkansız	bu galiba imkansız
+imkansız olmadığını biliyorum	ben imkansız olmak değil bilmek
+bana inanmak zorundasın	sen bana inanmak mecbur
+sana inanmak istiyorum	ben sana inanmak istemek
+ona inanmak istiyorum	ben ona inanmak istemek
+bize inanmak zorundasın	sen bize inanmak mecbur
+buna inanmak istiyorum	ben bu inanmak istemek
+sana inanmak zor	sana inanmak zor
+ona inanmak zorundasın	sen o inanmak mecbur
+ona inanmak istemedim	ben o inanmak istemek değil
+sana inanmak istemiyorum	ben sana inanmak istemek değil
+buna inanmak zor	bu inanmak zor
+ona inanmak istemiyorum	ben o inanmak istemek değil
+ben size inanmıyorum	ben size inanmak değil
+artık buna inanmıyorum	ben artık bu inanmak değil
+ben kadere inanmıyorum	ben kader inanmak değil
+sadece buna inanmıyorum	ben sadece bu inanmak değil
+ona hâlâ inanmıyorum	ben o hâlâ inanmak değil
+hâlâ buna inanmıyorum	ben hâlâ bu inanmak değil
+buna kendim inanmıyorum	ben kendim inanmak değil
+gerçekten buna inanmıyorum	ben gerçek bu inanmak değil
+kurs istiyor musun	sen kurs istemek
+televizyonu rahat anlıyorum	ben televizyon rahat anlamak
+eskisi gibi değişti	o eski gibi değişmek
+sen beni hatırlamıyorsun	sen ben hatırlamak değil
+senin baban emekli	senin baba emekli
+benim evim güzel	benim ev güzel
+ikiniz beraber çalışmalısınız	iki siz beraber çalışmak lazım
+ikimiz beraber çalışmalıyız	iki biz beraber çalışmak lazım
+üçümüz bugün konuşalım	üç biz bugün konuşmak
+üçünüz bugün konuşun	üç siz bugün konuşmak
+kendim gitmem lazım	ben kendi gitmek lazım
+odada yatak var	oda yatak var
+benim evim var	benim ev var
+kız bebeği öptü	kız bebek öpmek
+kız erkeği seviyor	kız erkek sevmek
+ben kitap yazdım	ben kitap yazmak
+ben portakal yedim	ben portakal yemek
+yeni kitap aldım	ben yeni kitap almak
+yeni kitap aldın	sen yeni kitap almak
+üç kitap aldılar	onlar üç kitap almak
+kitap okumayı seviyorsun	sen kitap okumak sevmek
+yarın film seyredeceğim	ben yarın film seyretmek
+farklı şehirlere gitmeliyiz	biz farklı şehir gitmek lazım
+yarın adamlar gelecek	yarın adam onlar gelmek
+benim mesleğim öğretmenlik	benim meslek öğretmen
+yarın kursa gitmeyeceğim	ben yarın kurs gitmek değil
+bu televizyon çalışmıyor	bu televizyon çalışmak değil
+ben bamya sevmiyorum	ben bamya sevmek değil
+kız güzel değil	kız güzel değil
+o arkadaşım değil	o benim arkadaş değil
+pilavda tuz yok	pilav tuz yok
+bugün moralim yok	benim bugün moral yok
+yeni listeyi vermedim	ben yeni liste vermek değil
+dün dosya yüklenmedi	dün dosya yüklemek değil
+henüz ben alışamadım	ben henüz alışmak değil
+ben henüz alışamadım	ben henüz alışmak değil
+ben hiç görmedim	ben hiç görmek değil
+yarın tatile gidemeyiz	biz yarın tatil gitmek olmaz
+ankara türkiyenin başkentidir	ankara türkiye başkent
+şimdi ne yapılacak	şimdi ne yapmak ?
+akşama ne okuyacaksın	sen akşam ne okumak ?
+yarışmayı kim kazandı	yarışma kim kazanmak ?
+tatile nereye gideceksin	sen tatil nereye gitmek ?
+ortaokulda ne yaptı	o ortaokul ne yapmak ?
+ameliyatımı kim yapacak	benim ameliyat kim yapmak ?
+şimdi ne yapacağım	ben şimdi ne yapmak ?
+ben politikaya girmedim	ben politika girmek değil
+ben elma yedim	ben elma yemek
+zaten yavaş konuşuyor	o zaten yavaş konuşmak
+toplantı çok önemli	toplantı çok önemli
+sen güçlü hissettin	sen güçlü hissetmek
+sen güçlü kaldı	sen güçlü kalmak
+onlar çok güçlü	onlar çok güçlü
+sadece güçlü hissediyorum	ben sadece güçlü hissetmek
+bugün para harcadım	ben bugün para harcamak
+o hasta hissediyor	o hasta hissetmek
+ben zaman istiyorum	o zaman istemek
+sen para istiyorsun	sen para istemek
+ben ne istiyorum	ben ne istemek ?
+biz onu istiyorduk	biz o istemek
+siz dışarıyı istiyorduz	siz dışarı istemek
+ben oynamak istiyordum	ben oynamak istemek
+ben yüzmek istiyordum	ben yüzmek istemek
+sen beklemek istiyordun	sen beklemek istemek
+biz yürümek istiyordunuz	biz yürümek istemek
+siz çalışmak istiyordunuz	siz çalışmak istemek
+onun kazanmasını istiyorduk	biz onun kazanmak istemek
+ben dinlenmek istiyordum	ben dinlenmek istemek
+ben konuşmak istiyordum	ben konuşmak istemek
+onu görmek istiyordum	ben o görmek istemek
+bunu denemek istiyordum	ben bu denemek istemek
+iyi olmak istiyordu	o iyi olmak istemek
+uzun olmak istiyordu	o uzun olmak istemek
+içeri girmemi istiyorlar	onlar benim içeri girmek istemek
+onlara katılmamı istiyorlar	onlar benim katılmak istemek
+benim gitmemi istiyorlardı	onlar benim gitmek istemek
+onlar çocuk istiyorlardı	onlar çocuk istemek
+onlar evlenmek istiyorlardı	onlar evlenmek istemek
+çok iyi mi	o çok iyi ?
+ben dışarıdan izledim	ben dışarı orada izlemek
+ben yüzmesini izledim	ben onun yüzmek izlemek
+orada arkadaşımı izledim	ben orada benim arkadaş izlemek
+sen izlemek istemiyorsun	sen izlemek istemek değil
+film izlemeyi seviyorum	ben film izlemek sevmek
+tv izlemeyi sever	o televizyon izlemek sevmek
+tv izlerken uyuyakaldım	ben televizyon izlemek uyumak
+televizyon izlerken uyuyakaldım	ben televizyon izlemek uyumak
+bir içki için	sen bir içki için gitmek
+o onun için	o onun için
+onun için yap	sen onun için yapmak
+onun için geldim	ben onun için gelmek
+kız kardeşimle evli	o benim kız kardeş ile evli
+sen toplantıya katıldın	sen toplantı katılmak
+o takım katıldı	o takım katılmak
+bir bacağını kaybetti	o bir bacak kaybetmek
+o göz kaybetti	o onun göz kaybetmek
+bunu yapabilir miydi	o bu yapmak ?
+arkadaşıyla birlikte miydi	o onun arkadaş ile birlikte ?
+o bu mu	o bu ?
+yalan söylüyor mu	o yalan_söylemek ?
+siz mutlu musunuz	siz mutlu ?
+o mutfakta mı	o mutfak orada ?
+o mutfakta yalnızdı	o mutfak orada yalnız
+beni mutlu yap	sen ben mutlu yapmak
+o mutlu oldu	o mutlu olmak
+o mutlu muydu	o mutlu ?
+onu mutlu tut	sen o mutlu tutmak
+o mutlu öldü	o mutlu ölmek
+onları mutlu tutun	siz onlar mutlu tutmak
+onun için mutluydum	ben onun için mutlu
+onun için mutluyum	ben onun için mutlu
+o öldü mü	o ölmek ?
+ben müzik okuyamıyorum	ben müzik okumak değil
+o şişman mı	o şişman ?
+o dışarda mı	o dışarı orada ?
+o utangaç mı	o utangaç ?
+sen ağladın mı	sen ağlamak ?
+o yalnız mıydı	o yalnız ?
+o kızgın mıydı	o kızgın ?
+o haklı mıydı	o haklı ?
+o orada mıydı	o orada ?
+onlarda var mıydı	onlar var ?
+o duygusal mıydı	o duygusal ?
+o onlarla mıydı	o onlar ile ?
+o nasıl yapar	o nasıl yapmak ?
+kediler insan değildir	kedi insan değil
+onlarca insan hapsedildi	birçok insan hapis
+onlar sadece insan	onlar sadece insan
+insanlar istediklerini yapabilir	insan onlar istemek yapmak
+insan hayatı kutsaldır	insan hayat kutsal
+cimri bir insan	o cimri bir insan
+onlar da insan	onlar insan
+üç insan kurtuldu	üç insan kurtulmak
+insanlar aç gözlüdür	insan onlar aç_gözlü
+insanlar beni seviyor	insan onlar ben sevmek
+insanlar onu sever	insan onlar sevmek o
+insanlar bizi seviyor	insan onlar sevmek biz
+insanlar köpekleri sever	insan onlar sevmek köpek onlar
+zayıf insanlar kaybederler	zayıf insan onlar kaybetmek
+insanlar değişebilir mi	insan onlar değişmek ?
+insanlar onu suçladı	insan onlar suçlamak o
+insanlar eşya ister	insan onlar istemek eşya
+insanların kafası şişti	insan onlar kafası_şişmek
+onlar yetişkin insanlar	onlar yetişkin insan onlar
+bütün insanlar ölümlüdür	bütün insan onlar fani
+bütün insanlar fanidir	bütün insan onlar fani
+insanlar beni severler	insan onlar sevmek ben
+insanlar savaşlarda ölürler	insan onlar savaş ölmek
+insanlar insanları öldürürler	insan onlar öldürmek insan onlar
+insanlarla aram iyidir	benim insan onlar ile ilişki iyi
+insanlarla alay etmeyin	siz insan onlar ile alay_etmek değil
+insanlarla konuşmayı seviyorum	ben insan onlar ile konuşmak sevmek
+insanlarla konuşmayı severim	ben insan onlar ile konuşmak sevmek
+öyle insanlarla tanıştım	ben öyle insan ile tanışmak
+oda insanlarla dolu	oda insan onlar dolu
+o insanlarla ilgilenir	o insan onlar ile ilgilenmek
+park insanlarla doluydu	park insan onlar dolu
+oda insanlarla doluydu	oda insan onlar dolu
+insanlarla konuşmayı seversin	sen insan onlar ile konuşmak sevmek
+insanlarla konuşmayı sever	o insan onlar ile konuşmak sevmek
+insanlarla çok iyisin	sen insan onlar ile çok iyi
+o yeniden evlendi	o yeniden evlenmek
+o genç evlendi	o genç evlenmek
+o kimle evlendi	o kim ile evlenmek ?
+o yaşında evlendi	o yaş evlenmek
+o daha evlendi	o daha evlenmek değil
+o yine evlendi	o yine evlenmek
+o onunla evlendi	o onun ile evlenmek
+onlar zaten evlendiler	onlar zaten evlenmek
+onlar gençken evlendiler	onlar genç evlenmek
+evleri buraya yakın	onun ev bura yakın
+yaşayacak evleri yok	onun yaşamak ev yok
+deprem evleri salladı	deprem ev sallamak
+o eskiden evliydi	o eski evli
+o biraz eğlendi	o biraz eğlenmek
+o onunla eğlendi	o onun ile eğlenmek
+o çok eğlendi	o çok eğlenmek
+herkes eğlendi mi	herkes eğlenmek ?
+o orada eğlendi	o orada eğlenmek
+o partide eğlendi	o parti eğlenmek
+restoranda iyi eğlendi	o restoran iyi eğlenmek
+dans ederek eğlendik	ben dans eğlenmek
+biz çok eğlendik	biz çok eğlenmek
+biz biraz eğlendik	biz biraz eğlenmek
+onlarla birlikte eğlendik	biz onlar ile eğlenmek
+eğlendik değil mi	biz eğlenmek ?
+kaybettik ama eğlendik	biz kaybetmek ama eğlenmek
+satranç oynarken eğlendik	biz satranç oynamak eğlenmek
+bugün çok eğlendik	ben bugün çok eğlenmek
+bugün orada eğlendik	biz orada eğlenmek
+dans ederek eğlendim	ben dans eğlenmek
+onu yapıyorken eğlendim	ben yapmak eğlenmek
+bunu yaparak eğlendim	ben bu yapmak eğlenmek
+dün gece eğlendim	ben dün gece eğlenmek
+ben çok eğlendim	ben çok eğlenmek
+ben bugün eğlendim	ben bugün eğlenmek
+bugün okulda eğlendim	ben bugün okul eğlenmek
+o sürerken eğlendim	o sürmek ben eğlenmek
+ben orada eğlendim	ben orada eğlenmek
+onunla konuşurken eğlendim	ben onun ile konuşmak eğlenmek
+biz çok eğleneceğiz	biz çok eğlenmek
+şimdi biraz eğleneceğiz	biz şimdi biraz eğlenmek
+biz orada eğleneceğiz	biz orada eğlenmek
+biz de eğleneceğiz	biz orada eğlenmek
+biz biraz eğleneceğiz	biz biraz eğlenmek
+birlikte çok eğleneceğiz	biz birlikte çok eğlenmek
+yarın çok eğleneceğiz	biz yarın çok eğlenmek
+orada çok eğleneceğiz	biz orada çok eğlenmek
+yarın biraz eğleneceğiz	biz yarın biraz eğlenmek
+o benim eşim	o benim eş
+eşim bir doktordur	benim eş doktor
+eşim çok üzgün	benim eş çok üzgün
+o eşine bağlı	o onun eş bağlı
+olayı eşine anlattı	o olay onun eş anlatmak
+fakat ben dikkatliydim	fakat ben dikkat
+fakat ben istemiyorum	fakat ben istemek
+ben fazla şişmanım	ben fazla şişman
+bu çok fazla	bu çok fazla
+daha fazla istiyor	o daha fazla istemek
+daha fazla istedim	ben daha fazla istemek
+daha fazla gerekli	daha fazla gerekli
+daha fazla var	daha fazla var
+daha fazla yapabiliriz	biz daha fazla yapmak
+fazla geç geldim	ben fazla geç gelmek
+ben fazla yapmam	ben fazla yapmak değil
+çok fazla söyledim	ben çok fazla söylemek
+çok fazla çalışırım	ben çok fazla çalışmak
+bu fazla değil	bu fazla değil
+o çok fazla	o çok fazla
+film çekmekten vazgeç	sen film çekmek vazgeç
+o film berbat	o film berbat
+bu film uzun	bu film uzun
+film iyi miydi	film iyi ?
+bir film izledik	biz bir film izlemek
+bu hangi film	bu hangi film ?
+film izliyor musun	sen film izlemek ?
+o bir film	o bir film
+film yapmayı seviyorum	ben film yapmak sevmek
+bir film izliyorum	ben bir film izlemek
+ben filmi izledim	ben film izlemek
+o filmi severim	ben o film sevmek
+ben filmi göremiyorum	ben film görmek değil
+filmi gördün mü	sen film görmek ?
+hangi filmi izledin	sen hangi film izlemek
+hangi filmi gördün	sen hangi film görmek
+filmi izledin mi	sen film izlemek ?
+bu filmi sevmiyorum	ben bu film sevmek değil
+filmi görmek istiyorum	ben bu film görmek istemek
+o filmi sevmedim	ben o film sevmek değil
+filmi videoda izledim	ben film video izlemek
+komedi filmlerini severim	ben komedi film sevmek
+komedi filmlerini seviyorum	ben komedi film sevmek
+korku filmlerini sevmiyorum	ben korku film sevmek
+vergi fiyata dahildir	vergi fiyat dahil
+fiyata dahil mi	o fiyat dahil ?
+benzin fiyatları yüksek	benzin fiyat yüksek
+petrol fiyatları düştü	petrol fiyat düşmek
+ev fiyatları yükselmiş	ev fiyat yükselmek
+gıda fiyatları arttı	gıda fiyat artmak
+benzin fiyatları düştü	benzin fiyat düşmek
+ev fiyatları düşüyor	ev fiyat düşmek
+kimse sana inanmak istemedi	kimse sana inanmak istemek değil
+ben ona inanmak istemedim	ben o inanmak istemek değil
+ona inanmak gerçekten zor	o inanmak gerçek zor
+sen bana inanmak istemedin	sen bana inanmak istemek değil
+senin hikayene inanmak zor	senin hikaye inanmak zor
+bana inanmak zorunda değil	bana inanmak mecbur değil
+ben öyle olduğuna inanmıyorum	ben öyle olmak inanmak değil
+ben onun hikayesine inanmıyorum	ben onun hikaye inanmak değil
+ben sadece sana inanmıyorum	ben sadece sana inanmak
+ben buna hiç inanmıyorum	ben bu hiç inanmak değil
+ben sadece ona inanmıyorum	ben sadece o inanmak değil
+bir indirim kuponum var	benim bir indirim kupon var
+o bir indirim istedi	o bir indirim istemek
+ne kadar indirim yapabilirsin	sen ne_kadar indirim yapmak ?
+ben dün okula gittim	ben dün okul gitmek
+dün konuyu özenle araştırdım	ben dün bu konu araştırmak
+toplantıya kesinlikle katılmamız gerekiyor	biz toplantı katılmak mecbur
+ben evde ailemi bekliyorum	ben ev iç benim aile beklemek
+sen kendin okursan gelişebilirsin	sen kendi okumak gelişmek
+masanın üstünde kitap var	masa üst kitap var
+onun kız kardeşi var	onun kız kardeş var
+çocuk annesinden para aldı	çocuk onun anne para almak
+çocuk dedesine mektup gönderdi	çocuk onun dede mektup göndermek
+bu kitap çok güzel	bu kitap çok güzel
+yarın beş adam gelecek	yarın beş adam gelmek
+okul çantası almak istiyorum	ben okul çanta almak istemek
+yüzde elli şansı var	onun yüzde elli şans var
+yüzde yirmi hak veriyorum	ben yüzde yirmi hak vermek
+senin arkadaşını hiç görmedim	ben senin arkadaş hiç görmek değil
+sınav için okula geldim	ben sınav için okul gelmek
+herkesi bu konuda uyarmalısın	sen herkes bu konu uyarmak
+böyle gitmem uygun olmaz	ben böyle gitmek uygun olmaz
+okulun eğitimi iyi mi	okul eğitim iyi ?
+sen dizi izliyor musun	sen dizi izlemek ?
+televizyon izlemekten sıkılıyor musun	sen televizyon izlemek sıkılmak ?
+kitap okumaya çalışıyor musun	sen kitap okumak çalışmak ?
+istanbul güzel bir şehir	istanbul güzel bir şehir
+bugün toplantıya katılmayacak mısın	sen bugün toplantı katılmak değil ?
+akşama hangi kitabı okuyacaksın	sen akşam hangi kitap okumak ?
+evden ne zaman ayrılırsın	sen ev ne_zaman ayrılmak ?
+adam tamiri bitirirse gelirim	adam tamir bitirmek ben gelmek
+sabah bana bisiklet çarptı	sabah bana bisiklet çarpmak
+ben elmayı bıçakla kestim	ben elma bıçak kesmek
+masada iki elma var	masa iki elma var
+ben evden okula gittim	ben ev okul gitmek
+ben öyle demek istemedim	ben öyle demek istemek değil
+bu toplantı çok önemli	bu toplantı çok önemli
+sana kötü haberim var	benim sana kötü bir haber var
+onun için para harcadım	ben onun için para harcamak
+sen bütün paranı harcadın	sen bütün para harcamak
+paramı daha önce harcadım	ben benim para daha önce harcamak
+sen bir tane istiyorsun	sen bir tane istemek
+onlar birlikte gitmek istiyorlardı	onlar birlikte gitmek istemek
+sen iyileşmeye devam ediyorsun	sen iyileşmek devam_etmek
+o benim gidişini izledi	o benim gitmek izlemek
+ben onun çalışmasını izledim	ben onun çalışmak izlemek
+o benim ölmemi izledi	o benim ölmek izlemek
+canım tv izlemek istiyor	benim can televizyon izlemek istemek değil
+artık hiç televizyon izlemeyeceğim	ben artık televizyon izlemek değil
+ağabeyim tv izlemeyi seviyor	ben abi televizyon izlemek sevmek
+kahvaltı yaparken tv izleriz	biz kahvaltı yapmak televizyon izlemek
+o televizyon izlerken uyudu	o televizyon izlemek uyumak
+televizyon izlerken yatakta yatıyordu	o televizyon izlemek yatak orada yatmak
+tv izlerken yemekten hoşlanıyor	o televizyon izlemek yemek hoşlanmak
+tv izlerken ne yer	o televizyon izlemek ne yemek ?
+maçı izlerken nefesini tuttu	o maç izlemek onun nefes tutmak
+haberleri izlerken oturma odasındadır	o haber izlemek oturma oda orada
+bu kez dikkatlice izleyeceğim	ben bu kez dikkat izlemek
+senin için dua etsin	o senin için dua
+onun için oy ver	sen onun için oy vermek
+onun için yemek yapıyorum	ben onun için yemek yapmak
+onun için yemek pişiriyorum	ben onun için yemek pişirmek
+ben senin için ödedim	ben senin için ödemek
+sen erkek kardeşine benziyorsun	sen senin erkek kardeş benzemek
+beni kız kardeşiyle tanıştırdı	ben onun kız kardeş ile tanışmak
+küçük erkek kardeşiyle karıştırdı	o o küçük kardeş ile karıştırmak
+o erkek kardeşiyle oturuyordu	o onun erkek kardeş ile oturmak
+sen neden takıma katıldı	sen neden takım katılmak ?
+ben bir kitap kaybettim	ben bir kitap kaybetmek
+ben bir kolumu kaybettim	ben bir kol kaybetmek
+onlar işlerini nasıl kaybettiler	onlar onların iş nasıl kaybetmek
+kitabını kaybettiğinden emin misin	sen senin kitap kaybetmek emin ?
+güzel bir gezi miydi	güzel bir gezi ?
+o mutfak kapısını kapadı	o mutfak kapı kapatmak
+o mutfak masasında oturdu	o mutfak masa oturmak
+o mutfak dolabını açtı	o mutfak dolap açmak
+o mutfak çekmecelerini aradı	o mutfak çekmece aramak
+o mutfak musluğunu açtı	o mutfak musluk açmak
+o mutfakta yardım ediyor	o mutfak orada yardım_etmek
+o mutfakta yemek pişiriyor	o mutfak orada yemek pişirmek
+o bu gece mutluydu	o bu gece mutlu
+o burada çok mutluydu	o burada çok mutlu
+yüksek sesli müziğe dayanamıyorum	ben yüksek ses müzik dayanmak değil
+o hayatını müziğe vermek	o onun hayat müzik vermek
+sana bir indirim yapabilirim	ben sana bir indirim yapmak
+biraz indirim yapabilir misiniz	siz biraz indirim yapmak ?
+kasiyer size indirim yapacak	kasa insan siz indirim yapmak
+bir kedi insan değildir	bir kedi insan değil
+o iyi bir insan	o iyi bir insan
+o hoş bir insan	o hoş bir insan
+birçok insan bunu yapar	birçok insan bu yapmak
+çoğu insan bunu yapar	çok insan bu yapmak
+o kibar bir insan	o kibar bir insan
+bir insan dürüst olmalı	bir insan dürüst olmak
+insanlar birbirlerine saygılı olmalıdır	insan onlar birbiri saygılı olmak
+o birçok insan tanır	o birçok insan tanımak
+hiç kimse gerçeklerden kaçamaz	hiç_kimse gerçek kaçmak değil
+o farklı bir insan	o farklı bir insan
+üç insan hayatta kaldı	üç insan hayat kalmak
+insanlar yemek yemekten hoşlanır	insan onlar yemek yemek hoşlanmak
+bütün insanlar para isterler	bütün insan onlar para istemek
+yeni insanlarla nasıl tanışabiliriz	biz yeni insan onlar ile nasıl tanışmak ?
+insanlarla son derece ilgileniyorum	ben insan onlar ile çok ilgilenmek
+bazı güzel insanlarla tanıştık	biz bazı güzel insan onlar ile tanışmak
+o insanlarla oldukça ilgilenir	o insan onlar ile ilgilenmek
+bu insanlarla hiç tanışmadım	ben bu insan onlar ile hiç tanışmak değil
+yaşlı adam insanlarla değildi	yaşlı adam insan onlar ile değil
+yaşlı insanlarla alay etmeyin	siz yaşlı insan onlar ile alay_etmek değil
+ben insanlarla iyi anlaşıyorum	ben insan onlar ile iyi anlaşmak
+bu salon insanlarla doluydu	bu salon insan onlar dolu
+yeni insanlarla tanışmak istiyor	o yeni insan onlar ile tanışmak istemek
+yeni insanlarla görüşmek istiyor	o yeni insan onlar ile görüşmek istemek
+diğer insanlarla alay etme	sen diğer insan onlar ile alay_etmek değil
+insanlarla tanışmakta iyi değilim	ben insan onlar ile tanışmak iyi değil
+bazı harika insanlarla tanıştım	ben bazı harika insan onlar ile tanışmak
+o konuda insanlarla konuştum	ben o konu insan onlar ile konuşmak
+o benim ile evlendi	o benim ile evlenmek
+o para için evlendi	o para için evlenmek
+o benim kuzenimle evlendi	o benim kuzen ile evlenmek
+o hiç evlendi mi	o hiç evlenmek ?
+o çok genç evlendi	o çok genç evlenmek
+o iki defa evlendi	o iki defa evlenmek
+o bir polisle evlendi	o bir polis ile evlenmek
+onlar geçen sonbaharda evlendiler	onlar geçmiş sonbahar evlenmek
+üç ay önce evlendiler	onlar üç ay önce evlenmek
+üç ay sonra evlendiler	onlar üç ay sonra evlenmek
+onunla evlendiğinden beri konuşmadım	ben onun ile evlenmek beri konuşmak değil
+o o zaman evliydi	o o zaman evli
+o daha önce evliydi	o daha önce evli
+o mutlu biçimde evliydi	o mutlu biçim evli
+o senin ile evliydi	o senin ile evli
+o ve sen evliydiniz	o ve sen evli
+o o sırada evliydi	o o sıra evli
+o onunla birlikte eğlendi	o onun ile birlikte eğlenmek
+onlar bizimle birlikte eğlendi	onlar bizim ile birlikte eğlenmek
+o kart oynayarak eğlendi	o kart oynamak eğlenmek
+o çok iyi eğlendi	o çok iyi eğlenmek
+o partide çok eğlendi	o parti çok eğlenmek
+herkes çok eğlendi mi	herkes çok eğlenmek ?
+onunla konuşarak iyi eğlendi	o onun ile konuşmak iyi eğlenmek
+biz her zaman eğlendik	biz her zaman eğlenmek
+biz de biraz eğlendik	biz biraz eğlenmek
+o ve ben eğlendik	o ve ben eğlenmek
+onunla dans ederek eğlendim	ben onun ile dans eğlenmek
+biz bugün çok eğleneceğiz	biz bugün çok eğlenmek
+çok eğleneceğiz bundan eminim	biz çok eğlenmek ben bu emin
+o benim eşim değil	o benim eş değil
+keşke eşim yemek pişirebilse	keşke benim eş yemek pişirmek
+eşim iyi bir yöneticidir	benim eş iyi bir yönetici
+eşim benden önce kalkmaz	benim eş ben önce kalmak değil
+nadiren eşine hediyeler verir	o nadir onun eş hediye vermek
+o eski eşine aşık	o onun eski eş aşık
+fakat babam bundan hoşlanmayacak	fakat benim baba bu hoşlanmak değil
+fakat onun işi var	fakat onun iş var
+fakat daha onu almıyorum	fakat ben daha o almak değil
+daha fazla var mı	daha fazla var ?
+haydi daha fazla yapalım	haydi biz daha fazla yapmak
+daha fazla su ekleyin	siz daha fazla su eklemek
+daha fazla meyve yiyin	siz daha fazla meyve yemek
+bu çok fazla mı	bu çok fazla ?
+o çok fazla yaşlı	o çok fazla yaşlı
+o daha fazla istiyor	o daha fazla istemek
+ben çok fazla biliyordum	ben çok fazla bilmek
+çok fazla şey var	çok fazla şey var
+o daha fazla istiyordu	o daha fazla istemek
+ne kötü bir film	ne kötü bir film
+ben bir film izledim	ben bir film izlemek
+bu iyi bir film	bu iyi bir film
+ben bir film yapacağım	ben bir film yapmak
+bu bir komik film	bu bir komik film
+o bir film yıldızı	o bir film yıldız
+bir film görmeye gidelim	ben bir film görmek gitmek
+o film güzel oldu	o film güzel olmak
+bu harika bir film	bu harika bir film
+bu çizgi filmi seviyorum	ben bu çizgi_film sevmek
+o bir komedi filmi	o bir komedi film
+siz filmi beğendiniz mi	siz film beğenmek ?
+bu onların son filmi	bu onların son film
+lütfen bu filmi seyret	sen lütfen bu film seyretmek
+lütfen bu filmi izle	lütfen sen bu film izlemek
+bu filmi kim üretti	bu film kim üretmek
+o filmi gördünüz mü	siz o film görmek ?
+bu filmi gördün mü	sen bu film görmek ?
+bu filmi görmek istiyorum	ben bu film görmek istemek
+şimdi hangi filmler oynuyor	şimdi hangi film oynamak ?
+filmler büyük bir eğlence	film büyük bir eğlence
+en sevdiğiniz filmler hangileridir	sizin en sevmek film hangi ?
+ingilizce filmler izlemeyi seviyorum	ben ingilizce film izlemek sevmek
+biz birlikte filmler izlerdik	biz birlikte film izlemek
+korku filmlerini sever misin	sen korku film sevmek
+senin tüm filmlerini izledim	ben senin tüm film izlemek
+o korku filmlerini sevmez	o korku film sevmek değil
+onun bütün filmlerini izledim	ben onun bütün film izlemek
+korku filmlerini izlemeyi seviyorum	ben korku film izlemek sevmek
+macera filmlerini sevmediğini düşündüm	ben senin macera_filmi sevmek değil düşünmek
+korku filmlerini izlemekten hoşlanmıyorum	ben korku film izlemek hoşlanmak değil
+fiyata kutu dahil değil	fiyat kutu dahil ?
+fiyata posta ücreti dahildir	fiyat posta ücret dahil
+dün petrol fiyatları yükseldi	dün petrol fiyat yükselmek
+ev fiyatları hızla düşüyor	ev fiyat hızlı düşmek
+bazı mağazalar fiyatları indirdi	bazı mağaza fiyat indirmek
+kahve fiyatları neden yükseldi	kahve fiyat neden yükselmek ?
+gaz fiyatları düşecek mi	gaz fiyat düşmek ?
+benzin fiyatları düşecek mi	benzin fiyat düşmek ?
+mağaza tüm fiyatları yükseltti	mağaza tüm fiyat yükseltmek
+ben bir fiyatı öderim	ben bir fiyat ödemek
+hepimizin bir fiyatı var	hepimiz bir fiyat var
+herkesin bir fiyatı var	herkes bir fiyat var
+herkesin bir fiyatı vardır	herkes bir fiyat var
+bu saatin fiyatı nedir	bu saat fiyat ne ?
+çayın fiyatı ne kadar	çay fiyat ne_kadar ?
+bu eldivenlerin fiyatı nedir	bu eldiven fiyat ne ?
+bu şemsiyenin fiyatı nedir	bu şemsiye fiyat ne ?
+onların fiyatı bizimkinin altındadır	onların fiyat bizim altında
+bu fiyatı etkiler mi	bu fiyat etkilemek
+o fiyatı nereden aldın	sen o fiyat nereden almak ?
+fiyatını düşünmeyin değerini düşünün	siz fiyat düşünmek değil değer düşünmek
+iyi pirinç fiyatını düşürdü	iyi pirinç fiyat düşmek
+benzinin fiyatını düşünmek istemiyorum	ben benzin fiyat düşünmek istemek değil
+sana bir fotoğraf gönderdim	ben sana bir fotoğraf göndermek
+bir fotoğraf çekebilir miyim	ben bir fotoğraf_çekmek ?
+fotoğraf makinen var mı	senin fotoğraf_makinesi var ?
+ben fotoğraf çekmeyi severim	ben fotoğraf_çekmek sevmek
+ben fotoğraf çekmekten hoşlanıyorum	ben fotoğraf_çekmek hoşlanmak
+o üç fotoğraf çekti	o üç fotoğraf çekmek
+burada fotoğraf çekebilir miyim	ben burada fotoğraf_çekmek ?
+ben birçok fotoğraf çektim	ben birçok fotoğraf_çekmek
+o bu fotoğrafı çekti	o bu fotoğraf çekmek
+bir grup fotoğrafı alalım	ben bir grup fotoğraf almak
+onun birçok fotoğrafı vardır	onun birçok fotoğraf var
+o ona fotoğrafı gösterdi	o ona fotoğraf göstermek
+o fotoğrafı bana uzattı	o fotoğraf bana uzatmak
+o bana fotoğrafı gösterdi	o bana fotoğraf göstermek
+bu tablomun bir fotoğrafı	bu benim tablo bir fotoğraf
+bana fotoğrafı gösterir misin	sen bana fotoğraf göstermek ?
+işte ailemin bir fotoğrafı	işte benim aile bir fotoğraf
+bu çizimimin bir fotoğrafı	bu benim çizim bir fotoğraf
+bu havaalanının bir fotoğrafı	bu havaalanı bir fotoğraf
+o fotoğrafı masaya koydu	o fotoğraf masa koymak
+bir fotoğrafımızı çekebilir misin	sen bir fotoğraf çekmek ?
+futbol eski bir oyundur	futbol eski bir oyun
+galiba bunu o söyledi	galiba o bu bana söylemek
+galiba gitsem iyi olur	galiba ben gitmek iyi olmak
+galiba o beni seviyor	galiba o ben sevmek
+galiba çok fazla içtim	galiba ben çok fazla içmek
+galiba sen beni hatırlamıyorsun	galiba sen ben hatırlamak değil
+galiba denememek daha iyi	galiba denemek değil daha iyi
+galiba birkaç kilo vermeliyim	ben galiba birkaç kilo vermek
+galiba biraz kilo vermeliyim	galiba ben biraz kilo vermek
+o geldikten sonra başlayacağım	o gelmek sonra başlamak
+herkes geldikten sonra geldi	o herkes gelmek sonra gelmek
+geri geldikten sonra inceleyeceğim	ben geri gelmek sonra incelemek
+buraya ne zaman geldiniz	siz buraya ne_zaman gelmek ?
+oraya tekrar hoş geldiniz	siz oraya tekrar hoş_geldin
+hepiniz buraya nasıl geldiniz	siz hepiniz buraya nasıl gelmek ?
+ne zaman buraya geldiniz	siz ne_zaman bura gelmek ?
+büyük liglere hoş geldiniz	siz büyük lig hoş_geldin
+buraya ne için geldiniz	siz bura ne için gelmek
+ne için buraya geldiniz	siz ne için bura gelmek ?
+o geldiğinde ben ayrılacağım	o gelmek ben ayrılmak
+o geldiğinde ben gideceğim	o gelmek ben gitmek
+o geldiğinde onu yapalım	o gelmek biz o yapmak
+zamanı geldiğinde bana bildir	zaman gelmek sen bana bildirmek
+eve geldiğinde beni uyandır	sen ev gelmek ben uyandırmak
+otobüs geldiğinde o bindi	otobüs gelmek o binmek
+o geri geldiğinde gideceğim	o geri gelmek ben gitmek
+o buraya geldiğinde gideceğiz	o bura gelmek biz gitmek
+o geldiğinde televizyon izliyordum	o gelmek ben televizyon izlemek
+o geldiğinde orada değildim	o gelmek ben orada değil
+buraya geldiğinde sana söyleyeceğim	o bura gelmek ben sana söylemek
+o buraya geldiğinde uyuyordum	o bura gelmek ben uyumak
+o geldiğinde banyo yapıyordum	o gelmek ben banyo yapmak
+onun erken geldiğini duyuyorum	ben onun erken gelmek duymak
+o senin geldiğini gördü	o senin gelmek görmek
+kimse onun geldiğini görmedi	kimse onun gelmek görmek değil
+asla onun geldiğini görmedim	ben asla onun gelmek görmek değil
+kimin geldiğini merak ediyorum	ben kim gelmek merak_etmek
+o benim için gelecek	o benim için gelmek
+o senin için gelecek	o senin için gelmek
+gelecek sefer ne yapacağım	ben gelecek sefer ne yapmak ?
+gelecek sefer ne olur	gelecek sefer ne olmak ?
+o ne zaman gelecek	o ne_zaman gelmek ?
+o daha sonra gelecek	o daha sonra gelmek
+o bir yeni gelen	o bir yeni gelmek
+gelen bir araba var	gelmek bir araba var
+gelen bir fırtına var	gelmek bir fırtına var
+gelen bir şey var	gelmek bir_şey var
+o gelen ilk kişiydi	o gelmek ilk kişi
+bana gelince yumurtadan hoşlanmam	bana gelmek ben yumurta hoşlanmak değil
+bahar gelince hava ısınır	bahar gelmek hava ısınmak
+buraya gelirken ona rastladım	ben bura gelmek ona rastlamak
+buraya gelirken yolunu kaybetti	ben bura gelmek benim yol kaybetmek
+o buraya gelirken kayboldu	o bura gelmek kaybolmak
+eve gelirken onunla karşılaştım	ben ev gelmek onun ile karşılaşmak
+buraya gelirken arabam bozuldu	ben bura gelmek benim araba bozulmak
+oraya gelirken arabamız bozuldu	biz oraya gelmek bizim araba bozulmak
+gelirken merdivenlerde onunla karşılaştım	ben gelmek merdiven onun ile karşılaşmak
+hiç kimse buraya gelmedi	hiç_kimse bura gelmek değil
+hiç kimse benimle gelmedi	hiç_kimse benim ile gelmek değil
+o eve hiç gelmedi	o ev hiç gelmek değil
+onlar asla geri gelmedi	onlar asla geri gelmek değil
+o geri gelmediğini söyledi	o geri gelmek değil söylemek
+onun neden gelmediğini bilmiyorum	ben onun neden gelmek değil bilmek değil
+o onun gelmediğini söyledi	o onun gelmek değil söylemek
+onların gelmediğini bilmek istiyorum	ben onların gelmek değil bilmek istemek
+onun niçin gelmediğini anlayamıyorum	ben onun niçin gelmek değil anlamak değil
+ona gelmesini rica etim	ben ona gelmek rica_etmek
+ona buraya gelmesini söyle	sen ona bura gelmek söylemek
+ona eve gelmesini söyle	sen ona ev gelmek söylemek
+onun gelmesini kim istedi	onun gelmek kim istemek ?
+onun dışarı gelmesini istedim	ben onun dışarı gelmek istemek
+onların buraya gelmesini söyle	sen onların bura gelmek söylemek
+ona yakında gelmesini söyledim	ben ona yakında gelmek söylemek
+onun geri gelmesini istiyorum	ben onun geri gelmek istemek
+onun eve gelmesini istiyorum	ben onun ev gelmek istemek
+onun yarın gelmesini iste	sen onun yarın gelmek istemek
+ben yardım edemedim fakat izledim	ben yardım_etmek değil fakat izlemek
+o yüzebilir fakat ben yüzemem	o yüzmek fakat ben yüzmek değil
+baktık fakat bir şey göremedik	biz bakmak fakat bir şey görmek değil
+çok çalıştı fakat başarısız oldu	o çok çalışmak fakat başarısız olmak
+üzgünüm fakat o evde değil	ben üzgün fakat o ev değil
+o kısadır fakat o güçlüdür	o kısa fakat o güçlü
+o zengin değil fakat mutludur	o zengin değil fakat mutlu
+emin değilim fakat o gelebilir	ben emin değil fakat o gelmek
+o evde değil fakat okuldadır	o ev değil fakat okul
+sen yüzebilirsin fakat ben yüzemem	sen yüzmek fakat ben yüzmek değil
+o çok fazla içki içer	o çok fazla içki içmek
+daha fazla söylemem gerekiyor mu	benim daha fazla söylemek gerek ?
+bu sadece bir çizgi film	bu sadece bir çizgi_film
+bu bir komedi filmi mi	bu bir komedi film ?
+biz filmi erken terk ettik	biz bu film erken terk_etmek
+seni ne çeşit filmler ağlatır	sen ne çeşit film ağlatmak ?
+bu hafta hangi filmler oynuyor	bu hafta hangi film oynamak ?
+seni ne çeşit filmler güldürür	sen ne çeşit film güldürmek ?
+ne çeşit filmler izlemekten hoşlanırsınız	siz ne çeşit film izlemek hoşlanmak ?
+erkek kardeşim korku filmlerini sever	benim erkek kardeş korku film sevmek
+korku filmlerini her zaman sevdim	ben korku film her zaman sevmek
+o korku filmlerini sevdiğini söylüyor	o korku film sevmek söylemek
+kız arkadaşım korku filmlerini sevmiyor	benim kız arkadaş korku film sevmek değil
+o şiddet filmlerini izlemekten hoşlanmaz	o şiddet film izlemek hoşlanmak değil
+o fiyata vergi dahil mi	o fiyat vergi dahil ?
+bisikleti çok ucuz fiyata aldım	ben bisiklet çok ucuz fiyat almak
+o fiyata kahvaltı dahil mi	o fiyat kahvaltı dahil ?
+bunu indirimli fiyata satmıyor musun	sen bu indirim fiyat satmak değil ?
+bu onların istedikleri fiyat değil	bu onların istemek fiyat değil
+çilek kışın yüksek fiyata satılıyor	çilek kış yüksek fiyat satılmak
+o o fiyata arabasını satamayacak	o o fiyat araba satmak değil
+benzin fiyatları neden çok yüksek	benzin fiyat neden çok yüksek ?
+biz gıda fiyatları için konuştuk	biz gıda fiyat için konuşmak
+bu fiyatları kim göze alamaz	bu fiyat kim göz almak değil
+bu fiyatları daha yükseğe itebilir	bu fiyat daha yüksek itmek
+her şeyin bir fiyatı vardır	her_şey bir fiyat var
+ben bir fotoğraf meraklısı değilim	ben bir fotoğraf merak değil
+ben bu fotoğraf makinesini istiyorum	ben bu fotoğraf_makinesi istemek
+benim fotoğraf makinemi mi kullandın	benim fotoğraf_makinesi sen kullanmak ?
+benim fotoğraf makinemi kullandın mı	sen benim fotoğraf_makinesi kullanmak ?
+bu yeni bir fotoğraf mı	bu yeni bir fotoğraf ?
+bu fotoğrafı onun çektiğine eminim	ben bu fotoğraf onun çekmek emin
+ben bu fotoğrafı saklayabilir miyim	ben bu fotoğraf saklamak ?
+sende onun fotoğrafı var mı	sen onun fotoğraf var ?
+bu benim çizimimin bir fotoğrafı	bu benim çizim bir fotoğraf
+bu fotoğrafı ekim ayında çektim	ben bu fotoğraf ekim ay çekmek
+bende onun pek fotoğrafı yok	ben onun pek fotoğraf yok
+o fotoğrafı bana geri uzattı	o fotoğraf bana geri uzatmak
+ben bir futbol sever değilim	ben bir futbol sevmek değil
+ben bir futbol maçı izliyorum	ben bir futbol maç izlemek
+o futbol takip eder mi	o futbol takip_etmek ?
+ben büyük bir futbol hayranıyım	ben büyük bir futbol hayran
+siz çocuklar futbol oynar mısınız	siz çocuk futbol oynamak ?
+onun bir çocuğu vardı galiba	onun bir çocuk var galiba
+galiba onun ne yaptığını biliyorum	ben galiba onun ne yapmak bilmek
+galiba senin biraz aklın karışmış	galiba senin akıl biraz karışmak
+galiba kim olduğumu merak ediyorsun	galiba sen benim kim olmak merak_etmek
+galiba bu kırmızı kazağı giyeceğim	galiba ben bu kırmızı kazak giymek
+galiba mektubun şu kitabın altında	galiba senin mektup şu kitap altında
+eve geldikten sonra yatmaya gittim	o ev gelmek
+o eve geldikten sonra başlayalım	o ev gelmek sonra biz başlamak
+bunu o geldikten sonra yapalım	biz bu o gelmek sonra yapmak
+o geldikten sonra tartışmaya başlayalım	o gelmek sonra biz tartışmak çalışmak
+istasyona geldikten sonra arkadaşımı aradım	ben istasyon gelmek sonra arkadaş aramak
+ikiniz bir araya geldiniz mi	siz ikiniz bir ara gelmek
+bizim mütevazı evimize hoş geldiniz	siz bizim mütevazı ev hoş_geldin
+o eve geldiğinde beni ara	o ev gelmek sen ben aramak
+o buraya geldiğinde ben buradaydım	o bura gelmek ben burada
+o buraya geldiğinde ben gideceğim	o bura gelmek ben gitmek
+o eve geldiğinde beni uyandır	o ev gelmek sen ben uyandırmak
+o geldiğinde ona öyle anlatacağım	o gelmek ben ona öyle anlatmak
+o eve geldiğinde ben kalkmıştım	o ev gelmek ben kalkmak
+buraya geldiğinde o burada mıydı	sen bura gelmek o burada ?
+bunun ne anlama geldiğini biliyorum	ben bu ne anlam gelmek bilmek
+bunun ne anlama geldiğini biliyoruz	biz bu ne anlam gelmek bilmek
+onun ne anlama geldiğini biliyorum	ben onun ne anlam gelmek bilmek
+onun buraya nasıl geldiğini sor	sen onun bura nasıl gelmek sormak
+onun ne anlama geldiğini açıkla	sen onun ne anlam gelmek açıklamak
+her konuda size yardım edeceğim	ben her konu siz yardım_etmek
+o gelen bir soğuk hissetti	o gelmek bir soğuk hissetmek
+bana gelince ben iyi oldum	o bana gelmek ben iyi olmak
+buraya gelirken bir lastiğimiz yoktu	bura gelmek bizim bir lastik yok
+onunla ilgili bir şey gelmedi	onun ile ilgili bir_şey gelmek değil
+onun niçin gelmediğini merak ediyorum	ben onun niçin gelmek değil merak_etmek
+o bana uykusu gelmediğini söyledi	o bana onun uyku gelmek değil söylemek
+onun niçin gelmediğini merak etti	o onun niçin gelmek değil merak_etmek
+onun neden gelmediğini merak ediyorum	ben onun neden gelmek merak_etmek
+otobüsün niye gelmediğini merak ediyorum	ben otobüs niye gelmek değil merak_etmek
+o bize neden gelmediğini söyledi	o bize neden gelmek değil söylemek
+o onun geri gelmediğini söyledi	o onun geri gelmek söylemek
+onun partiye gelmediğini biliyor musun	sen onun parti gelmek değil bilmek ?
+ona beni görmeye gelmesini söyle	sen ona ben görmek gelmek söylemek
+ona buraya dışarı gelmesini anlat	sen ona bura dışarı gelmek anlatmak
+biz onun meydana gelmesini söyledik	biz onun meydan gelmek söylemek
+geliyor musun yoksa gelmiyor musun	sen gelmek yoksa gelmek değil ?
+o kulağa harika gelmiyor mu	o kulak harika gelmek değil ?
+başka bir şey doğru gelmiyor	o başka bir_şey doğru gelmek değil
+ben burada hoş gelmiş hissederim	ben burada hoş gelmek hissetmek
+o geri gelmiş gibi görünüyor	o geri gelmek gibi görünmek
+ben sadece gerçekleri bilmek istiyorum	ben sadece gerçek bilmek istemek
+bu rapor tüm gerçekleri gösteriyor	bu rapor tüm gerçek göstermek
+o bir balık avı gitti	o bir balık av gitmek
+okul müdürünü hemen gidip görmelisin	sen okul müdür hemen gitmek görmek
+kendini değer görmemiş hissediyor musun	sen kendi değer görmek değil hissetmek ?
+sizi daha önce görmemiş miydim	ben siz daha önce görmek ?
+o beni görmemiş gibi yaptı	o ben görmek değil gibi yapmak
+o beni görmemiş gibi duruyordu	o ben görmek değil gibi durmak
+o zarar görmemiş gibi duruyordu	o zarar görmek değil gibi durmak
+o onu görmemiş gibi yapmıştı	o o görmek gibi yapmak
+okyanusu hiç görmemiş birini tanıyorum	ben okyanus hiç görmek değil biri tanımak
+onun üzgün olduğunu görmüyor musun	sen onun üzgün olmak görmek ?
+onun gözü senden başkasını görmüyor	onun göz sen başka görmek değil
+onun ne yaptığını görmüyor musun	sen onun ne yapmak görmek değil ?
+yardım etmeye çalıştığımı görmüyor musun	sen benim yardım_etmek çalışmak görmek değil ?
+bizi takip edeni görmüyor musun	sen biz takip_etmek görmek değil ?
+o bir şey görmüş olmalı	o bir_şey görmek olmak
+sen onları orada görmüş olmalısın	sen onlar orada görmek olmak
+biri bir şey görmüş olmalı	biri bir_şey görmek olmak
+o bunu yaptığımızı görmüş olmalı	o bizim bu yapmak görmek olmak
+onu görünce ona moral ver	sen o görmek ona moral vermek
+beni görünce bebek ağlamaya başladı	o ben görmek bebek gibi ağlamak başlamak
+o beni görünce koşmaya başladı	o ben görmek koşmak başlamak
+onu görünce çok memnun oldu	o görmek ben çok memnun_olmak
+bu resmi görünce hep ağlarım	bu resim görmek ben hep ağlamak
+kanı görünce bayılacak gibi hissetti	o kan görmek bayılmak gibi hissetmek
+adam bir polisi görünce kaçtı	adam bir polis görmek kaçmak
+onun ne yaptığını görünce sinirlendim	ben onun ne yapmak görmek sinirlenmek
+bunu görünce son derece şaşırmıştım	ben bu görmek son derece şaşırmak
+beni görünce uyuyormuş gibi duruyordu	ben görmek uyumak gibi durmak
+onlar bir neden gösterdi mi	onlar bir neden göstermek ?
+ben sadece onu sana gösterdim	ben sadece o sana göstermek
+ona kimin patron olduğunu gösterdin	sen ona kim patron olmak göstermek
+ona patronun kim olduğunu gösterdim	ben ona patron kim olmak göstermek
+ona onu nasıl yapacağımı gösterdim	ben ona o nasıl yapmak göstermek
+her zaman sana saygı gösterdim	ben her zaman sana saygı göstermek
+onu nasıl yapacaklarını onlara gösterdim	ben o nasıl yapmak onlar göstermek
+ona onun nasıl yapılacağını gösterdim	ben ona onun nasıl yapmak göstermek
+bunun nasıl yapılacağını sana gösterebilirim	ben bu nasıl yapmak göstermek
+bunun nasıl çalıştığını sana gösterebilirim	ben bu nasıl çalışmak sana göstermek
+o bana bir şey göstermedi	o bana bir_şey göstermek değil
+suçu için hiç pişmanlık göstermedi	o suç için hiç pişman göstermek değil
+sana yeni arabamı göstermedim mi	ben sana benim araba göstermek ?
+ona görmek istediği resimleri göstermedim	ben ona görmek istemek resim göstermek
+kendini çirkin göstermeye mi çalışıyorsun	sen kendi çirkin göstermek çalışmak ?
+onlar birbirlerini aptal göstermeye çalıştılar	onlar birbiri ile aptal göstermek çalışmak
+o benimle ilgi göstermeye başladı	o benim ile ilgili göstermek başlamak
+onun göstermeye devam ettiğine inanamıyorum	ben onun göstermek devam_etmek inanmak değil
+o karnesini babasına göstermeye korkuyordu	o karne onun baba göstermek korkmak
+her iki gün de tamam	her iki gün tamam
+dün güneşli bir gün müydü	gün güneş bir gün ?
+yarın öğleden sonra güneşli olacak	yarın öğleden_sonra güneş olmak
+hava güneşli ama su soğuk	hava güneş ama su soğuk
+bu yaz güneşli günümüz çoktu	bu yaz güneş gün çok
+güneş var ama hava soğuktu	güneş var ama hava soğuk
+ben daha iyi günler gördüm	ben daha iyi gün görmek
+o daha iyi günler gördü	o daha iyi gün görmek
+onlar daha iyi günler gördü	onlar daha iyi gün görmek
+yağmurlu günler bende depresyon yapar	yağmur gün ben depresyon yapmak
+o gittiğinden beri günler oldu	o gitmek beri gün olmak
+şimdiye kadar günün nasıl geçiyor	senin şimdi kadar gün nasıl geçmek ?
+bugün senin doğum günün mü	bugün senin doğum_günü ?
+onu günün birinde yapmak istiyorum	ben o bir_gün yapmak istemek
+annem okuldaki öğretmenin öğrencilere çok kötü davrandığını öğrendikten hemen sonra okula gitti	benim anne okul orada öğretmen öğrenci çok kötü davranmak öğrenmek hemen sonra okul gitmek
+işten eve dönerken yolda eski sınıf arkadaşını görmüş ve çok şaşırmış	o iş ev dönmek yol orada eski sınıf arkadaş görmek ve çok şaşırmak
+babam asker olmanın neden önemli anlattıktan sonra kardeşimin nerede olduğunu sordu	benim baba asker olmak neden önemli anlatmak sonra benim kardeş nerede olmak sormak
+o daha iyi günler görmüş olmalı	o daha iyi gün görmek olmak
+o bir hayalet görmüş gibi duruyordu	o bir hayalet görmek gibi durmak
+size daha iyi bir zaman gösterebilirim	ben siz daha iyi bir zaman göstermek
+o özür dilemek için çaba göstermedi	o özür_dilemek için çaba göstermek değil
+onun için çaba göstermeye devam et	ben onun için çaba göstermek devam_etmek
+beni aptal gibi göstermeye mi çalışıyorsun	sen ben aptal gibi göstermek çalışmak
+o yine burada yüzünü göstermeyi istemedi	o yine burada onun yüz göstermek istemek değil
+benim bir gün izne ihtiyacım var	benim bir_gün izin ihtiyaç var
+dışarıda kalmak için çok güneşli değil	dışarı kalmak için çok güneş değil
+bunun gibi daha fazla günler istiyorum	ben bu gibi daha fazla gün istemek
+kendinize iyi bakın ve iyi günler	siz kendi iyi bakmak ve iyi gün
+tvde her gün haberleri izliyor musun	sen televizyon her_gün haber izlemek ?
+bir kitap için on dolar harcadım	ben bir kitap için on dolar harcamak
+ben en fazla üç dolar harcadım	ben en fazla üç dolar harcamak
+bütün öğleden sonrayı onu yapmaya harcadım	ben bütün öğleden_sonra o yapmak harcamak
+seni bekleyerek tüm sabahı boşa harcadım	ben sen beklemek tüm sabah boş harcamak
+endişe ederek çok fazla zaman harcıyorsun	sen endişe çok fazla zaman harcamak
+tv izleyerek ne kadar süre harcıyorsun	sen televizyon izlemek ne_kadar süre harcamak ?
+çay mı yoksa kahve mi istersin	sen çay yoksa kahve istemek ?
+o ve ben yardım etmek istiyorlar	o ve ben yardım_etmek istemek
+o ve o birlikte gezmek istiyorlardı	o ve o birlikte gezmek istemek
+tv izlemeden önce ev ödevini yap	ben televizyon izlemek değil önce ev ödev yapmak
+bir film izlemeye gitmek ister misin	sen bir film izlemek gitmek istemek ?
+bu gece bir film izlemeye gitmeliyiz	biz bu gece bir film izlemek gitmek
+o tv izlerken yemek yemekten hoşlanıyor	o televizyon izlemek yemek yemek hoşlanmak
+o beyzbol izlerken keyif almadığını söyledi	o beyzbol izlemek keyif almak söylemek
+biz hepimiz onu izlerken nefesimizi tuttuk	biz hepimiz o izlemek bizim nefes tutmak
+o tvde olimpiyatları izlerken uykuya daldı	o televizyon olimpiyat izlemek uyku dalmak
+televizyon izlerken ben kolayca uykuya dalarım	ben televizyon izlemek ben kolay uyku dalmak
+bugün benim kız kardeşimin doğum günü	bugün benim kız kardeş doğum_günü
+kız kardeşimin çok iyi zekası var	benim kız kardeş çok iyi zeka var
+ben benim bebek erkek kardeşimle yedim	ben benim bebek erkek kardeş yemek
+kız kardeşimle bir yatak odasını paylaşıyorum	ben benim kız kardeş ile bir yatak_odası paylaşmak
+ben her zaman erkek kardeşimle oynadım	ben her zaman benim erkek kardeş ile oynamak
+o senin erkek kardeşin değil mi	o senin erkek kardeş ?
+ikiz bir kız kardeşin var mı	senin ikiz bir kız kardeş var ?
+git ve erkek kardeşine yardım et	sen gitmek ve senin erkek kardeş yardım_etmek
+onun kız kardeşine vurmasına izin vermeyin	siz onun kız kardeş vurmak izin_vermek değil
+o tam olarak erkek kardeşine benziyor	o tam olmak senin erkek kardeş benzemek
+geçen hafta onun kız kardeşiyle buluştum	ben geçen_hafta onun kız kardeş ile buluşmak
+o erkek kardeşiyle bir oda paylaşıyor	o onun erkek kardeş ile bir oda paylaşmak
+üç yıldır hasta kız kardeşiyle ilgileniyor	o üç yıl onun hasta kız kardeş ile ilgilenmek
+o öğle yemeği için bize katılmadı	o öğle yemek için bize katılmak değil
+o ve sen işlerinizi nasıl kaybettiler	o ve sen sizin iş nasıl kaybetmek ?
+o kira parasını kaybettiği cüzdana koymuştu	o kira para kaybetmek cüzdan koymak
+o kaybettiği kitabı bulacak kadar şanslıydı	o kaybetmek kitap bulmak kadar şanslı
+o yolculuk sırasında kaybettiği yüzüğü buldu	o yolculuk sıra kaybetmek yüzük bulmak
+biz hepimiz üç tane oyun kazandık	biz hepimiz üç tane oyun kazanmak
+biz hepimiz üç tane maç kazandık	biz hepimiz üç tane maç kazanmak
+o kazandığı kadar çok para harcar	o kazanmak kadar çok para harcamak
+o kazandığı her şeyi annesine verdi	o kazanmak her_şey onun anne vermek
+o kazandığı kadar çok para harcamıyor	o kazanmak kadar çok para harcamak değil
+iyi kötü karşısında her zaman kazanır	iyi kötü karşı her zaman kazanmak
+lütfen yaz mevsimi sırasında suyu koruyun	lütfen yaz mevsim sıra siz su korumak
+yağış mevsimi nihayet bitti gibi duruyor	yağış mevsim nihayet bitmek gibi durmak
+şimdi mantar mevsimi o yüzden ucuz	şimdi mantar mevsim o_yüzden ucuz
+yağmur mevsimi haziran sonuna doğru başlar	yağmur mevsim haziran son doğru başlamak
+bence sonbahar yılın en güzel mevsimi	bence sonbahar yıl en güzel mevsim
+o pekiyi derece ile mezun oldu	o pekiyi derece ile mezun olmak
+bir taksi çağırdım çünkü yağmur yağıyordu	ben bir taksi çağırmak çünkü yağmur yağmak değil
+sana geldim çünkü yardımına ihtiyacım var	ben sana gelmek çünkü benim yardım ihtiyaç var
+o bugün dışarı çıkamaz çünkü hastadır	o bugün dışarı çıkmak değil çünkü hasta
+bacaklarım acıyor çünkü bugün çok yürüdüm	benim bacak acımak çünkü bugün çok yürümek
+o bugün burada olmayacak çünkü hasta	o bugün burada olmak çünkü hasta
+buradayız çünkü o ile konuşmak istiyoruz	biz burada çünkü o ile konuşmak istemek
+yağmur yağmazsa ben de dışarı çıkacağım	yağmur yağmak değil ben dışarı çıkmak
+gelecek hafta istanbul için yola çıkacağım	ben gelecek_hafta istanbul için yola_çıkmak
+orada dışarı çıkacağım ve etrafa bakınacağım	ben orada dışarı çıkmak ve etraf bakmak
+yarın hava güzel olursa dışarı çıkacağım	yarın hava güzel olmak ben dışarı çıkmak
+demiryolu	tren yol
+sahil	deniz kenar
+abiye	kız kıyafet
+termometre	sıcaklık derece
+cübbe	imam kaban
+tablo	fotoğraf çerçeve
+psikolog	psikoloji doktor
+rötar	saat geç
+ayaz	hızlı soğuk
+kadınlar genel olarak erkeklerden daha uzun yaşamaktadır	kadın x2 daha uzun yaşamak erkek x2
+savaşta pek çok insan genç yaşta öldü	savaş orada çok insan genç yaş ölmek
+sen artık büyüdün böyle bir şey yapmamalısın	sen artık büyümek böyle bir_şey yapmak değil lazım
+bu gece dışarı çıkıp çin yemekleri yiyelim	biz bu gece dışarı gitmek çin yemek yemek
+akşam yemeği için italyan yemekleri yemek istemiyor	o akşam yemek için italya yemek x2 yemek istemek değil
+onun yemekler hakkında şikâyet ettiğini hiç duymadım	ben duymak değil o yemek x2 hakkında şikayet
+öğle yemeğin için ödeme yapmana gerek yok	sen senin öğle yemek için ödemek yapmak gerekli değil
+onun en sevdiği yemeğin hangisi olduğunu düşünüyorsun	o en sevmek yemek hangi olmak sen düşünmek ?
+o restoranda iyi bir yemek var mı	o restoran orada iyi bir yemek var ?
+öğle yemeğin için bir sandviç falan hazırlayacağım	ben senin öğle yemek için bir sandviç falan hazırlamak
+benim hazırladığım yemeğin oldukça iyi olduğunu düşündü	o düşünmek benim hazırlamak yemek iyi olmak
+ben eskisi kadar sık evde yemek yemiyorum	ben eski kadar sürekli ev orada yemek yemek değil
+ben bu yerden her zaman nefret ettim	ben bu mekan her zaman nefret
+onlar bir bıçak ve çatalla yemek yerler	onlar bir bıçak ve çatal ile yemek yemek
+bütün bu yiyecekleri tutacak bir yerimiz yok	bizim bütün yiyecek x2 tutmak yer yok
+onlar aynı tür yiyecekleri yemeyi sever mi	onlar aynı çeşit yiyecek x2 yemek sevmek ?
+ben kapıdan girdiğimde o öğle yemeği yiyordu	ben kapı girmek o öğle yemek yemek
+yangın patlak verdiğinde bir restoranda pizza yiyordu	yangın çıkmak o bir restoran orada pizza yemek
+onu kolunun altında bir kitapla yürürken gördüm	o kol alt bir kitap ile yürümek ben görmek
+karanlıktan sonra istanbul'da yürürken güvende hissediyor musun	sen istanbul orada gece yürümek güven hissetmek ?
+yukarı veya alt kata yürürken dizi acıyor	o yukarı veya alt kat yürümek onun diz acımak
+vücut sabunu ile hiç yüzünü yıkadın mı	sen vücut sabun ile hiç yüz yıkamak ?
+bu bitkiler zararlı ot ilaçlarına karşı dayanıklıdır	bu bitki x2 zarar ot ilaç karşı dayanıklı
+sigara içmenin sağlığın için zararlı olduğunu unutma	sigara_içmek senin sağlık için zarar olmak sen unutmak değil
+dik oturmanın sırtın için zararlı olduğunu duydum	dik oturmak senin sırt için zarar olmak ben duymak
+sigara içmenin sağlık için zararlı olduğunu biliyorum	sigara_içmek sağlık için zarar olmak ben bilmek
+daha önce hiç bu kadar çok çalışmadım	ben daha önce bu kadar çok çalışmak değil
+hiç sen ve o birlikte çalıştınız mı	hiç sen ve o birlikte çalışmak
+sigara içmenin zararlı olduğu gerçeğini inkar etmek yok	sigara_içmek zarar olmak gerçek inkar yok
+çok küçük olan ayakkabıları giymek ayaklarınız için zararlı	çok küçük ayakkabı giymek sizin ayak x2 için zarar
+her zaman çantasında bir harita ve pusula taşır	o her zaman onun çanta orada bir harita ve pusula taşımak
+çantasının ağır olduğunu fark etti ve hemen bıraktı	o onun çanta ağır olmak fark_etmek ve hemen bırakmak
+o küçük bir köyde küçük bir çocukla yaşıyordu	o küçük bir köy orada küçük bir çocuk ile yaşamak
+o binadaki yeni bir çocukla çabucak arkadaş oldu	o bina orada yeni bir çocuk ile çabuk arkadaş olmak
+küçük bir çocukla arabada sigara içmek yasalara aykırıdır	küçük bir çocuk ile araba içinde sigara_içmek yasa_dışı
+buradaki her erkek çocuğunun bir kız arkadaşı var	burada her erkek çocuk bir kız arkadaş sahip
+o şu anda ilginç bulduğu her şeyle ilgilenir	o şimdi ilginç bulmak her_şey ile ilgilenmek
+polisin yatağının altında bulduğu gömlekte kan lekeleri vardı	polis onun yatak altında gömlek bulmak gömlek üstünde kan leke x2 var
+buzdolabından bir bira aldı ve onu arkadaşına uzattı	o buz dolap bir bira almak ve arkadaş uzatmak
+o emekli olduktan sonra onun yerine geçme planlarımız yok	o emekli olmak sonra biz onun yer geçmek plan yok
+o sınavda iki kez başarısız olduktan sonra üniversiteye girdi	o sınav iki kez başarısız olmak sonra üniversite girmek
+o sadece güneşte oturmayı ve müzik dinlemeyi çok sever	o sadece güneş oturmak ve müzik dinlemek çok sevmek
+önemli olan oyunda kazanmak değil oyunun içinde yer almak	önemli olmak oyun kazanmak değil oyun içinde yer almak
+ben sizin ikinizi eve götürmek için arabama alabilir miyim	ben sizin ikiniz ev götürmek için benim araba almak ?
+o gece çok geç saatte aradığı için özür diledi	o gece çok geç saat aramak için özür_dilemek
+bu gece eski bir kız arkadaşımla bir buluşmam var	benim bu gece eski bir kız arkadaş ile buluşmak var
+ne zaman bir kütüphane görsem hep gidip içindeki her şeyi okuyana kadar orada kalmak isterim	ben ne_zaman bir kütüphane görmek hep gitmek içinde her_şey okumak orada kalmak istemek
+kardeşi ve ablası eve köpek almak istiyordu ama o köpek değil kedi almak istiyordu	onun kardeş ve onun abla ev köpek almak istemek ama ben köpek değil kedi almak istemek
+annem sabahları çok erken kahvaltı yapmaya başladığından mecburen erken kalkıyordum	ben benim anne sabah çok erken kahvaltı başlamak mecbur erken kalkmak
+annesi sabahları çok erken kahvaltı yapmaya başladığından mecburen erken kalkıyor	o onun anne sabah çok erken kahvaltı başlamak mecbur erken kalkmak
+annesi sabahları çok erken kahvaltı yapmaya başladığından mecburen erken kalkıyordu	o onun anne sabah çok erken kahvaltı başlamak mecbur erken kalkmak
