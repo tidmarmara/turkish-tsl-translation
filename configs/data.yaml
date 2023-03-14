@@ -1,3 +1,4 @@
-train: 'C:\Users\PC\Desktop\turkish-tsl-translation\dataset\train-tr2tsl-wordbased.txt'
-valid: 'C:\Users\PC\Desktop\turkish-tsl-translation\dataset\valid-tr2tsl-wordbased.txt'
-test: 'C:\Users\PC\Desktop\turkish-tsl-translation\dataset\test-tr2tsl-wordbased.txt'
+path: 'datasets'
+train: 'train-tr2tsl-wordbased.txt'
+valid: 'valid-tr2tsl-wordbased.txt'
+test: 'test-tr2tsl-wordbased.txt'
