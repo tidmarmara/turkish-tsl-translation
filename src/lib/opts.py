@@ -9,6 +9,7 @@ class Opts():
         self.parser.add_argument('--model-type', '-m', default='transformer', help="This parameter allows to choose the model type either 'rnn' or 'transformer' can be given as input")
         self.parser.add_argument('--num-epochs', '-e', default=20, type=int, help='Number of epochs for the training')
         self.parser.add_argument('--batch-size', '-b', default=64, type=int, help='Batch size for the training')
+        self.parser.add_argument('--root-path', '-r', default='results', type=str, help='Root path for the saved models')
 
     def parse(self):
         args = self.parser.parse_args()
