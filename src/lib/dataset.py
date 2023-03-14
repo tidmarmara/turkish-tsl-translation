@@ -3,6 +3,7 @@ import re
 from unicode_tr import unicode_tr
 from loguru import logger
 import yaml
+import os
 
 class Dataset():
     def __init__(self, opts):
@@ -32,7 +33,8 @@ class Dataset():
             if data_name not in datasets.keys():
                 datasets[data_name] = {'raw-data': {}, 'tensor-data': {}, 'tokenizer': {}}
 
-            inp_sents_raw, targ_sents_raw = self.load_dataset_raw(config[data_name])
+            data_path = os.path.join(config['path'], config[data_name])
+            inp_sents_raw, targ_sents_raw = self.load_dataset_raw(data_path)
             inp_sents_tensor, inp_tokenizer, targ_sents_tensor, targ_tokenizer = self.convert_to_tensors(inp_sents_raw, targ_sents_raw)
 
             datasets[data_name]['raw-data']['input'] = inp_sents_raw
