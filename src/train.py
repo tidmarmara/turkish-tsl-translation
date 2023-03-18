@@ -24,10 +24,10 @@ def main(opts):
     test_data = dataLoader.convert_to_batch(datasets['test']['tensor-data']['input'], datasets['test']['tensor-data']['target'], opts.batch_size)
     
     # Load the model
-    modelLoader = Model(opts)
-    modelLoader.get_model(datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'])
+    modelLoader = Model(opts, dataLoader)
+    model = modelLoader.get_model(datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'])
 
-    trainer = Trainer(modelLoader, opts)
+    trainer = Trainer(model, modelLoader, opts)
 
     tokenizer_save_path = os.path.join(trainer.exp_save_path, 'inp_tokenizer.json')
     dataLoader.save_tokenizer(datasets['train']['tokenizer']['input'], tokenizer_save_path)
