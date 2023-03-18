@@ -69,9 +69,6 @@ def main(opts):
         logger.success("Saving last epoch model")
         trainer.ckpt_manager_last_epoch.save()
 
-    ckpt_save_path = trainer.ckpt_manager.save()
-    logger.info(f'Saving checkpoint for epoch {epoch+1} at {ckpt_save_path}')
-
 if __name__ == '__main__':
     opts = Opts().parse()
     main(opts)

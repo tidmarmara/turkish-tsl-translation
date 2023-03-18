@@ -65,6 +65,25 @@ class Trainer():
         self.train_loss = tf.keras.metrics.Mean(name='train_loss')
         self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
 
+    def save_model(self, model):
+        state_dict = {}
+        for layer in model.layers:
+            for weight in layer.weights:
+                state_dict[weight.name] = weight.numpy()
+
+        model_json_config = model.to_json()
+        tf.keras.backend.clear_session() # this is crucial to get previous names again
+        del model
+
+        with tf.device("/GPU:0"):
+            new_model = tf.keras.models.model_from_json(model_json_config)
+
+        for layer in new_model.layers:
+            current_layer_weights = []
+            for weight in layer.weights:
+                current_layer_weights.append(state_dict[weight.name])
+            layer.set_weights(current_layer_weights)
+
     def init_tensorboard(self):
         logs_root_path = os.path.join(self.exp_save_path, "logs", "gradient_tape")
         if not os.path.isdir(logs_root_path):
