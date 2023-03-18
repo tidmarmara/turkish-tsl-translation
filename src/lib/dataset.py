@@ -58,6 +58,12 @@ class Dataset():
         tokenizer_json = tokenizer.to_json()
         with open(save_path, 'w') as f:
             json.dump(tokenizer_json, f)
+    
+    def load_tokenizer(self, json_path):
+        with open(json_path) as tokenizer_file:
+            tokenizer_json = json.load(tokenizer_file)
+        tokenizer = tf.keras.preprocessing.text.tokenizer_from_json(tokenizer_json)
+        return tokenizer
 
     def convert_to_batch(self, input_tensor_train, target_tensor_train, batch_size):
         # Dataset slicer, each time according to the batch size it returns data slice
