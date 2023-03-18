@@ -1,16 +1,21 @@
 import yaml
-from lib.models.transformer import Transformer
+from models.transformer import Transformer, create_masks
+from models.losses import loss_function, accuracy_function
+import tensorflow as tf
+import os
+from loguru import logger
 
 class Model():
     def __init__(self, opts):
         self.opts = opts
+        self.model = None
 
         with open(self.opts.model_config) as f:
             self.model_config = yaml.safe_load(f)
 
     def get_model(self, inp_tokenizer, targ_tokenizer):
         if self.opts.model_type.lower() == 'transformer':
-            model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
+            self.model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
                                      d_model=self.model_config['model-parameters']['d-model'],
                                      dff=self.model_config['model-parameters']['dff'],
                                      num_heads=self.model_config['model-parameters']['n-heads'],
@@ -19,67 +24,95 @@ class Model():
                                      rate=self.model_config['model-parameters']['dropout'],
                                      input_vocab_size=len(inp_tokenizer.word_index)+1,
                                      target_vocab_size=len(targ_tokenizer.word_index)+1)
-        return model
+
+class CustomSchedule(tf.keras.optimizers.schedules.LearningRateSchedule):
+    def __init__(self, d_model, warmup_steps=4000):
+        super(CustomSchedule, self).__init__()
+
+        self.d_model = d_model
+        self.d_model = tf.cast(self.d_model, tf.float32)
+
+        self.warmup_steps = warmup_steps
+
+    def __call__(self, step):
+        step = tf.cast(step, tf.float32)
+        arg1 = tf.math.rsqrt(step)
+        arg2 = step * (self.warmup_steps ** -1.5)
+
+        return tf.math.rsqrt(self.d_model) * tf.math.minimum(arg1, arg2)
 
 class Trainer():
-    def __init__(self, model, input_tensor_train, target_tensor_train, 
-                inp_lang_train, targ_lang_train, num_layers, d_model,
-                batch_size, dff, dropout_rate,
-                epochs, num_heads, model_type):
-        self.model = model
-        self.epoch = 0
-        self.model_type = model_type
+    def __init__(self, model_loader, opts):
+        self.model_loader = model_loader
+        self.opts = opts
 
-        learning_rate = CustomSchedule(d_model)
-        self.optimizer = tf.keras.optimizers.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+        self.best_model_acc = 0
+
+        logger.info("Creating the experiment save path...")
+        self.exp_save_path = self.create_path()
+        logger.info(f"Save path: {self.exp_save_path}")
+
+        self.init_logger(os.path.join(self.exp_save_path, "train.log"))
+
+        self.learning_rate = CustomSchedule(self.model_loader.model_config['model-parameters']['d-model'])
+        self.optimizer = tf.keras.optimizers.Adam(self.learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
         self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none') 
-
-        RESULTS_PATH = "results"
-        WEIGHTS_ROOT_PATH = "transformer"
-        self.exp_name = f"exp_batch_size-{batch_size}_nlayers-{num_layers}_dmodel-{d_model}_nheads-{num_heads}_dff-{dff}_drop-{dropout_rate}"
-        self.CHECKPOINTS_PATH = os.path.join(RESULTS_PATH, WEIGHTS_ROOT_PATH, self.exp_name)
-
-        if not os.path.isdir(self.CHECKPOINTS_PATH):
-            os.makedirs(self.CHECKPOINTS_PATH)
         
-        train_log_name = "train_log.txt"
-        self.log_file = open(os.path.join(self.CHECKPOINTS_PATH, train_log_name), 'w')
-        current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-        self.log_file.write(f"({current_time})-Log file is initialized!\n")
-        
-        ckpt = tf.train.Checkpoint(transformer=self.model, optimizer=self.optimizer)
-        self.ckpt_manager = tf.train.CheckpointManager(ckpt, self.CHECKPOINTS_PATH, max_to_keep=5)
+        self.ckpt_manager_best, self.ckpt_manager_last, self.ckpt_manager_last_epoch  = self.init_checkpoint_manager(self.model_loader.model, self.optimizer)
 
-        logs_root_path = os.path.join(self.CHECKPOINTS_PATH, "logs", "gradient_tape")
+        self.train_board_writer, self.valid_board_writer = self.init_tensorboard()
+        
+        self.train_loss = tf.keras.metrics.Mean(name='train_loss')
+        self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
+
+    def init_tensorboard(self):
+        logs_root_path = os.path.join(self.exp_save_path, "logs", "gradient_tape")
         if not os.path.isdir(logs_root_path):
             os.makedirs(logs_root_path)
-
-        # Save the training configurations to a config file
-        save_configuration = open(os.path.join(self.CHECKPOINTS_PATH, 'config.cfg'), 'w', encoding='utf-8')
-        save_configuration.write("MAX_IN_LEN: " + str(input_tensor_train.shape[1]) + '\n' + \
-                                "MAX_TAR_LEN: " + str(target_tensor_train.shape[1]) + '\n' + \
-                                "IN_VOCAB_SIZE: " + str(len(inp_lang_train.word_index)) + '\n' + \
-                                "TAR_VOCAB_SIZE: " + str(len(targ_lang_train.word_index)) + '\n' + \
-                                "N_LAYERS: " + str(num_layers) + '\n' + \
-                                "D_MODEL: " + str(d_model) + '\n' + \
-                                "BATCH_SIZE: " + str(batch_size) + '\n' + \
-                                "DFF: " + str(dff) + '\n' + \
-                                "DROPOUT: " + str(dropout_rate) + '\n' + \
-                                "EPOCHS: " + str(epochs) + '\n' + \
-                                "MODEL_TYPE: " + str(self.model_type) + '\n' + \
-                                "NUM_HEADS: " + str(num_heads))
-        save_configuration.close()
 
         train_log_dir = os.path.join(logs_root_path, 'train')
         valid_log_dir = os.path.join(logs_root_path, 'valid')
 
         logger.info(f"Train log: {train_log_dir}")
         logger.info(f"Valid log: {valid_log_dir}")
-        self.train_summary_writer = tf.summary.create_file_writer(train_log_dir)
-        self.valid_summary_writer = tf.summary.create_file_writer(valid_log_dir)
+        train_summary_writer = tf.summary.create_file_writer(train_log_dir)
+        valid_summary_writer = tf.summary.create_file_writer(valid_log_dir)
+
+        return train_summary_writer, valid_summary_writer
+
+    def init_checkpoint_manager(self, model, optimizer):
+        ckpt = tf.train.Checkpoint(transformer=model, optimizer=optimizer)
+        self.ckpt_save_path_best = os.path.join(self.exp_save_path, 'ckpts', 'best')
+        self.ckpt_save_path_last = os.path.join(self.exp_save_path, 'ckpts', 'last')
+        self.ckpt_save_path_last_epoch = os.path.join(self.exp_save_path, 'ckpts', 'last-epoch')
+
+        if not os.path.exists(self.ckpt_save_path_best):
+            os.makedirs(self.ckpt_save_path_best)
+        if not os.path.exists(self.ckpt_save_path_last):
+            os.makedirs(self.ckpt_save_path_last)
+        if not os.path.exists(self.ckpt_save_path_last_epoch):
+            os.makedirs(self.ckpt_save_path_last_epoch)
+
+        ckpt_manager_best = tf.train.CheckpointManager(ckpt, self.ckpt_save_path_best, max_to_keep=1,  checkpoint_name='best')
+        ckpt_manager_last = tf.train.CheckpointManager(ckpt, self.ckpt_save_path_last, max_to_keep=1, checkpoint_name='last')
+        ckpt_manager_last_epoch = tf.train.CheckpointManager(ckpt, self.ckpt_save_path_last_epoch, max_to_keep=1, checkpoint_name='last-epoch')
+
+        return ckpt_manager_best, ckpt_manager_last, ckpt_manager_last_epoch
+
+    def init_logger(self, logger_name):
+        logger.add(logger_name)
+
+    def create_path(self):
+        self.save_root_path = self.opts.root_path
+        model_save_path = os.path.join(self.save_root_path, self.opts.model_type)
         
-        self.train_loss = tf.keras.metrics.Mean(name='train_loss')
-        self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
+        if os.path.exists(model_save_path):
+            self.exp_id = len(os.listdir(model_save_path)) + 1
+        else:
+            os.mkdir(os.path.join(self.save_root_path, self.opts.model_type))
+            self.exp_id = 1
+        exp_save_path = os.path.join(model_save_path, str(self.exp_id))
+        return exp_save_path
 
     # The @tf.function trace-compiles train_step into a TF graph for faster
     # execution. The function specializes to the precise shape of the argument
@@ -94,12 +127,11 @@ class Trainer():
         enc_padding_mask, combined_mask, dec_padding_mask = create_masks(inp, tar_inp)
 
         with tf.GradientTape() as tape:
-            
-            predictions, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
+            predictions, _ = self.model_loader.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
             loss = loss_function(tar_real, predictions, self.loss_object)
 
-        gradients = tape.gradient(loss, self.model.trainable_variables)
-        self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+        gradients = tape.gradient(loss, self.model_loader.model.trainable_variables)
+        self.optimizer.apply_gradients(zip(gradients, self.model_loader.model.trainable_variables))
 
         self.train_loss(loss)
         self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.cast(predictions, tf.int64)))
