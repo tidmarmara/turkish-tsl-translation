@@ -4,6 +4,7 @@ from unicode_tr import unicode_tr
 from loguru import logger
 import yaml
 import os
+import json
 
 class Dataset():
     def __init__(self, opts):
@@ -33,6 +34,9 @@ class Dataset():
             if data_name not in datasets.keys():
                 datasets[data_name] = {'raw-data': {}, 'tensor-data': {}, 'tokenizer': {}}
 
+            if data_name.lower() == 'path':
+                continue
+
             data_path = os.path.join(config['path'], config[data_name])
             inp_sents_raw, targ_sents_raw = self.load_dataset_raw(data_path)
             inp_sents_tensor, inp_tokenizer, targ_sents_tensor, targ_tokenizer = self.convert_to_tensors(inp_sents_raw, targ_sents_raw)
@@ -49,6 +53,11 @@ class Dataset():
             logger.info(f"({data_name.upper()}) Total number of sentences: {len(inp_sents_tensor)}\n")
         
         return datasets
+
+    def save_tokenizer(self, tokenizer, save_path):
+        tokenizer_json = tokenizer.to_json()
+        with open(save_path, 'w') as f:
+            json.dump(tokenizer_json, f)
 
     def convert_to_batch(self, input_tensor_train, target_tensor_train, batch_size):
         # Dataset slicer, each time according to the batch size it returns data slice
