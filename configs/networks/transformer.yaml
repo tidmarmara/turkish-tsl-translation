@@ -9,3 +9,6 @@ model-parameters:
   input-pos-encoding: 1000
   target-pos-encoding: 1000
 
+experiment-parameters:
+  root-path: "results"
+  
