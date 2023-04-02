@@ -1,5 +1,6 @@
 import tensorflow as tf
 from loguru import logger 
+from models.losses import loss_function
 
 class Encoder(tf.keras.Model):
     def __init__(self, vocab_size, embedding_dim, enc_units, batch_sz, n_layers, layer_type):
@@ -278,3 +279,74 @@ class Decoder(tf.keras.Model):
             elif self.layer_type.lower() == "gru" or self.layer_type.lower() == "bgru":
                 return x, state_h
 
+class RNN_Based(tf.keras.Model):
+    def __init__(self, units, n_layers, embedding_dim, layer_type, attention_type, batch_size, input_tokenizer, target_tokenizer, dataset):
+        super(RNN_Based, self).__init__()
+        self.layer_type = layer_type
+        self.dataset = dataset
+        self.batch_size = batch_size
+        self.inp_tokenizer = input_tokenizer
+        self.tar_tokenizer = target_tokenizer
+        self.attention_type = attention_type
+        self.units = units
+
+        self.encoder = Encoder(vocab_size=len(self.inp_tokenizer.word_index)+1, 
+                  embedding_dim=embedding_dim, 
+                  enc_units=units, 
+                  batch_sz=batch_size, 
+                  n_layers=n_layers, 
+                  layer_type=layer_type)
+
+        self.decoder = Decoder(vocab_size=len(self.tar_tokenizer.word_index)+1, 
+                        embedding_dim=embedding_dim, 
+                        dec_units=units, 
+                        batch_sz=batch_size, 
+                        n_layers=n_layers, 
+                        layer_type=layer_type, 
+                        attention_type=attention_type)
+    
+    def call(self, inp, targ):
+        enc_hidden = self.encoder.initialize_hidden_state()
+
+        if self.layer_type.lower() == "lstm" or self.layer_type.lower() == "blstm":
+            enc_output, enc_hidden_h, enc_hidden_c = self.encoder(inp, enc_hidden)
+            dec_hidden = [enc_hidden_h, enc_hidden_c]
+        elif self.layer_type.lower() == "gru" or self.layer_type.lower() == "bgru":
+            enc_output, enc_hidden_h = self.encoder(inp, enc_hidden)
+            dec_hidden = enc_hidden_h
+        
+        # First input is given manually to the model which is the start_token
+        dec_input = tf.expand_dims([self.tar_tokenizer.word_index[self.dataset.start_token]] * self.batch_size, 1)
+
+        # Save all the model outputs in a list
+        outputs = []
+
+        # Teacher forcing - feeding the target as the next input
+        # Here, we start from 1st index token due to feeding the start_token manually in the previous line
+        for t in range(1, targ.shape[1]):
+            # print("Token: ", t)
+            # print("TARG: ", targ.shape)
+            # passing enc_output to the decoder
+            if (self.attention_type.lower() == "luong") | (self.attention_type.lower() == "bahdanau"):
+                if self.layer_type.lower() == "gru" or self.layer_type.lower() == "bgru":
+                    predictions, dec_hidden, _ = self.decoder(dec_input, dec_hidden, enc_output)
+                elif self.layer_type.lower() == "lstm" or self.layer_type.lower() == "blstm":
+                    predictions, dec_hidden_h, dec_hidden_c, _ = self.decoder(dec_input, dec_hidden, enc_output)
+                    dec_hidden = [dec_hidden_h, dec_hidden_c]
+            else:
+                if self.layer_type.lower() == "gru" or self.layer_type.lower() == "bgru":
+                    predictions, dec_hidden = self.decoder(dec_input, dec_hidden, enc_output)
+                elif self.layer_type.lower() == "lstm" or self.layer_type.lower() == "blstm":
+                    predictions, dec_hidden_h, dec_hidden_c = self.decoder(dec_input, dec_hidden, enc_output)
+                    dec_hidden = [dec_hidden_h, dec_hidden_c]
+            
+            # using teacher forcing
+            dec_input = tf.expand_dims(targ[:, t], 1)
+            outputs.append(predictions)
+            # print("predictions: ", predictions.shape)
+        
+        # Change the order of tensor
+        outputs = tf.convert_to_tensor(outputs, dtype=tf.float32)
+        outputs = tf.transpose(outputs, perm=[1, 0, 2])
+
+        return outputs
