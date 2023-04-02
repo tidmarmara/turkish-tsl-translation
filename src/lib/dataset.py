@@ -9,12 +9,11 @@ import json
 class Dataset():
     def __init__(self, opts):
         self.opts = opts
-        self.token_type = opts.token_type.lower()
 
-        if self.token_type == 'word':
+        if self.opts.token_type.lower() == 'word':
             self.start_token = '<start>'
             self.end_token = '<end>'
-        elif self.token_type == 'char':
+        elif self.opts.token_type.lower() == 'char':
             self.start_token = '<'
             self.end_token = '>'
 
@@ -95,10 +94,10 @@ class Dataset():
         return tur_data, tid_data
         
     def convert_to_tensors(self, inp_sents_raw, targ_sents_raw):
-        if self.token_type == 'word':
+        if self.opts.token_type.lower() == 'word':
             input_tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='')
             target_tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='')
-        elif self.token_type == 'char':
+        elif self.opts.token_type.lower() == 'char':
             input_tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='', char_level=True)
             target_tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='', char_level=True)
 
