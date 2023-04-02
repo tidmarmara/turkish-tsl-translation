@@ -1,0 +1,11 @@
+model-parameters:
+  embedding-dim: 300
+  units: 1024
+  layer-type: "blstm"
+  n-layers: 1
+  attention-type: "luong"
+
+experiment-parameters:
+  root-path: "results"
+  optimizer: "adam"
+  model-type: "rnn-based"
