@@ -1,4 +1,3 @@
-
 model-parameters:
   n-layers: 1
   d-model: 128
@@ -10,4 +9,5 @@ model-parameters:
 
 experiment-parameters:
   root-path: "results"
+  model-type: "transformer"
   
