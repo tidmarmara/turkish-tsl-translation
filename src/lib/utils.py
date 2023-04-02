@@ -1,9 +1,12 @@
 import yaml
 from models.transformer import Transformer, create_masks
-from models.losses import loss_function, accuracy_function
+from models.rnn_based import RNN_Based
+from models.losses import loss_function,accuracy_function
 import tensorflow as tf
 import os
 from loguru import logger
+import numpy as np
+from scipy.special import softmax
 
 class Model():
     def __init__(self, opts, dataset):
@@ -12,9 +15,12 @@ class Model():
 
         with open(self.opts.model_config) as f:
             self.model_config = yaml.safe_load(f)
+        
+        self.model_type = self.model_config['experiment-parameters']['model-type'].lower()
 
     def get_model(self, inp_tokenizer, targ_tokenizer):
-        if self.opts.model_type.lower() == 'transformer':
+        
+        if self.model_type == 'transformer':
             model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
                                      d_model=self.model_config['model-parameters']['d-model'],
                                      dff=self.model_config['model-parameters']['dff'],
@@ -24,18 +30,134 @@ class Model():
                                      rate=self.model_config['model-parameters']['dropout'],
                                      input_vocab_size=len(inp_tokenizer.word_index)+1,
                                      target_vocab_size=len(targ_tokenizer.word_index)+1)
+        elif self.model_type == 'rnn-based':
+            model = RNN_Based(units=self.model_config['model-parameters']['units'], 
+                              n_layers=self.model_config['model-parameters']['n-layers'], 
+                              embedding_dim=self.model_config['model-parameters']['embedding-dim'], 
+                              layer_type=self.model_config['model-parameters']['layer-type'], 
+                              attention_type=self.model_config['model-parameters']['attention-type'], 
+                              batch_size=self.opts.batch_size, 
+                              input_tokenizer=inp_tokenizer, 
+                              target_tokenizer=targ_tokenizer, 
+                              dataset=self.dataset)
+            
         return model
 
     def load_model(self, model, checkpoint_path):
-        learning_rate = CustomSchedule(self.model_config['model-parameters']['d-model'])
-        optimizer = tf.keras.optimizers.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+        if self.model_type == "transformer":
+            learning_rate = CustomSchedule(self.model_config['model-parameters']['d-model'])
+            optimizer = tf.keras.optimizers.Adam(learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+        elif self.model_type == "rnn-based":
+            optimizer = tf.keras.optimizers.Adam()
 
-        ckpt = tf.train.Checkpoint(transformer=model, optimizer=optimizer)
+        ckpt = tf.train.Checkpoint(model=model, optimizer=optimizer)
 
         # save_path = ckpt.save(checkpoint_path)
         ckpt.restore(tf.train.latest_checkpoint(checkpoint_path))
 
         return model
+
+    def evaluate(self, inp_tokenizer, targ_tokenizer, sentence, model, max_sent_len):
+        attention_plot = np.zeros((max_sent_len, max_sent_len))
+        sentence = self.dataset.preprocess_sentence(sentence)
+
+        layer_type = self.model_config['model-parameters']['layer-type']
+        attention_type = self.model_config['model-parameters']['attention-type']
+        token_type =  self.opts.token_type.lower()
+
+        # inputs = inp_tokenizer.texts_to_sequences([sentence])
+        # inputs = tf.keras.preprocessing.sequence.pad_sequences(inputs, padding='post')
+
+        # inputs = []
+        # for i in sentence.split(' '):
+        #     try:
+        #         inputs.append(self.p.inp_word_index[i])
+        #     except:
+        #         continue
+        
+        # inputs = inp_tokenizer.texts_to_sequences([sentence])
+        # decoded = inp_tokenizer.sequences_to_texts(inputs)
+
+        # inputs = tf.keras.preprocessing.sequence.pad_sequences(inputs,
+        #                                                     maxlen=max_sent_len,
+        #                                                     padding='post')
+        
+        # decoded = inp_tokenizer.sequences_to_texts(inputs)
+        # inputs = tf.convert_to_tensor(inputs)
+
+        if token_type == 'word':
+            inputs = [inp_tokenizer.word_index[i] for i in sentence.split(' ')]
+        elif token_type == 'char':
+            inputs = [inp_tokenizer.word_index[ch] for ch in sentence]
+
+        inputs = tf.keras.preprocessing.sequence.pad_sequences([inputs],
+                                                            maxlen=max_sent_len,
+                                                            padding='post')
+        inputs = tf.convert_to_tensor(inputs)
+        
+        result = ''
+        if layer_type.lower() == "gru":
+            hidden = [tf.zeros((1, model.units))]
+            enc_out, enc_hidden = model.encoder(inputs, hidden)
+            dec_hidden = enc_hidden
+        elif layer_type.lower() == "bgru":
+            hidden = [tf.zeros((1, model.units)) for i in range(2)]
+            enc_out, enc_hidden = model.encoder(inputs, hidden)
+            dec_hidden = enc_hidden
+        elif layer_type.lower() == "blstm":
+            hidden = [tf.zeros((1, model.units)) for i in range(4)]
+            enc_out, enc_hidden_h, enc_hidden_c = model.encoder(inputs, hidden)
+            dec_hidden = [enc_hidden_h, enc_hidden_c]
+        elif layer_type.lower() == "lstm":
+            hidden = [tf.zeros((1, model.units)) for i in range(2)]
+            enc_out, enc_hidden_h, enc_hidden_c = model.encoder(inputs, hidden)
+            dec_hidden = [enc_hidden_h, enc_hidden_c]
+
+        dec_input = tf.expand_dims([targ_tokenizer.word_index[self.dataset.start_token]], 0)
+        sentence_score = []
+        for t in range(max_sent_len):
+            if layer_type.lower() == "gru" or layer_type.lower() == "bgru":
+                if (attention_type == "bahdanau") or (attention_type == "luong"):
+                    predictions, dec_hidden, attention_weights = model.decoder(dec_input, dec_hidden, enc_out)
+                    # storing the attention weights to plot later on
+                    attention_weights = tf.reshape(attention_weights, (-1, ))
+                    attention_plot[t] = attention_weights.numpy()
+                else:
+                    predictions, dec_hidden = model.decoder(dec_input, dec_hidden, enc_out)
+            elif layer_type.lower() == "lstm" or layer_type.lower() == "blstm":
+                if (attention_type == "bahdanau") or (attention_type == "luong"):
+                    predictions, dec_hidden_h, dec_hidden_c, attention_weights = model.decoder(dec_input, dec_hidden, enc_out)
+                    # storing the attention weights to plot later on
+                    attention_weights = tf.reshape(attention_weights, (-1, ))
+                    attention_plot[t] = attention_weights.numpy()
+                else:
+                    predictions, dec_hidden_h, dec_hidden_c = model.decoder(dec_input, dec_hidden, enc_out)
+                dec_hidden = [dec_hidden_h, dec_hidden_c]
+
+            predicted_id = tf.argmax(predictions[0]).numpy()
+            
+            #Added this to find the sentence word scores
+            prob_dist = softmax(predictions[0])
+            sentence_score.append(np.max(prob_dist))
+
+            if token_type == 'word':
+                result += targ_tokenizer.index_word[predicted_id] + ' '
+            elif token_type == 'char':
+                result += targ_tokenizer.index_word[predicted_id]
+            if len(result.split()) > max_sent_len:
+                break
+
+            if targ_tokenizer.index_word[predicted_id] == self.dataset.end_token:
+                # if self.calc_score(sentence_score[:-1], 0.7):
+                #     print("---> Confident sent!")
+                # else:
+                #     print("Confidence score of the result is low!")
+                return result, sentence, attention_plot
+
+            # the predicted ID is fed back into the model
+            dec_input = tf.expand_dims([predicted_id], 0)
+        
+        return result, sentence, attention_plot
 
     def predict_sentence(self, model, sentence, inp_lang_train, targ_lang_train, max_target_len):
         sentence = self.dataset.preprocess_sentence(sentence)
@@ -70,9 +192,9 @@ class Model():
                 break
 
         # output.shape (1, tokens)
-        if self.opts.token_type == 'word':
+        if self.opts.token_type.lower() == 'word':
             text = targ_lang_train.sequences_to_texts([output.numpy()[0]])[0]  # shape: ()
-        elif self.opts.token_type == 'char':
+        elif self.opts.token_type.lower() == 'char':
             text = ''
             for value in output.numpy()[0]:
                 if value != 0:
@@ -109,11 +231,15 @@ class Trainer():
         logger.info(f"Save path: {self.exp_save_path}")
 
         self.init_logger(os.path.join(self.exp_save_path, "train.log"))
-
-        self.learning_rate = CustomSchedule(self.model_loader.model_config['model-parameters']['d-model'])
-        self.optimizer = tf.keras.optimizers.Adam(self.learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
         self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none') 
-        
+
+        if self.model_loader.model_type.lower() == "transformer":
+            self.learning_rate = CustomSchedule(self.model_loader.model_config['model-parameters']['d-model'])
+            self.optimizer = tf.keras.optimizers.Adam(self.learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
+            
+        elif self.model_loader.model_type.lower() == "rnn-based":
+            self.optimizer = tf.keras.optimizers.Adam()
+
         self.ckpt_manager_best, self.ckpt_manager_last, self.ckpt_manager_last_epoch  = self.init_checkpoint_manager(self.model, self.optimizer)
 
         self.train_board_writer, self.valid_board_writer = self.init_tensorboard()
@@ -148,9 +274,9 @@ class Trainer():
         if not os.path.exists(self.ckpt_save_path_last_epoch):
             os.makedirs(self.ckpt_save_path_last_epoch)
 
-        ckpt_best = tf.train.Checkpoint(transformer=model, optimizer=optimizer)
-        ckpt_last = tf.train.Checkpoint(transformer=model, optimizer=optimizer)
-        ckpt_last_epoch = tf.train.Checkpoint(transformer=model, optimizer=optimizer)
+        ckpt_best = tf.train.Checkpoint(model=model, optimizer=optimizer)
+        ckpt_last = tf.train.Checkpoint(model=model, optimizer=optimizer)
+        ckpt_last_epoch = tf.train.Checkpoint(model=model, optimizer=optimizer)
 
         ckpt_manager_best = tf.train.CheckpointManager(ckpt_best, self.ckpt_save_path_best, max_to_keep=1,  checkpoint_name='best')
         ckpt_manager_last = tf.train.CheckpointManager(ckpt_last, self.ckpt_save_path_last, max_to_keep=1, checkpoint_name='last')
@@ -163,34 +289,38 @@ class Trainer():
 
     def create_path(self):
         self.save_root_path = self.opts.root_path
-        model_save_path = os.path.join(self.save_root_path, self.opts.model_type)
+        model_save_path = os.path.join(self.save_root_path, self.model_loader.model_type)
         
         if os.path.exists(model_save_path):
             self.exp_id = len(os.listdir(model_save_path)) + 1
         else:
-            os.mkdir(os.path.join(self.save_root_path, self.opts.model_type))
+            os.mkdir(os.path.join(self.save_root_path, self.model_loader.model_type))
             self.exp_id = 1
         exp_save_path = os.path.join(model_save_path, str(self.exp_id))
         return exp_save_path
 
-    # The @tf.function trace-compiles train_step into a TF graph for faster
-    # execution. The function specializes to the precise shape of the argument
-    # tensors. To avoid re-tracing due to the variable sequence lengths or variable
-    # batch sizes (the last batch is smaller), use input_signature to specify
-    # more generic shapes.
+    # The @tf.function trace-compiles train_step into a TF graph for faster execution. 
     @tf.function
     def train_step(self, inp, tar):
         tar_inp = tar[:, :-1]
         tar_real = tar[:, 1:]
 
-        enc_padding_mask, combined_mask, dec_padding_mask = create_masks(inp, tar_inp)
+        if self.model_loader.model_type.lower() == "transformer":
+            enc_padding_mask, combined_mask, dec_padding_mask = create_masks(inp, tar_inp)
 
         with tf.GradientTape() as tape:
-            predictions, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
-            loss = loss_function(tar_real, predictions, self.loss_object)
-
-        gradients = tape.gradient(loss, self.model.trainable_variables)
-        self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+            if self.model_loader.model_type.lower() == "transformer":
+                outputs, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
+            elif self.model_loader.model_type.lower() == "rnn-based":
+                outputs = self.model(inp, tar)
+                print("OUTPUT: ", outputs.shape)
+            
+            loss = loss_function(tar_real, outputs, self.loss_object)
 
         self.train_loss(loss)
-        self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.cast(predictions, tf.int64)))
+        self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
+        gradients = tape.gradient(loss, self.model.trainable_variables)
+        self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+    
+        
+
