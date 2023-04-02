@@ -7,6 +7,10 @@ from loguru import logger
 import tensorflow as tf
 import os
 
+os.environ["TF_GPU_ALLOCATOR"]="cuda_malloc_async"
+
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+
 def main(opts):
     # Create the dataloader
     dataLoader = Dataset(opts)
@@ -40,18 +44,24 @@ def main(opts):
 
         trainer.train_loss.reset_states()
         trainer.train_accuracy.reset_states()
-        trainer.epoch = epoch
 
         for (batch, (inp, tar)) in enumerate(train_data):
-            # print(inp)
-            trainer.train_step(inp, tar)
-        
+            # print("INP AND TAR SHAPES: ", inp.shape, tar.shape)
+            trainer.train_step(inp, tar)       
+            # print("A")        
+
             #ter, wer, chrf, bleu1, bleu4 = evaluate_model(input_text_train, target_text_train, inp_lang_train, targ_lang_train, process, trainer, is_valid=False)
             if batch % 100 == 0:
                 batch_loss, batch_accuracy = trainer.train_loss.result(), trainer.train_accuracy.result()
                 logger.info(f'Epoch->{epoch + 1}\tBatch->{batch}\tLoss->{batch_loss:.4f}\tAccuracy->{batch_accuracy:.4f}')
                 logger.success("Saving last model")
                 trainer.ckpt_manager_last.save()
+
+                print("INPUT: ", datasets['train']['raw-data']['input'][0])
+
+                # pred, _ = modelLoader.predict_sentence(model, datasets['train']['raw-data']['input'][0], datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'], 100)
+                pred, sentence, _ = modelLoader.evaluate(datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'], datasets['train']['raw-data']['input'][0], trainer.model, 14)
+                print("PRED: ", pred)
 
                 if batch_accuracy > trainer.best_model_acc:
                     trainer.ckpt_manager_best.save()
