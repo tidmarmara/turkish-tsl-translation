@@ -288,13 +288,12 @@ class Trainer():
         logger.add(logger_name)
 
     def create_path(self):
-        self.save_root_path = self.opts.root_path
-        model_save_path = os.path.join(self.save_root_path, self.model_loader.model_type)
+        model_save_path = os.path.join(self.opts.root_path, self.model_loader.model_type)
         
         if os.path.exists(model_save_path):
             self.exp_id = len(os.listdir(model_save_path)) + 1
         else:
-            os.mkdir(os.path.join(self.save_root_path, self.model_loader.model_type))
+            os.makedirs(model_save_path)
             self.exp_id = 1
         exp_save_path = os.path.join(model_save_path, str(self.exp_id))
         return exp_save_path
