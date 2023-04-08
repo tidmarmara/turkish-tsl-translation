@@ -8,3 +8,4 @@ tqdm
 sacrebleu
 jiwer
 evaluate
+scipy
