@@ -21,6 +21,7 @@ class Model():
     def get_model(self, inp_tokenizer, targ_tokenizer):
         
         if self.model_type == 'transformer':
+            logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
             model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
                                      d_model=self.model_config['model-parameters']['d-model'],
                                      dff=self.model_config['model-parameters']['dff'],
@@ -31,6 +32,7 @@ class Model():
                                      input_vocab_size=len(inp_tokenizer.word_index)+1,
                                      target_vocab_size=len(targ_tokenizer.word_index)+1)
         elif self.model_type == 'rnn-based':
+            logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
             model = RNN_Based(units=self.model_config['model-parameters']['units'], 
                               n_layers=self.model_config['model-parameters']['n-layers'], 
                               embedding_dim=self.model_config['model-parameters']['embedding-dim'], 
@@ -246,6 +248,8 @@ class Trainer():
         
         self.train_loss = tf.keras.metrics.Mean(name='train_loss')
         self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
+        self.valid_loss = tf.keras.metrics.Mean(name='valid_loss')
+        self.valid_accuracy = tf.keras.metrics.Mean(name='valid_accuracy')
 
     def init_tensorboard(self):
         logs_root_path = os.path.join(self.exp_save_path, "logs", "gradient_tape")
@@ -299,9 +303,9 @@ class Trainer():
         exp_save_path = os.path.join(model_save_path, str(self.exp_id))
         return exp_save_path
 
-    # The @tf.function trace-compiles train_step into a TF graph for faster execution. 
+    # The @tf.function trace-compiles run into a TF graph for faster execution. 
     @tf.function
-    def train_step(self, inp, tar):
+    def run(self, inp, tar, phase='train'):
         tar_inp = tar[:, :-1]
         tar_real = tar[:, 1:]
 
@@ -313,14 +317,16 @@ class Trainer():
                 outputs, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
             elif self.model_loader.model_type.lower() == "rnn-based":
                 outputs = self.model(inp, tar)
-                print("OUTPUT: ", outputs.shape)
-            
             loss = loss_function(tar_real, outputs, self.loss_object)
 
-        self.train_loss(loss)
-        self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
-        gradients = tape.gradient(loss, self.model.trainable_variables)
-        self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
-    
+        if phase.lower() == 'train':
+            self.train_loss(loss)
+            self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
+
+            gradients = tape.gradient(loss, self.model.trainable_variables)
+            self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+        elif phase.lower() == 'valid':
+            self.valid_loss(loss)
+            self.valid_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
         
 
