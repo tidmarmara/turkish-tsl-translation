@@ -16,7 +16,7 @@ def main(opts):
 
     model_type = model_creator.model_config['experiment-parameters']['model-type'].lower()
     
-    sentence = "film nasıldı?"
+    sentence = "film nasıldı "
 
     if model_type == "rnn-based":
         pred, sentence, _ = model_creator.evaluate(input_tokenizer, target_tokenizer, sentence, model, 14)
