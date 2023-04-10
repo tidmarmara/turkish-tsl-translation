@@ -1,9 +1,9 @@
 model-parameters:
   n-layers: 1
-  d-model: 64
-  dff: 64
+  d-model: 256
+  dff: 256
   dropout: 0.1
-  n-heads: 2
+  n-heads: 4
   input-pos-encoding: 1000
   target-pos-encoding: 1000
 
