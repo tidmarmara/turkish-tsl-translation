@@ -4,6 +4,8 @@ from loguru import logger
 from utils import Model
 from dataset import Dataset
 import os
+import logging
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
 
 def main(opts):
     dataset = Dataset(opts)
@@ -12,11 +14,11 @@ def main(opts):
 
     model_creator = Model(opts, dataset)
     model = model_creator.get_model(input_tokenizer, target_tokenizer)
-    model = model_creator.load_model(model, os.path.join(opts.exp_path, 'ckpts', 'best'))
+    model = model_creator.load_model(model, os.path.join(opts.exp_path, 'ckpts', 'last'))
 
     model_type = model_creator.model_config['experiment-parameters']['model-type'].lower()
     
-    sentence = "film nasıldı?"
+    sentence = "film nasıldı "
 
     if model_type == "rnn-based":
         pred, sentence, _ = model_creator.evaluate(input_tokenizer, target_tokenizer, sentence, model, 14)

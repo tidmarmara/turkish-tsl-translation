@@ -2,4 +2,4 @@ tid-venv/
 results/
 *.pyc
 launch.json
-__pycache__
+__pycache__/

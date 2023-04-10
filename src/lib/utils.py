@@ -7,6 +7,10 @@ import os
 from loguru import logger
 import numpy as np
 from scipy.special import softmax
+from tqdm import tqdm
+import evaluate
+from nltk.translate.bleu_score import sentence_bleu
+import time
 
 class Model():
     def __init__(self, opts, dataset):
@@ -21,6 +25,7 @@ class Model():
     def get_model(self, inp_tokenizer, targ_tokenizer):
         
         if self.model_type == 'transformer':
+            logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
             model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
                                      d_model=self.model_config['model-parameters']['d-model'],
                                      dff=self.model_config['model-parameters']['dff'],
@@ -31,6 +36,7 @@ class Model():
                                      input_vocab_size=len(inp_tokenizer.word_index)+1,
                                      target_vocab_size=len(targ_tokenizer.word_index)+1)
         elif self.model_type == 'rnn-based':
+            logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
             model = RNN_Based(units=self.model_config['model-parameters']['units'], 
                               n_layers=self.model_config['model-parameters']['n-layers'], 
                               embedding_dim=self.model_config['model-parameters']['embedding-dim'], 
@@ -64,26 +70,6 @@ class Model():
         layer_type = self.model_config['model-parameters']['layer-type']
         attention_type = self.model_config['model-parameters']['attention-type']
         token_type =  self.opts.token_type.lower()
-
-        # inputs = inp_tokenizer.texts_to_sequences([sentence])
-        # inputs = tf.keras.preprocessing.sequence.pad_sequences(inputs, padding='post')
-
-        # inputs = []
-        # for i in sentence.split(' '):
-        #     try:
-        #         inputs.append(self.p.inp_word_index[i])
-        #     except:
-        #         continue
-        
-        # inputs = inp_tokenizer.texts_to_sequences([sentence])
-        # decoded = inp_tokenizer.sequences_to_texts(inputs)
-
-        # inputs = tf.keras.preprocessing.sequence.pad_sequences(inputs,
-        #                                                     maxlen=max_sent_len,
-        #                                                     padding='post')
-        
-        # decoded = inp_tokenizer.sequences_to_texts(inputs)
-        # inputs = tf.convert_to_tensor(inputs)
 
         if token_type == 'word':
             inputs = [inp_tokenizer.word_index[i] for i in sentence.split(' ')]
@@ -180,7 +166,6 @@ class Model():
 
             # select the last word from the seq_len dimension
             predictions = predictions[:, -1:, :]  # (batch_size, 1, vocab_size)
-
             predicted_id = tf.argmax(predictions, axis=-1)
 
             # concatentate the predicted_id to the output which is given to the decoder
@@ -246,6 +231,8 @@ class Trainer():
         
         self.train_loss = tf.keras.metrics.Mean(name='train_loss')
         self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
+        self.valid_loss = tf.keras.metrics.Mean(name='valid_loss')
+        self.valid_accuracy = tf.keras.metrics.Mean(name='valid_accuracy')
 
     def init_tensorboard(self):
         logs_root_path = os.path.join(self.exp_save_path, "logs", "gradient_tape")
@@ -298,9 +285,9 @@ class Trainer():
         exp_save_path = os.path.join(model_save_path, str(self.exp_id))
         return exp_save_path
 
-    # The @tf.function trace-compiles train_step into a TF graph for faster execution. 
+    # The @tf.function trace-compiles run into a TF graph for faster execution. 
     @tf.function
-    def train_step(self, inp, tar):
+    def run(self, inp, tar, phase='train'):
         tar_inp = tar[:, :-1]
         tar_real = tar[:, 1:]
 
@@ -312,14 +299,78 @@ class Trainer():
                 outputs, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
             elif self.model_loader.model_type.lower() == "rnn-based":
                 outputs = self.model(inp, tar)
-                print("OUTPUT: ", outputs.shape)
-            
             loss = loss_function(tar_real, outputs, self.loss_object)
 
-        self.train_loss(loss)
-        self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
-        gradients = tape.gradient(loss, self.model.trainable_variables)
-        self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
-    
+        if phase.lower() == 'train':
+            self.train_loss(loss)
+            self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
+
+            gradients = tape.gradient(loss, self.model.trainable_variables)
+            self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
+        elif phase.lower() == 'valid':
+            self.valid_loss(loss)
+            self.valid_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
         
 
+class Evaluator():
+    def __init__(self, model, dataset, model_loader) -> None:
+        self.model = model
+        self.dataset = dataset
+        self.model_loader = model_loader
+
+    def eval(self, input_texts, target_texts, input_tokenizer, target_tokenizer, max_seq_len):
+        model_type = self.model_loader.model_config['experiment-parameters']['model-type'].lower()
+        model_scores = {'bleu1':0, 'bleu4':0, 'ter':0, 'wer':0, 'chrf':0, 'avg-time':0}
+
+        ter = evaluate.load("ter")
+        wer = evaluate.load("wer")
+        chrf = evaluate.load("chrf")
+
+        logger.info("Evaluation has started...")
+        for i in tqdm(range(len(input_texts))):
+            input_sentence = input_texts[i]
+            target_text = target_texts[i]
+
+            input_sentence = self.dataset.exclude_start_end_tokens(input_sentence, self.dataset.start_token, self.dataset.end_token)
+            target_text = self.dataset.exclude_start_end_tokens(target_text, self.dataset.start_token, self.dataset.end_token)
+
+            # logger.info(f"Sentence: {input_text[i]}")
+            t1 = time.time()
+            if model_type == "rnn-based":
+                predicted_sentence, input_sentence, _ = self.model_loader.evaluate(input_tokenizer, target_tokenizer, input_sentence, self.model, max_seq_len)
+            elif model_type == "transformer":
+                predicted_sentence, _ = self.model_loader.predict_sentence(self.model, input_sentence, input_tokenizer, target_tokenizer, max_seq_len)
+            t2 = time.time()
+            model_scores['avg-time'] += (t2-t1)
+
+            # Post-process model output
+            predicted_sentence = self.dataset.exclude_start_end_tokens(predicted_sentence, self.dataset.start_token, self.dataset.end_token)
+
+            # logger.info(f"Input: {input_sentence}")
+            # logger.info(f"Target: {target_text}")
+            # logger.info(f"Prediction: {predicted_sentence}")
+            # logger.info("\n")
+
+            # Find model scores
+            results_ter = ter.compute(predictions=[predicted_sentence], references=[target_text], case_sensitive=False)
+            results_wer = wer.compute(predictions=[predicted_sentence], references=[target_text])
+            results_chrf = chrf.compute(predictions=[predicted_sentence], references=[target_text])
+            results_nltk_bleu4 = sentence_bleu([target_text.split()], predicted_sentence.split(), weights=(0.25,0.25,0.25,0.25))
+            results_nltk_bleu1 = sentence_bleu([target_text.split()], predicted_sentence.split(), weights=(1,0,0,0))
+
+            model_scores['ter'] += results_ter['score']
+            model_scores['wer'] += results_wer
+            model_scores['chrf'] += results_chrf['score']
+            model_scores['bleu1'] += results_nltk_bleu1
+            model_scores['bleu4'] += results_nltk_bleu4
+
+        logger.info("Evaluation is finished!")
+        model_scores['ter'] /= (i+1)
+        model_scores['wer'] /= (i+1)
+        model_scores['chrf'] /= (i+1)
+        model_scores['bleu1'] /= (i+1)
+        model_scores['bleu4'] /= (i+1)
+        model_scores['avg-time'] /= (i+1)
+        
+        return model_scores
+        

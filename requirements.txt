@@ -9,3 +9,4 @@ sacrebleu
 jiwer
 evaluate
 scipy
+nltk
