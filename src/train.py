@@ -6,8 +6,8 @@ import time
 from loguru import logger
 import tensorflow as tf
 import os
-
-os.environ["TF_GPU_ALLOCATOR"]="cuda_malloc_async"
+import logging
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
 
 print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
@@ -23,9 +23,6 @@ def main(opts):
 
     # Convert the validation data tensors to batches
     valid_data = dataLoader.convert_to_batch(datasets['valid']['tensor-data']['input'], datasets['valid']['tensor-data']['target'], opts.batch_size)
-
-    # Convert the test data tensors to batches
-    test_data = dataLoader.convert_to_batch(datasets['test']['tensor-data']['input'], datasets['test']['tensor-data']['target'], opts.batch_size)
     
     # Load the model
     modelLoader = Model(opts, dataLoader)
@@ -58,10 +55,10 @@ def main(opts):
                 # logger.success("Saving last model")
                 trainer.ckpt_manager_last.save()
 
-                print("INPUT: ", datasets['train']['raw-data']['input'][0])
+                # print("INPUT: ", datasets['train']['raw-data']['input'][0])
                 # pred, _ = modelLoader.predict_sentence(model, datasets['train']['raw-data']['input'][0], datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'], 100)
-                pred, sentence, _ = modelLoader.evaluate(datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'], datasets['train']['raw-data']['input'][0], trainer.model, 14)
-                print("PRED: ", pred)
+                # pred, sentence, _ = modelLoader.evaluate(datasets['train']['tokenizer']['input'], datasets['train']['tokenizer']['target'], datasets['train']['raw-data']['input'][0], trainer.model, 14)
+                # print("PRED: ", pred)
 
             with trainer.train_board_writer.as_default():
                 tf.summary.scalar('loss', trainer.train_loss.result(), step=epoch)
