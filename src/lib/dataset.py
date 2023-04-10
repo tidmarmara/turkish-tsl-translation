@@ -24,6 +24,13 @@ class Dataset():
         sent = sent.strip()
         return sent
     
+    def exclude_start_end_tokens(self, sentence, start_token, end_token):
+        if start_token in sentence:
+            sentence = sentence[len(start_token):]
+        if end_token in sentence:
+            sentence = sentence[:-len(end_token)]
+        return sentence.strip()
+
     def create_dataset(self):
         with open(self.opts.data_path) as f:
             config = yaml.safe_load(f)
