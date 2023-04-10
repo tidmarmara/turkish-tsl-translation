@@ -12,21 +12,18 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             // // RNN-BASED TRAIN
-            "args": ["--model-config", "configs\\networks\\rnn-based.yaml", "--token-type", "char", "--batch-size", "4"]
+            // "args": ["--model-config", "configs\\networks\\rnn-based.yaml", "--token-type", "char", "--batch-size", "4"]
             
-            // RNN-BASED TEST
-            // "args": ["--inp-tokenizer", ".\\results\\rnn-based\\37\\inp_tokenizer.json", 
-            //         "--targ-tokenizer", ".\\results\\rnn-based\\37\\targ_tokenizer.json", 
-            //         "--ckpt-path", ".\\results\\rnn-based\\37\\ckpts\\best\\", 
-            //         "--model-type", "rnn-based",
-            //         "--model-config", "configs\\networks\\rnn-based.yaml"]
+            // RNN-BASED TEST and EVAL
+            // "args": ["--exp-path", "results/rnn-based/1", 
+            //         "--model-config", "configs/networks/rnn-based.yaml"]
             
             // TRANSFORMER TRAIN
             // "args": ["--model-config", "configs\\networks\\transformer.yaml", "--token-type", "word", "--model-type", "transformer"]
             
-            // TRANSFORMER TEST
-            // "args": ["--inp-tokenizer", "results\\transformer\\4\\inp_tokenizer.json", "--targ-tokenizer", "results\\transformer\\4\\targ_tokenizer.json",
-            //          "--model-config", "configs\\networks\\transformer.yaml", "--model-type", "transformer", "--ckpt-path", "results\\transformer\\4\\ckpts\\last"]
+            // TRANSFORMER TEST and EVAL
+            "args": ["--model-config", "configs/networks/transformer.yaml", "--exp-path", "results/transformer/7"]
+
         }
     ]
 }
