@@ -80,6 +80,7 @@ class Dataset():
         return dataset_batched
 
     def load_dataset_raw(self, path):
+        logger.info(f"Reading from {path}")
         lines = open(path, "r", encoding='UTF-8').readlines()
 
         tur_data = []
