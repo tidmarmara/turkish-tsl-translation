@@ -1,4 +1,3 @@
-import _init_paths
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -31,7 +30,7 @@ def create_word_freq_dict(dataset):
                     word_freq_dict[token] = 1
     return word_freq_dict
 
-def stratified_split(dataset, val_size=0.2, test_size=0.2, random_state=None, num_clusters=5):
+def stratified_split(dataset, val_size=0.1, test_size=0.1, random_state=None, num_clusters=5):
     word_freq_dict = create_word_freq_dict(dataset)
     dataset['avg_word_freq'] = dataset['input'].apply(compute_avg_word_freq, args=(word_freq_dict,))
 
@@ -45,10 +44,39 @@ def stratified_split(dataset, val_size=0.2, test_size=0.2, random_state=None, nu
 
     return train_data.drop(columns=['avg_word_freq', 'cluster']), val_data.drop(columns=['avg_word_freq', 'cluster']), test_data.drop(columns=['avg_word_freq', 'cluster'])
 
-dataset_file_path = 'dataset/whole-dataset.txt'
+def create_vocabulary(data):
+    vocabulary = set()
+    for index, row in data.iterrows():
+        for sentence in [row['input'], row['target']]:
+            for token in sentence.split():
+                vocabulary.add(token)
+    return vocabulary
+
+def save_splits_to_files(train_data, val_data, test_data, base_filename):
+    for split, data in [('train', train_data), ('val', val_data), ('test', test_data)]:
+        with open(f"{base_filename}_{split}.txt", "w", encoding="utf-8") as f:
+            for index, row in data.iterrows():
+                f.write(f"{row['input']}\t{row['target']}\n")
+
+def filter_oov_sentences(data, vocabulary):
+    def has_no_oov_tokens(sentence, vocabulary):
+        tokens = sentence.split()
+        return all(token in vocabulary for token in tokens)
+
+    oov_condition = data['input'].apply(has_no_oov_tokens, args=(vocabulary,)) & data['target'].apply(has_no_oov_tokens, args=(vocabulary,))
+    return data[oov_condition]
+
+# ... [load_dataset and stratified_split functions] ...
+
+dataset_file_path = 'dataset/whole-dataset-cleaned.txt'
 dataset = load_dataset(dataset_file_path)
 train_data, val_data, test_data = stratified_split(dataset)
 
+train_vocabulary = create_vocabulary(train_data)
+val_data = filter_oov_sentences(val_data, train_vocabulary)
+test_data = filter_oov_sentences(test_data, train_vocabulary)
+
+save_splits_to_files(train_data, val_data, test_data, "dataset/dataset_split")
 
 print(train_data.head())
 print(len(train_data))
@@ -57,13 +85,13 @@ print(len(val_data))
 print(test_data.head())
 print(len(test_data))
 
-new_train = open('dataset/new_train.txt', 'w', encoding='utf-8')
-new_valid = open('dataset/new_valid.txt', 'w', encoding='utf-8')
-new_test = open('dataset/new_test.txt', 'w', encoding='utf-8')
+# new_train = open('dataset/new_train.txt', 'w', encoding='utf-8')
+# new_valid = open('dataset/new_valid.txt', 'w', encoding='utf-8')
+# new_test = open('dataset/new_test.txt', 'w', encoding='utf-8')
 
-for indx, sent in train_data.iterrows():
-    new_train.write(sent['input'] + '\t' + sent['target'] + '\n')
-for indx, sent in val_data.iterrows():
-    new_valid.write(sent['input'] + '\t' + sent['target'] + '\n')
-for indx, sent in test_data.iterrows():
-    new_test.write(sent['input'] + '\t' + sent['target'] + '\n')
+# for indx, sent in train_data.iterrows():
+#     new_train.write(sent['input'] + '\t' + sent['target'] + '\n')
+# for indx, sent in val_data.iterrows():
+#     new_valid.write(sent['input'] + '\t' + sent['target'] + '\n')
+# for indx, sent in test_data.iterrows():
+#     new_test.write(sent['input'] + '\t' + sent['target'] + '\n')
