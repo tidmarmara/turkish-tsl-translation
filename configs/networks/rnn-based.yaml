@@ -1,6 +1,6 @@
 model-parameters:
-  embedding-dim: 16
-  units: 16
+  embedding-dim: 256
+  units: 256
   layer-type: "blstm"
   n-layers: 1
   attention-type: "luong"
