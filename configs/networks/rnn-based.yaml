@@ -1,9 +1,15 @@
 model-parameters:
-  embedding-dim: 256
-  units: 256
-  layer-type: "blstm"
-  n-layers: 1
-  attention-type: "luong"
+  embedding-dim: 
+    - 256
+    - 512
+  units: 
+    - 256
+  layer-type: 
+    - "blstm"
+  n-layers: 
+    - 1
+  attention-type: 
+    - "luong"
 
 experiment-parameters:
   root-path: "results"
