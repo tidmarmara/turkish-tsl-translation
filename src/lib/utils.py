@@ -21,33 +21,62 @@ class Model():
             self.model_config = yaml.safe_load(f)
 
         self.model_type = self.model_config['experiment-parameters']['model-type'].lower()
+        logger.info("Experiment Model Parameters")
+        for k in self.model_config['model-parameters'].keys():
+            logger.info(f"{k}: {self.model_config['model-parameters'][k]}")
+        logger.info("\n")
 
     def get_model(self, inp_tokenizer, targ_tokenizer):
-
+        models = []
         if self.model_type == 'transformer':
             logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
-            model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
-                                     d_model=self.model_config['model-parameters']['d-model'],
-                                     dff=self.model_config['model-parameters']['dff'],
-                                     num_heads=self.model_config['model-parameters']['n-heads'],
-                                     pe_input=self.model_config['model-parameters']['input-pos-encoding'],
-                                     pe_target=self.model_config['model-parameters']['target-pos-encoding'],
-                                     rate=self.model_config['model-parameters']['dropout'],
-                                     input_vocab_size=len(inp_tokenizer.word_index)+1,
-                                     target_vocab_size=len(targ_tokenizer.word_index)+1)
+            n_layers = self.model_config['model-parameters']['n-layers']
+            d_models = self.model_config['model-parameters']['d-model']
+            dffs = self.model_config['model-parameters']['dff']
+            n_heads = self.model_config['model-parameters']['n-heads']
+            dropouts = self.model_config['model-parameters']['dropout']
+            input_pos_encodings = self.model_config['model-parameters']['input-pos-encoding']
+            target_pos_headings = self.model_config['model-parameters']['target-pos-encoding']
+
+            for nl in n_layers:
+                for dm in d_models:
+                    for dff in dffs:
+                        for nh in n_heads:
+                            for dropout in dropouts:
+                                model = Transformer(num_layers=nl,
+                                                    d_model=dm,
+                                                    dff=dff,
+                                                    num_heads=nh,
+                                                    pe_input=input_pos_encodings[0],
+                                                    pe_target=target_pos_headings[0],
+                                                    rate=dropout,
+                                                    input_vocab_size=len(inp_tokenizer.word_index)+1,
+                                                    target_vocab_size=len(targ_tokenizer.word_index)+1)
+                                models.append(model)
         elif self.model_type == 'rnn-based':
             logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
-            model = RNN_Based(units=self.model_config['model-parameters']['units'],
-                              n_layers=self.model_config['model-parameters']['n-layers'],
-                              embedding_dim=self.model_config['model-parameters']['embedding-dim'],
-                              layer_type=self.model_config['model-parameters']['layer-type'],
-                              attention_type=self.model_config['model-parameters']['attention-type'],
-                              batch_size=self.opts.batch_size,
-                              input_tokenizer=inp_tokenizer,
-                              target_tokenizer=targ_tokenizer,
-                              dataset=self.dataset)
+            units = self.model_config['model-parameters']['units']
+            n_layers = self.model_config['model-parameters']['n-layers']
+            embedding_dims = self.model_config['model-parameters']['embedding-dim']
+            layer_types = self.model_config['model-parameters']['layer-type']
+            attention_types = self.model_config['model-parameters']['attention-type']
 
-        return model
+            for unit in units:
+                for n_layer in n_layers:
+                    for embedding_dim in embedding_dims:
+                        for layer_type in layer_types:
+                            for attention_type in attention_types:
+                                model = RNN_Based(units=unit,
+                                                  n_layers=n_layer,
+                                                  embedding_dim=embedding_dim,
+                                                  layer_type=layer_type,
+                                                  attention_type=attention_type,
+                                                  batch_size=self.opts.batch_size,
+                                                  input_tokenizer=inp_tokenizer,
+                                                  target_tokenizer=targ_tokenizer,
+                                                  dataset=self.dataset)
+                                models.append(model)
+        return models
 
     def load_model(self, model, checkpoint_path):
         if self.model_type == "transformer":
@@ -65,8 +94,8 @@ class Model():
 
     def evaluate(self, inp_tokenizer, targ_tokenizer, sentence, model, max_sent_len):
         attention_plot = np.zeros((max_sent_len, max_sent_len))
-        layer_type = self.model_config['model-parameters']['layer-type']
-        attention_type = self.model_config['model-parameters']['attention-type']
+        layer_type = model.layer_type
+        attention_type = model.attention_type
         token_type =  self.opts.token_type.lower()
 
         sentence = self.dataset.preprocess_sentence(sentence)
@@ -201,6 +230,7 @@ class Trainer():
         self.model = model
         self.model_loader = model_loader
         self.opts = opts
+
         self.best_model_acc = 0
 
         logger.info("Creating the experiment save path...")
@@ -208,10 +238,12 @@ class Trainer():
         logger.info(f"Save path: {self.exp_save_path}")
 
         self.init_logger(os.path.join(self.exp_save_path, "train.log"))
+        self.write_model_info()
+
         self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none')
 
         if self.model_loader.model_type.lower() == "transformer":
-            self.learning_rate = CustomSchedule(self.model_loader.model_config['model-parameters']['d-model'])
+            self.learning_rate = CustomSchedule(self.model.d_model)
             self.optimizer = tf.keras.optimizers.Adam(self.learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
 
         elif self.model_loader.model_type.lower() == "rnn-based":
@@ -225,6 +257,20 @@ class Trainer():
         self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
         self.valid_loss = tf.keras.metrics.Mean(name='valid_loss')
         self.valid_accuracy = tf.keras.metrics.Mean(name='valid_accuracy')
+
+    def write_model_info(self):
+        logger.info("\nModel Parameters")
+        if self.model_loader.model_config['experiment-parameters']['model-type'].lower() == 'transformer':
+            logger.info(f"d-model: {self.model.d_model}")
+            logger.info(f"dff: {self.model.dff}")
+            logger.info(f"num-layers: {self.model.num_layers}")
+            logger.info(f"num-heads: {self.model.num_heads}")
+            logger.info(f"dropout: {self.model.dropout}\n")
+        elif self.model_loader.model_config['experiment-parameters']['model-type'].lower() == 'rnn-based':
+            logger.info(f"n-layers: {self.model.n_layers}")
+            logger.info(f"embedding-dim: {self.model.embedding_dim}")
+            logger.info(f"layer-type: {self.model.layer_type}")
+            logger.info(f"attention-type: {self.model.attention_type}")
 
     def init_tensorboard(self):
         logs_root_path = os.path.join(self.exp_save_path, "logs", "gradient_tape")
