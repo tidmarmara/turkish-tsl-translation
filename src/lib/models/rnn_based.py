@@ -289,6 +289,8 @@ class RNN_Based(tf.keras.Model):
         self.tar_tokenizer = target_tokenizer
         self.attention_type = attention_type
         self.units = units
+        self.n_layers = n_layers
+        self.embedding_dim = embedding_dim
 
         self.encoder = Encoder(vocab_size=len(self.inp_tokenizer.word_index)+1, 
                   embedding_dim=embedding_dim, 

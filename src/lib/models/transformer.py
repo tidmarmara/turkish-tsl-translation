@@ -241,8 +241,16 @@ class Decoder(tf.keras.layers.Layer):
 class Transformer(tf.keras.Model):
     def __init__(self, num_layers, d_model, num_heads, dff, input_vocab_size, target_vocab_size, pe_input, pe_target, rate=0.1):
         super(Transformer, self).__init__()
+        self.d_model = d_model
+        self.num_layers = num_layers
+        self.num_heads = num_heads
+        self.dff = dff
+        self.input_vocab_size = input_vocab_size
+        self.target_vocab_size = target_vocab_size
         self.pe_input = pe_input
         self.pe_target = pe_target
+        self.dropout = rate
+
         self.encoder = Encoder(num_layers, d_model, num_heads, dff, input_vocab_size, pe_input, rate)
         self.decoder = Decoder(num_layers, d_model, num_heads, dff, target_vocab_size, pe_target, rate)
         self.final_layer = tf.keras.layers.Dense(target_vocab_size)
