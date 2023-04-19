@@ -1,6 +1,6 @@
 tensorflow==2.9.2
 matplotlib
-sklearn
+scikit-learn
 unicode_tr
 sty
 loguru

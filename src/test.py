@@ -18,12 +18,12 @@ def main(opts):
 
     model_type = model_creator.model_config['experiment-parameters']['model-type'].lower()
     
-    sentence = "film nasıldı "
+    sentence = "seninle gelmek istiyorum"
 
     if model_type == "rnn-based":
-        pred, sentence, _ = model_creator.evaluate(input_tokenizer, target_tokenizer, sentence, model, 14)
+        pred, sentence, _ = model_creator.evaluate(input_tokenizer, target_tokenizer, sentence, model, 200)
     elif model_type == "transformer":
-        pred, _ = model_creator.predict_sentence(model, sentence, input_tokenizer, target_tokenizer, 20)
+        pred, _ = model_creator.predict_sentence(model, sentence, input_tokenizer, target_tokenizer, 200)
     
     logger.success(f"Predicted sentence: {pred}")
 

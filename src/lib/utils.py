@@ -19,11 +19,11 @@ class Model():
 
         with open(self.opts.model_config) as f:
             self.model_config = yaml.safe_load(f)
-        
+
         self.model_type = self.model_config['experiment-parameters']['model-type'].lower()
 
     def get_model(self, inp_tokenizer, targ_tokenizer):
-        
+
         if self.model_type == 'transformer':
             logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
             model = Transformer(num_layers=self.model_config['model-parameters']['n-layers'],
@@ -37,16 +37,16 @@ class Model():
                                      target_vocab_size=len(targ_tokenizer.word_index)+1)
         elif self.model_type == 'rnn-based':
             logger.info(f"Creating {self.model_config['experiment-parameters']['model-type']} model")
-            model = RNN_Based(units=self.model_config['model-parameters']['units'], 
-                              n_layers=self.model_config['model-parameters']['n-layers'], 
-                              embedding_dim=self.model_config['model-parameters']['embedding-dim'], 
-                              layer_type=self.model_config['model-parameters']['layer-type'], 
-                              attention_type=self.model_config['model-parameters']['attention-type'], 
-                              batch_size=self.opts.batch_size, 
-                              input_tokenizer=inp_tokenizer, 
-                              target_tokenizer=targ_tokenizer, 
+            model = RNN_Based(units=self.model_config['model-parameters']['units'],
+                              n_layers=self.model_config['model-parameters']['n-layers'],
+                              embedding_dim=self.model_config['model-parameters']['embedding-dim'],
+                              layer_type=self.model_config['model-parameters']['layer-type'],
+                              attention_type=self.model_config['model-parameters']['attention-type'],
+                              batch_size=self.opts.batch_size,
+                              input_tokenizer=inp_tokenizer,
+                              target_tokenizer=targ_tokenizer,
                               dataset=self.dataset)
-            
+
         return model
 
     def load_model(self, model, checkpoint_path):
@@ -65,22 +65,15 @@ class Model():
 
     def evaluate(self, inp_tokenizer, targ_tokenizer, sentence, model, max_sent_len):
         attention_plot = np.zeros((max_sent_len, max_sent_len))
-        sentence = self.dataset.preprocess_sentence(sentence)
-
         layer_type = self.model_config['model-parameters']['layer-type']
         attention_type = self.model_config['model-parameters']['attention-type']
         token_type =  self.opts.token_type.lower()
 
-        if token_type == 'word':
-            inputs = [inp_tokenizer.word_index[i] for i in sentence.split(' ')]
-        elif token_type == 'char':
-            inputs = [inp_tokenizer.word_index[ch] for ch in sentence]
-
-        inputs = tf.keras.preprocessing.sequence.pad_sequences([inputs],
-                                                            maxlen=max_sent_len,
-                                                            padding='post')
+        sentence = self.dataset.preprocess_sentence(sentence)
+        inputs = inp_tokenizer.texts_to_sequences([sentence])
+        inputs = tf.keras.preprocessing.sequence.pad_sequences(inputs, maxlen=max_sent_len, padding='post')
         inputs = tf.convert_to_tensor(inputs)
-        
+
         result = ''
         if layer_type.lower() == "gru":
             hidden = [tf.zeros((1, model.units))]
@@ -121,7 +114,7 @@ class Model():
                 dec_hidden = [dec_hidden_h, dec_hidden_c]
 
             predicted_id = tf.argmax(predictions[0]).numpy()
-            
+
             #Added this to find the sentence word scores
             prob_dist = softmax(predictions[0])
             sentence_score.append(np.max(prob_dist))
@@ -142,7 +135,7 @@ class Model():
 
             # the predicted ID is fed back into the model
             dec_input = tf.expand_dims([predicted_id], 0)
-        
+
         return result, sentence, attention_plot
 
     def predict_sentence(self, model, sentence, inp_lang_train, targ_lang_train, max_target_len):
@@ -183,7 +176,7 @@ class Model():
             text = ''
             for value in output.numpy()[0]:
                 if value != 0:
-                    text += targ_lang_train.index_word[value] 
+                    text += targ_lang_train.index_word[value]
 
         return text, attention_weights
 
@@ -208,7 +201,6 @@ class Trainer():
         self.model = model
         self.model_loader = model_loader
         self.opts = opts
-
         self.best_model_acc = 0
 
         logger.info("Creating the experiment save path...")
@@ -216,19 +208,19 @@ class Trainer():
         logger.info(f"Save path: {self.exp_save_path}")
 
         self.init_logger(os.path.join(self.exp_save_path, "train.log"))
-        self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none') 
+        self.loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True, reduction='none')
 
         if self.model_loader.model_type.lower() == "transformer":
             self.learning_rate = CustomSchedule(self.model_loader.model_config['model-parameters']['d-model'])
             self.optimizer = tf.keras.optimizers.Adam(self.learning_rate, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
-            
+
         elif self.model_loader.model_type.lower() == "rnn-based":
             self.optimizer = tf.keras.optimizers.Adam()
 
         self.ckpt_manager_best, self.ckpt_manager_last, self.ckpt_manager_last_epoch  = self.init_checkpoint_manager(self.model, self.optimizer)
 
         self.train_board_writer, self.valid_board_writer = self.init_tensorboard()
-        
+
         self.train_loss = tf.keras.metrics.Mean(name='train_loss')
         self.train_accuracy = tf.keras.metrics.Mean(name='train_accuracy')
         self.valid_loss = tf.keras.metrics.Mean(name='valid_loss')
@@ -275,19 +267,20 @@ class Trainer():
         logger.add(logger_name)
 
     def create_path(self):
-        model_save_path = os.path.join(self.opts.root_path, self.model_loader.model_type)
-        
+        self.save_root_path = self.opts.root_path
+        model_save_path = os.path.join(self.save_root_path, self.model_loader.model_type)
+
         if os.path.exists(model_save_path):
             self.exp_id = len(os.listdir(model_save_path)) + 1
         else:
-            os.makedirs(model_save_path)
+            os.makedirs(os.path.join(self.save_root_path, self.model_loader.model_type))
             self.exp_id = 1
         exp_save_path = os.path.join(model_save_path, str(self.exp_id))
         return exp_save_path
 
-    # The @tf.function trace-compiles run into a TF graph for faster execution. 
+    # The @tf.function trace-compiles run into a TF graph for faster execution.
     @tf.function
-    def run(self, inp, tar, phase='train'):
+    def run(self, inp, tar):
         tar_inp = tar[:, :-1]
         tar_real = tar[:, 1:]
 
@@ -299,18 +292,14 @@ class Trainer():
                 outputs, _ = self.model(inp, tar_inp, True, enc_padding_mask, combined_mask, dec_padding_mask)
             elif self.model_loader.model_type.lower() == "rnn-based":
                 outputs = self.model(inp, tar)
+
             loss = loss_function(tar_real, outputs, self.loss_object)
-
-        if phase.lower() == 'train':
-            self.train_loss(loss)
-            self.train_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
-
             gradients = tape.gradient(loss, self.model.trainable_variables)
             self.optimizer.apply_gradients(zip(gradients, self.model.trainable_variables))
-        elif phase.lower() == 'valid':
-            self.valid_loss(loss)
-            self.valid_accuracy(accuracy_function(tf.cast(tar_real, tf.int64), tf.nn.softmax(outputs, axis=2)))
-        
+            self.train_loss(loss)
+
+            acc = accuracy_function(tf.cast(tar_real, tf.int64),  tf.cast(outputs, tf.int64))
+            self.train_accuracy(acc)
 
 class Evaluator():
     def __init__(self, model, dataset, model_loader) -> None:
@@ -346,11 +335,6 @@ class Evaluator():
             # Post-process model output
             predicted_sentence = self.dataset.exclude_start_end_tokens(predicted_sentence, self.dataset.start_token, self.dataset.end_token)
 
-            logger.info(f"Input: {input_sentence}")
-            logger.info(f"Target: {target_text}")
-            logger.info(f"Prediction: {predicted_sentence}")
-            logger.info("\n")
-
             # Find model scores
             results_ter = ter.compute(predictions=[predicted_sentence], references=[target_text], case_sensitive=False)
             results_wer = wer.compute(predictions=[predicted_sentence], references=[target_text])
@@ -371,6 +355,5 @@ class Evaluator():
         model_scores['bleu1'] /= (i+1)
         model_scores['bleu4'] /= (i+1)
         model_scores['avg-time'] /= (i+1)
-        
+
         return model_scores
-        

@@ -15,14 +15,13 @@
             // "args": ["--model-config", "configs\\networks\\rnn-based.yaml", "--token-type", "char", "--batch-size", "4"]
             
             // RNN-BASED TEST and EVAL
-            // "args": ["--exp-path", "results/rnn-based/1", 
-            //         "--model-config", "configs/networks/rnn-based.yaml"]
+            // "args": ["--exp-path", "results/rnn-based/12", "--model-config", "configs/networks/rnn-based.yaml"]
             
             // TRANSFORMER TRAIN
-            // "args": ["--model-config", "configs\\networks\\transformer.yaml", "--token-type", "word", "--model-type", "transformer"]
+            // "args": ["--model-config", "configs/networks/transformer.yaml", "--num-epochs", "200", "--token-type", "word", "--batch-size", "128", "--validation-step", "10"]
             
             // TRANSFORMER TEST and EVAL
-            "args": ["--model-config", "configs/networks/transformer.yaml", "--exp-path", "results/transformer/7"]
+            "args": ["--model-config", "configs/networks/transformer.yaml", "--exp-path", "results/transformer/9"]
 
         }
     ]

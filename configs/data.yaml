@@ -1,4 +1,4 @@
 path: 'dataset'
-train: 'new_valid.txt'
-valid: 'new_train.txt'
-test: 'new_valid.txt'
+train: 'dataset_split_train.txt'
+valid: 'dataset_split_val.txt'
+test: 'dataset_split_test.txt'
