@@ -1,0 +1,1308 @@
+Şimdi bu cümleleri iyi öğren ve hemen cevap yazma:
+eğlendik-->biz eğlenmek
+eğlendim-->ben eğlenmek
+güzel-->güzel
+günaydın-->günaydın
+kaç-->sen kaçmak ?
+mutluyum-->ben mutlu
+üzülüyorum-->ben üzülmek
+kaçmadılar-->onlar kaçmak değil
+kazandık-->biz kazanmak
+annem-->benim anne
+çekmeceyi kapattım-->ben çekmece kapatmak
+hızlı yürüyorum-->ben hızlı yürümek
+yorgun hissetmiyor-->o yorgun hissetmek değil
+normal hissediyorum-->ben normal hissetmek
+oda kalabalıktı-->oda kalabalık
+hayat budur-->hayat bu
+aptal hissettim-->ben aptal hissetmek
+iyi hissetti-->o iyi hissetmek
+kitabı aldım-->ben kitap almak
+yalnız hissetti-->o yalnız hissetmek
+kötü hissetti-->o kötü hissetmek
+hepsi benim-->hepsi benim
+onları gördük-->biz onlar görmek
+utangaç hissediyorum-->ben utangaç hissetmek
+dün nasıldı-->o dün nasıl ?
+hepsini yaptım-->ben hepsi yapmak
+ailem sağlıklı-->benim aile sağlık
+motoru kapattım-->ben motor kapatmak
+arabamı alacağım-->ben benim araba almak
+utanmış hissettim-->ben utanmak hissetmek
+iyi anlamıyorum-->ben iyi anlamak değil
+kitabı kapat-->sen kitap kapatmak
+matematikten hoşlanmıyorum-->ben matematik hoşlanmak değil
+hastaneye gidiyorum-->ben hastane gitmek
+kadınları anlamıyorum-->ben kadın onlar anlamak değil
+hemen geliyorum-->ben hemen gelmek
+işe girdim-->ben iş girmek
+çiçekler aldım-->ben çiçek almak
+sevgilisini anlamadım-->ben onun sevgili anlamak değil
+onu arayın-->siz o aramak
+bavul hazırlıyorum-->ben bavul hazırlamak
+dışarı gittim-->ben dışarı gitmek
+alışverişe gittik-->biz alışveriş gitmek
+kahvaltı yedik-->biz kahvaltı yemek
+dışarıya koştum-->ben dışarı koşmak
+herkes deneyebilir-->herkes denemek
+beklemekten hoşlanmıyorum-->ben beklemek hoşlanmak değil
+adam ihtiyar-->adam ihtiyar
+yardım aldım-->ben yardım almak
+neden gittin-->sen neden gitmek ?
+o kalabalıktı-->o kalabalık
+asla gitmeyeceğim-->ben asla gitmek değil
+mesajını aldık-->biz senin mesaj almak
+dün yüzdüm-->ben dün yüzmek
+anlıyor musun-->sen anlamak ?
+burada mısınız-->siz burada ?
+hastanede olmalısınız-->siz hastane orada olmak
+hemen geldi-->o hemen gelmek
+perde kalktı-->perde kalkmak
+onu görmedim-->ben o görmek değil
+bunu anlamadım-->ben bu anlamak değil
+ailem orada-->benim aile orada
+geri gitmeyeceğim-->ben geri gitmek değil
+plaj kalabalıktı-->plaj kalabalık
+herkes bilirdi-->herkes bilmek
+dışarısı soğuk-->dışarı soğuk
+anahtarlarımı alacağım-->ben benim anahtar almak
+gidip bakacağım-->ben gitmek bakmak
+isteğimi almadım-->ben benim istek almak değil
+nem düşük-->nem düşük
+kapağı kapat-->sen kapak kapatmak
+artık içmiyorum-->ben artık içmek değil
+mutlu hissetmedim-->ben mutlu hissetmek değil
+hepsi yorgun-->hepsi yorgun
+hepsi senindir-->hepsi senin
+dışarı gitmiyorum-->ben dışarı gitmek değil
+hemen döneceğim-->ben hemen dönmek
+biz gidiyoruz-->biz gitmek
+hep hapşırıyorum-->ben hep hapşırmak
+gözlerini kapat-->sen senin göz kapatmak
+ceketimi alacağım-->ben benim ceket almak
+hepsi değişti-->hepsi değişmek
+adam çıplak-->adam çıplak
+hesabı alacağım-->ben hesap almak
+eve gitmiyorum-->ben ev gitmek değil
+hastanede buluşalım-->biz hastane orada buluşmak
+araba alacağım-->ben araba almak
+koşmaya gidiyorum-->ben koşmak gitmek
+aşağıya gidiyoruz-->biz aşağı gitmek
+kimse gitmedi-->kimse gitmek değil
+yer kalabalıktı-->yer kalabalık
+buz alacağım-->ben buz almak
+nabzı düşük-->onun nabız düşük
+aynısını alacağım-->ben aynı almak
+o kaldı-->o kalmak
+hepsi bu-->hepsi bu
+pencereyi kapattım-->ben pencere kapatmak
+seni görmedim-->ben sen görmek değil
+hayvanları sevdi-->o hayvan onlar sevmek
+depremi hissetmedi-->o deprem hissetmek değil
+onların çalışırlar-->onlar çalışmak
+alışverişe gidiyorlar-->onlar alışveriş gitmek
+soğuk aldım-->ben soğuk almak
+nereye gidiyoruz-->biz nereye gitmek ?
+uzaklara gitmiyorum-->ben uzak gitmek değil
+ailemle olmalıyım-->ben benim aile ile olmak
+hepsini yapar-->o hepsi yapmak
+hepsini gördün-->sen hepsi görmek
+yorgun hissediyorum-->ben yorgun hissetmek
+tekneyi hazırlıyorum-->ben tekne hazırlamak
+hepsi yanlış-->hepsi yanlış
+nereye gittiler-->onlar nereye gitmek ?
+sadece gidiyorum-->ben sadece gitmek
+dün geldim-->ben dün gelmek
+hepsini yedim-->ben hepsi yemek
+dışarıda durun-->siz dışarı orada durmak
+o gitmiş-->o gitmek
+gidiyor musun-->sen gitmek ?
+alışverişe gideceğim-->ben alışveriş gitmek
+hastaneye gidiyoruz-->biz hastane gitmek
+herkes dışarıda-->herkes dışarı orada
+hayat gariptir-->hayat garip
+işe başla-->sen iş başlamak
+ekmek almadım-->ben ekmek almak değil
+kalabalık genç-->kalabalık genç
+şakayı anlamıyorum-->ben şaka anlamak değil
+onu kapat-->sen o kapatmak
+dışarı çıkıyoruz-->biz dışarı çıkmak
+ağlayacağınızı düşündüm-->ben sizin ağlamak düşünmek
+onlar aile-->onlar aile
+hava nasıl-->hava nasıl ?
+ışıkları kapattım-->ben ışık kapatmak
+dışarısı güzelmiş-->dışarı güzel
+adam yaşlıdır-->adam yaşlı
+kimseyi görmedim-->ben kimse görmek değil
+herkes kaldı-->herkes kalmak
+onu gördüm-->ben görmek o
+dışarı gel-->sen dışarı gelmek
+bugün kalabalık-->bugün kalabalık
+kuzeye gidiyoruz-->biz kuzey gitmek
+alışverişe gittim-->ben alışveriş gitmek
+berbat hissediyorum-->ben berbat hissetmek
+sizi anlamadım-->ben siz anlamak değil
+geldi mi-->o gelmek ?
+otobüsle gidiyorum-->ben otobüs ile gitmek
+güneye gidiyoruz-->biz güney gitmek
+çık dışarı-->sen çıkmak dışarı
+mesajını aldım-->ben senin mesaj almak
+partiye gitmedim-->ben parti gitmek değil
+ben gidiyorum-->ben gitmek
+hep gülümsüyorsun-->sen hep gülümsemek
+biraz hastaymış-->o biraz hasta
+hastaneye gidelim-->biz hastane gitmek
+üzgün hissediyorum-->ben üzgün hissetmek
+onları gördüm-->ben onlar görmek
+sarhoş hissetti-->o sarhoş hissetmek
+seni anlamadım-->ben sen anlamak değil
+kahvaltı hazırlıyorlar-->onlar kahvaltı hazırlamak
+dışarıya bakalım-->biz dışarı bakmak
+onu gördük-->biz o görmek
+kim gidiyor-->kim gitmek ?
+sis kalktı-->sis kalkmak
+onunla gittim-->ben onun ile gitmek
+yalnız gitmedim-->ben yalnız gitmek değil
+ailem iyidir-->benim aile iyi
+evde değil-->o ev orada değil
+kalabalık güldü-->kalabalık gülmek
+uçak kalkıyor-->uçak kalkmak
+herkese sordum-->ben herkes sormak
+sizi gördük-->biz siz görmek
+söylediğini duymadım-->ben senin söylemek duymak değil
+acı hissetmedim-->ben acı hissetmek değil
+televizyonu kapattım-->ben televizyon kapatmak
+teşekkür ederim-->ben teşekkür_etmek
+köpeği gördüm-->ben köpek görmek
+kitap alacağım-->ben bir kitap almak
+hepsi sessizdi-->onlar hepsi sessiz
+nasıl gitti-->nasıl gitmek ?
+şimdi gidiyoruz-->biz şimdi gitmek
+uzağa gidiyorum-->ben uzak gitmek
+kalacağımı düşünüyorum-->ben benim kalmak düşünmek
+bagajı kapattım-->ben bagaj kapatmak
+ehliyetimi aldım-->ben benim ehliyet almak
+kötü gidiyor-->kötü gitmek
+hayvanları sever-->o hayvan onlar sevmek
+nereye gittin-->sen nereye gitmek ?
+mutlu hissediyorum-->ben mutlu hissetmek
+ablam güzeldir-->benim abla güzel
+hepsini yapamam-->ben hepsi yapmak değil
+seni duymadım-->ben sen duymak değil
+yalnız düşünüyorum-->ben yalnız düşünmek
+işi almadım-->ben iş almak değil
+hastanede misin-->sen hastane orada ?
+şimdi gitmeyin-->siz şimdi gitmek değil
+hangi hastanedesin-->sen hangi hastane orada olmak ?
+kahve hazırlıyor-->o kahve hazırlamak
+sakin kaldım-->ben sakin kalmak
+herkese merhaba-->herkes merhaba
+hepsi çıksın-->hepsi çıkmak
+dışarı gidiyorum-->ben dışarı gitmek
+oraya gitmedi-->o oraya gitmek değil
+mutlu hissettim-->ben mutlu hissetmek
+bunu anlamıyorum-->ben bu anlamak değil
+bu hayat-->bu hayat
+herkese anlatacağım-->ben herkes anlatmak
+birini gördüm-->ben biri görmek
+dünya dönüyor-->dünya dönmek
+gözlerimi kapattım-->ben benim göz kapatmak
+hemen dön-->sen hemen dönmek
+neden düşünüyorsun-->sen neden düşünmek ?
+bunu duymadım-->ben bu duymak değil
+baltayı aldım-->ben balta almak
+almak istiyorum-->ben almak istemek
+evdeler mi-->onlar ev orada ?
+hava karanlık-->hava karanlık
+gitmek istiyorum-->ben gitmek istemek
+kapağı kapattım-->ben kapak kapatmak
+o kalktı-->o kalkmak
+hepsini alacağım-->ben hepsi almak
+şimdi gidiyorum-->ben şimdi gitmek
+musluğu kapattım-->ben musluk kapatmak
+kalabalık alkışladı-->kalabalık alkış
+bayıldığımı düşünüyorum-->ben benim bayılmak düşünmek
+işimden hoşlanmıyorum-->ben benim iş hoşlanmak değil
+ekmek yerim-->ben ekmek yemek
+seni gördüm-->ben görmek sen
+dün soğuktu-->dün soğuk
+sadece düşünüyorum-->ben sadece düşünmek
+amcamla yaşarım-->ben benim amca ile yaşamak
+gidip değiştirmeliyim-->ben gitmek değiştirmek
+şanslı hissetmiyorum-->ben şans hissetmek değil
+anne çalışıyor-->anne çalışmak
+harika hissediyorum-->ben harika düşünmek
+masayı hazırlıyor-->o masa hazırlamak
+ailemle buradayım-->ben benim aile ile burada
+yatmaya gitmedim-->ben yatmak gitmek değil
+kahvaltı hazırlıyorum-->ben kahvaltı hazırlamak
+hayat tatlıdır-->hayat tatlı
+kalabalık sustu-->kalabalık susmak
+gemiye gidiyorum-->ben gemi gitmek
+genç hissediyorum-->ben genç hissetmek
+üzgün hissettim-->ben üzgün hissetmek
+iyi iş-->iyi iş
+içki içmeyi bıraktım-->ben içki_içmek bırakmak
+ben geriye döndüm-->ben geri dönmek
+onu hastaneye götürdüm-->ben o hastane götürmek
+kız kardeşim nerede-->benim kız kardeş nerede ?
+o evine dönüyor-->o ev dönmek
+çocukları gördün mü-->sen çocuk görmek ?
+artık gerçekleri görmelisin-->sen artık gerçek görmek
+o çocukla ilgilendi-->o çocuk ile ilgilenmek
+koşmaktan nefret ederim-->ben koşmak nefret_etmek
+kendini yalnız hissetti-->o kendi yalnız hissetmek
+biz orada mıyız-->biz orada ?
+sadece ondan hoşlanmıyorum-->ben sadece o hoşlanmak değil
+akşam yemeği hazır-->akşam yemek hazır
+hemen okula göndermelisiniz-->siz hemen okul göndermek
+hiç kimse ölmedi-->hiç_kimse ölmek değil
+kıyafet almayı seviyorum-->ben kıyafet almak sevmek
+iki kere vurdum-->ben iki defa vurmak
+teyzeme duymadığımı söyledim-->ben benim teyze benim duymak değil söylemek
+yağmurdan nefret ederim-->ben yağmur nefret_etmek
+seni hastanede göreceğim-->ben sen hastane orada görmek
+o kimseyi görmedi-->o kimse görmek değil
+onun çalıştığını düşünüyorum-->ben onun çalışmak düşünmek
+umursadığımımı düşünüyor musun-->sen benim umursamak düşünmek ?
+her şey aldık-->biz her_şey almak
+seni duyduğumu düşündüm-->ben sen duymak düşünmek
+akşam yemeği vakti-->akşam yemek vakit
+ben dün vardım-->ben dün varmak
+herkese teşekkür ederim-->ben herkes teşekkür_etmek
+ben para almadım-->ben para almak değil
+bugün iyi hissetmiyor-->o bugün iyi hissetmek değil ?
+burada dışarıya gelme-->sen burada dışarı gelmek değil
+kim olduğumuzu düşünüyorsun-->sen bizim kim olmak düşünmek ?
+ne kadar kötü-->ne kadar kötü
+bu adamları tanımıyorum-->ben bu adam onlar tanımak değil
+artık senden hoşlanmıyorum-->ben artık sen hoşlanmak değil
+o adama güvenemezsin-->sen o adam güvenmek değil
+ben burada kaldım-->ben burada kalmak
+bir at aldım-->ben bir at almak
+o hep meşgul-->o hep meşgul
+onlar allaha şükrettiler-->onlar allah şükretmek
+dün onu gördüm-->ben dün o görmek
+onun düştüğünü gördüm-->ben onun düşmek görmek
+ben kapıyı kapattım-->ben kapı kapatmak
+bir ailem var-->benim bir aile var
+akşam yemeğine gidelim-->biz akşam yemek gitmek
+her şeyi düşünüyorsun-->sen her_şey düşünmek ?
+bir bilet almadım-->ben bir bilet almak değil
+ailem için çalışıyorum-->ben benim aile için çalışmak
+onların hepsini kullandınmı-->sen onlar hepsi kullanmak ?
+üniversiteye gitmeyi düşünüyorum-->ben üniversite gitmek düşünmek
+ışıkları kapattın mı-->sen ışık kapatmak ?
+yakışıklı bir adam-->yakışıklı bir adam
+kız kardeşim ünlüdür-->benim kız kardeş ünlü
+ben kitap alıyorum-->ben kitap almak
+biraz yardım alacağım-->ben biraz yardım almak
+seni hiç anlamadım-->ben sen hiç anlamak değil
+arabamı almaya gideceğim-->ben benim araba almak gitmek
+düşük tansiyonum var-->benim düşük tansiyon var
+ailem evde değil-->benim aile ev orada değil
+o kilo almaktadır-->o kilo almak
+bir kedi alıyorum-->ben bir kedi almak
+ben anlamı anlamadım-->ben anlam anlamak değil
+o adam öldü-->o adam ölmek
+her şey sakindi-->her_şey sakin
+ağabeyim duygu göstermedi-->benim abi duygu göstermek değil
+akşam yemeği yiyeceğim-->ben akşam yemek yemek
+beni duymuş olabilirsin-->sen ben duymak olabilir
+herkes öyle düşünüyor-->herkes öyle düşünmek
+o erken kalktı-->o erken kalkmak
+işten atılıyor muyum-->ben iş atılmak ?
+dün seninle buluştum-->ben dün senin ile buluşmak
+o kitabını aldı-->o kitap almak
+kitap okumayı seviyor-->o kitap okumak sevmek
+dışarısı çok soğuk-->dışarı çok soğuk
+hayat bir rüyadır-->hayat bir rüya
+bunu nereden aldılar-->onlar bu nereden almak ?
+kuzenimi işe almadım-->ben benim kuzen iş almak değil
+o işe girdi-->o iş girmek
+arkadaşım nasıl açtı-->benim arkadaş nasıl açmak ?
+hiç kimse umursamıyor-->hiç_kimse umursamamak
+amcam kanserden öldü-->benim amca kanser ölmek
+hayattan zevk alıyorum-->ben hayat zevk_almak
+o öyle düşünüyor-->o öyle düşünmek
+ben işi alacağım-->ben iş almak
+bunu anlıyor musun-->sen bu anlamak ?
+ben televizyonu kapattım-->ben televizyon kapatmak
+bütün aile oradaydı-->bütün aile orada olmak
+ben müzikten anlamıyorum-->ben müzik anlamak değil
+kim allaha inanıyor-->kim allah inanmak ?
+o herkese kızgın-->o herkes kızgın
+akşam yemeğim nerede-->benim akşam yemek nerede ?
+bu zaman aldı-->bu zaman almak
+ben hep çalışıyorum-->ben hep çalışmak
+bugün alışverişe gidemiyorum-->ben bugün alışveriş gitmek değil
+bu hızlı gitti-->bu hızlı gitmek
+sizi görmek istedim-->ben siz görmek istemek
+o kadın kimdir-->o kadın kim ?
+akşamları ne yaparsınız-->siz akşam ne yapmak ?
+hep birlikte gidelim-->biz hep birlikte gitmek
+şişman olduğumu düşünüyorum-->ben benim şişman olmak düşünmek
+tekrar geri döndü-->o tekrar geri dönmek
+şimdi anlıyor musun-->sen şimdi anlamak ?
+bir şey hissetmedim-->ben bir_şey hissetmek değil
+asansör çok kalabalıktı-->asansör çok kalabalık
+işi alacak mısın-->sen iş almak ?
+suçlu hissetmiyor musun-->sen suçlu hissetmek değil ?
+öğretmeni okula gelmeyecekmiş-->onun öğretmen okul gelmek değil
+o sakin kaldı-->o sakin kalmak
+her şey sakin-->her_şey sakin
+onu görmek isterim-->ben o görmek istemek
+ışıkları kapatmayı unutmayın-->siz ışık kapatmak unutmak değil
+amcamla birlikte kaldım-->ben benim amca ile birlikte kalmak
+babam hasta oldu-->benim baba hasta_olmak
+şu kadın güçlüdür-->şu kadın güçlü
+o vasiyetini hazırladı-->o onun vasiyet hazırlamak
+arkadaşın ayağa kalktı-->senin arkadaş ayak kalkmak
+siz gözlerinizi kapattınız-->siz sizin göz kapatmak
+o erken kalkıyor-->o erken kalkmak
+bu kadın şişmandır-->bu kadın şişman
+amcam ormanda yaşıyor-->benim amca orman orada yaşamak
+sana bunu aldım-->ben sana bu almak
+bunu görmek istiyorum-->ben bu görmek istemek
+akşam yemeğini hazırlıyor-->o akşam yemek hazırlamak
+amcam hastanede çalıştı-->benim amca hastane orada çalışmak
+onu sevdiğimi düşünüyorum-->ben o sevmek düşünmek
+köpekleri tercih ederim-->ben köpek onlar tercih_etmek
+kumdan nefret ederim-->ben kum nefret_etmek
+sigara içmeyi bırakmalısın-->sen sigara_içmek bırakmak
+ekmek almayı unuttum-->ben ekmek almak unutmak
+tüm aldığım ekmekti-->benim tüm almak ekmek
+annem dışarıya gitti-->benim anne dışarı gitmek
+sen hızlı konuşuyorsun-->sen hızlı konuşmak
+yardım edebilir miyiz-->biz yardım_etmek ?
+arkadaşım ile karşılaştım-->ben benim arkadaş ile karşılaşmak
+ben iş değiştirdim-->ben iş değiştirmek
+ne kadar derin-->ne kadar derin
+sen döndün mü-->sen dönmek ?
+bunu hiç anlamadım-->ben bu hiç anlamak değil
+almak için anlaştım-->ben almak için anlaşmak
+bunun için düşündüm-->ben bu için düşünmek
+eğitim almak istemiyorum-->ben eğitim almak istemek değil
+bir kavga gördüm-->ben bir kavga görmek
+herkes dışarıya koştu-->herkes dışarı koşmak
+onu ücretsiz aldım-->ben o ücretsiz almak
+duş almak lazım-->duş almak lazım
+spordan nefret ederim-->ben spor nefret_etmek
+ben onu düşündüm-->ben o düşünmek
+ne kadar sıcak-->ne kadar sıcak
+güzel bir adam-->güzel bir adam
+bir araba aldım-->ben bir araba almak
+ben kitabı kapattım-->ben kitap kapatmak
+onları görmek istiyorum-->ben onlar görmek istemek
+o harika hissetti-->o harika hissetmek
+onu görmek istedim-->ben o görmek istemek
+onların hepsini seviyorum-->ben onlar hepsi sevmek
+kendini suçlu hissetti-->o kendi suçlu hissetmek
+kendimi suçlu hissettim-->ben kendim suçlu hissetmek
+annesi hastanede uyandı-->onun anne hastane orada uyanmak
+siz insanları anlamıyorum-->ben siz insan anlamak değil
+iki işim var-->benim iki iş var
+yanlış adama vurdu-->o yanlış adam vurmak
+kardeşimin gitarı yeni-->benim kardeş onun gitar yeni
+iki kez güldüm-->ben iki defa gülmek
+o seni görmedi-->o sen görmek değil
+onları gördün mü-->sen onlar görmek ?
+onlar mükemmel aile-->onlar mükemmel aile
+sen ne düşünüyorsun-->sen ne düşünmek ?
+akşam yemeği harikaydı-->akşam yemek harika
+sana kahvaltı hazırladım-->ben sana kahvaltı hazırlamak
+istediğimiz yardımı almadık-->biz istek yardım almak değil
+bu adam ölü-->bu adam ölü
+tembel bir adam-->tembel bir adam
+bu ilaç nedir-->bu ilaç ne ?
+ben sadece anlamıyorum-->ben sadece anlamak değil
+o ailesiyle yaşamıyor-->o onun aile ile yaşamak değil
+amcam avrupada yaşıyor-->benim amca avrupa orada yaşamak
+sizi duymak kolay-->siz duymak kolay
+ben içmeyi sevmiyorum-->ben içmek sevmek değil
+ne iş yaparsınız-->siz ne iş yapmak ?
+erkek kardeşim var-->benim erkek kardeş var
+ben onu görmedim-->ben o görmek değil
+sadece dışarıya gitme-->sen sadece dışarı gitmek değil
+ben suçlu hissettim-->ben suçlu hissetmek
+baban neden hastanede-->senin baba neden hastane orada ?
+ben allaha inanıyorum-->ben allah inanmak
+biz iş istiyoruz-->biz iş istemek
+o kötü hissetmedi-->o kötü hissetmek değil
+bu kamera ucuz-->bu kamera ucuz
+ev çok soğuk-->ev çok soğuk
+ben hızlı sürerim-->ben hızlı sürmek
+iki işte çalışıyorum-->ben iki iş çalışmak
+ben kahvaltı yemem-->ben kahvaltı yemek değil
+herkes terk etsin-->herkes terk_etmek
+o yardım edebilir-->o yardım_etmek
+o adam kim-->o adam kim ?
+yorgun hissetmiyor musun-->sen yorgun hissetmek değil ?
+bu adamları seviyorum-->ben bu adam onlar sevmek
+burnumdan nefes alamıyorum-->ben benim burun nefes almak değil
+ailem arkadaşımı sevdi-->benim aile benim arkadaş sevmek
+ben zarar görmedim-->ben zarar görmek değil
+öğle yemeği hazırladı-->o benim öğle yemek hazırlamak
+orada değil miyiz-->biz orada değil ?
+hiç ilaç kullanmam-->ben hiç ilaç kullanmak değil
+onlar öyle düşünüyor-->onlar öyle düşünmek
+bir araba alacağım-->ben bir araba almak
+iki sıra yapın-->siz iki sıra yapmak
+dün gece nasıldı-->dün gece nasıl ?
+dışarıda bırakılmış hissediyorum-->ben dışarı orada bırakmak hissetmek
+hayvanları izlemeyi sever-->o hayvan onlar izlemek sevmek
+ben çok gezerim-->ben çok gezmek
+rüya gördün mü-->sen rüya görmek ?
+sen sonra yap-->sen sonra yapmak
+yardım edebileceğimi düşünüyorum-->ben benim yardım_etmek düşünmek
+ben bunu alıyorum-->ben bu almak
+amcamla istasyonda karşılaştım-->ben benim amca ile istasyon orada karşılaşmak
+amcamla birlikte yaşıyorum-->ben benim amca ile birlikte yaşamak
+gösteriyi gördün mü-->sen gösteri görmek ?
+uçağın da kalkıyor-->senin uçak kalkmak
+bağırdığını duymak istiyorum-->ben senin bağırmak duymak istemek
+biz haber aldık-->biz haber_almak
+biz okula gitmedik-->biz okul gitmek değil
+ben dışarı çıkamam-->ben dışarı çıkmak değil
+arkadaşımız şimdi hastanede-->bizim arkadaş şimdi hastane orada
+neden televizyonu kapattın-->sen neden televizyon kapatmak ?
+kim o kadın-->kim o kadın ?
+hastaneye gitmem gerekiyor-->ben hastane gitmek gerekmek
+beni hastaneye götür-->sen ben hastane götürmek
+arkadaşım ile gideceğim-->ben benim arkadaş ile gitmek
+akşam yemeği yaptım-->ben akşam yemek yapmak
+o hepsini yedi-->o hepsi yemek
+düşündüğünden daha güçlüsün-->sen senin düşünmek daha güçlü
+bunlar aldığımız kararlar-->bunlar bizim almak karar
+şimdi kahvaltı hazırlıyor-->o şimdi kahvaltı hazırlamak
+bir taksi alacağım-->ben bir taksi almak
+hızlı araç kullanıyorum-->ben hızlı araç kullanmak
+ne kadar uzaktı-->ne kadar uzak
+biz aile değiliz-->biz aile değil
+birçoğu hayatta kalamayacak-->birçok yaşamak değil
+odada çok kalabalıktı-->oda orada çok kalabalık
+benim nabzım düşük-->benim nabız düşük
+kıyafet almayı severim-->ben kıyafet almak sevmek
+ben ondan hoşlanmıyorum-->ben o hoşlanmak değil
+arkadaşım okulu seviyor-->benim arkadaş okul sevmek
+iki kişi sarıldı-->iki kişi sarılmak
+akşam yemeği hazırdır-->akşam yemek hazır
+onunla dün tanıştım-->ben onun ile dün tanışmak
+nasıl hissettiğimi düşünüyorsun-->sen benim nasıl hissetmek düşünmek ?
+o allaha inanmaz-->o allah inanmak değil
+ben seyirci kaldım-->ben seyirci kalmak
+her şeyi düzelttim-->ben her_şey düzeltmek
+alışveriş merkezine gidelim-->biz alışveriş merkez gitmek
+hiç kimse söyleyemez-->hiç_kimse söylemek değil
+bir arkadaş gördüm-->ben bir arkadaş görmek
+seninle gidebilir miyim-->ben senin ile gitmek ?
+iki kitabım var-->benim iki kitap var
+sen hızlı yürüyorsun-->sen hızlı yürümek
+o evde kaldı-->o ev orada kalmak
+üniversiteye geri dönüyorum-->ben üniversite geri dönmek
+ben sessiz kaldım-->ben sessiz kalmak
+duymuş gibi yapmıyor-->o duymak gibi yapmak değil
+dışarıya geliyor musun-->sen dışarı gelmek ?
+bir şey görmedim-->ben bir_şey görmek değil
+o dışarıda olmalı-->o dışarı orada olmak
+dışarıya geri git-->sen dışarı geri gitmek
+o eve döndü-->o ev dönmek
+kardeşim ile geldim-->ben benim kardeş ile gelmek
+ben seni duymadım-->ben sen duymak değil
+ben hiç yüzemem-->ben hiç yüzmek değil
+o adamları tanımıyorum-->ben o adam onlar tanımak değil
+kardeşim herkese saygılı-->benim kardeş herkes saygılı
+o hızlı yürür-->o hızlı yürümek
+duymak istediğim bu-->benim duymak istemek bu
+onun bıraktığını düşündüm-->ben onun bırakmak düşünmek
+hiç kimse uyumadı-->hiç_kimse uyumak değil
+her zaman arayın-->her zaman aramak
+onları alacak mısın-->sen onlar almak ?
+harika bir aile-->harika bir aile
+artık dışarısı karanlık-->artık dışarı karanlık
+yarın amcama gideceğim-->ben yarın benim amca gitmek
+teyzesi hastanede çalışıyor-->onun teyze hastane orada çalışmak
+onlar dışarıda yürüdü-->onlar dışarı orada yürümek
+ben sigara içmiyorum-->ben sigara_içmek değil
+ailemle gurur duyuyorum-->ben benim aile ile gurur_duymak
+sadece o kaldı-->sadece o kalmak
+alışverişe gitmek istedim-->ben alışveriş gitmek istemek
+ben iş bulacağım-->ben iş bulmak
+intikam almak istedim-->ben intikam almak istemek
+oda çok kalabalıktı-->oda çok kalabalık
+çok keyif aldım-->ben çok keyif almak
+arabasını ödünç aldım-->ben onun araba ödünç almak
+bizi hastaneye götür-->sen biz hastane götürmek
+pastırma kokusu alıyorum-->ben pastırma koku almak
+makbuzunuzu almayı unuttun-->sen makbuz almak unutmak
+ben öyle düşünüyorum-->ben öyle düşünmek
+arkadaşımı duymak istedim-->ben benim arkadaş duymak istemek
+ne kadar saçma-->ne kadar saçma
+arkadaşım geri dönmedi-->benim arkadaş geri dönmek değil
+annem mutsuz oldu-->benim anne mutlu değil olmak
+hepsini ben uydurdum-->hepsi ben uydurmak
+iki tane alırım-->ben iki tane almak
+anlıyor gibi görünüyorsun-->sen anlamak gibi görünmek
+kendimi kötü hissediyorum-->ben kendim kötü hissetmek
+bunu duymuş olabilirsin-->sen bu duymak olabilir
+biz eğitim aldık-->biz eğitim almak
+kendimi iyi hissediyorum-->kendim iyi hissetmek
+devam edebilir misin-->sen devam_etmek ?
+onu nasıl gördün-->sen o nasıl görmek ?
+onu tekrar düşündüm-->ben o tekrar düşünmek
+onların hepsini sevdim-->ben onlar hepsi sevmek
+o kahvaltı yaptı-->o kahvaltı yapmak
+bu adam harika-->bu adam harika
+alışverişe gitmek istiyorum-->ben alışveriş gitmek istemek
+yaptığımı düşünüyor musun-->sen benim yapmak düşünmek ?
+bütün ailem burada-->benim bütün aile burada
+babamı hastaneye götürdüm-->ben benim baba hastane götürmek
+onlar arkadaşımı aldılar-->onlar benim arkadaş almak
+devam edebilir miyiz-->biz devam_etmek ?
+o hızlı kalktı-->o hızlı kalkmak
+artık süt içmiyorum-->ben artık süt içmek değil
+mutlaka defter alacağım-->ben mutlaka defter almak
+onların hepsi biliyorlar-->onlar hepsi bilmek
+ben normal hissetmedim-->ben normal hissetmek değil
+o okula gelmedi-->o okul gelmek değil
+o arabayı almadım-->ben o araba almak değil
+otobüs kalabalık oldu-->otobüs kalabalık olmak
+onu hiç görmedim-->ben o hiç görmek değil
+ben kapılarını kapattım-->ben kapı kapatmak
+kimse beni görmedi-->kimse ben görmek
+iki tane yaptım-->ben iki tane yapmak
+sonunda zam aldım-->ben sonunda zam almak
+o topu aldı-->o top almak
+hepsini bana ver-->sen hepsi bana vermek
+dün okula gitmedim-->ben dün okul gitmek değil
+o şimdi dışarıda-->o şimdi dışarı orada
+iyi iş süper-->iyi iş süper
+ben içki içmiyorum-->ben içki_içmek değil
+bu sadece hayat-->bu sadece hayat
+farelerden nefret ederim-->ben fare onlar nefret_etmek
+ben şanslı hissediyorum-->ben şans hissetmek
+öğle yemeği hazırlayacağım-->ben benim öğle yemek hazırlamak
+akşam yemeğini getirdim-->ben akşam yemek getirmek
+o kadın kimdi-->o kadın kim ?
+hiç kardeşim yok-->benim hiç kardeş yok
+hiç kimse kaçmadı-->hiç_kimse kaçmak değil
+hiç fikrim yok-->benim hiç fikir yok
+o kapıyı kapattı-->o kapı kapatmak
+ben normal hissetmiyorum-->ben normal hissetmek değil
+anlaşmayı kabul etti-->o anlaşma kabul_etmek
+ben yorgun hissetmedim-->ben yorgun hissetmek değil
+hastaneye gitmem lazım-->ben hastane gitmek lazım
+o ne düşünüyor-->o ne düşünmek ?
+akşam yemeğini hazırlıyorum-->ben akşam yemek hazırlamak
+onların hepsi içtiler-->onlar hepsi içmek
+hepsi o kadar-->hepsi o_kadar
+evde ailemle olmalıyım-->ben ev orada benim aile ile birlikte olmak
+yarın eve dönüyorum-->ben yarın ev dönmek
+hepsini çok özledim-->ben hepsi çok özlemek
+seni görmek istiyoruz-->biz sen görmek istemek
+sevgilimi almaya gitmeliyim-->ben benim sevgili almak gitmek
+içki içmeyi severim-->ben içki_içmek sevmek
+o kadın şişman-->o kadın şişman
+siz geç kalktınız-->siz geç kalkmak
+hastaneye gitti mi-->o hastane gitmek ?
+o şimdi geldi-->o şimdi gelmek
+yalnız olduğumu düşündüm-->ben yalnız olmak düşünmek
+ben geri döndüm-->ben geri dönmek
+şimdi sigara içmiyorum-->ben şimdi sigara_içmek değil
+pencereden dışarıya bak-->sen pencere dışarı bakmak
+herkes şarkı söyledi-->herkes şarkı söylemek
+amcası hastanede öldü-->onun amca hastane orada ölmek
+bunu duymak güzel-->bu duymak güzel
+kaybetmekten nefret ederim-->ben kaybetmek nefret_etmek
+amcamın arabası hızlı-->benim amca onun araba hızlı
+bulmacalardan nefret ederim-->ben bulmaca nefret_etmek
+bir hayalet gördüm-->ben bir hayalet görmek
+o hızlı oldu-->o hızlı olmak
+ne kadar soğuk-->ne kadar soğuk
+hayat eğlenceli olabilir-->hayat eğlence olmak
+onların hepsi durdular-->onlar hepsi durmak
+ben işe dönüyorum-->ben iş dönmek
+hep şarkı söylüyor-->o hep şarkı söylemek
+iki kedim var-->benim iki kedi var
+ailem zengin değildir-->benim aile zengin değil
+şimdi işe dönüyorum-->ben şimdi iş dönmek
+okuldaki çocuğumu aldım-->ben okul orada benim çocuk almak
+ben zaten hastayım-->ben zaten hasta
+o masa hazırladı-->o masa hazırlamak
+amcam orada öldü-->benim amca orada ölmek
+arkadaşımı duymak istiyorum-->ben benim arkadaş duymak istemek
+kibar bir adam-->kibar bir adam
+bir takvim alacağım-->ben bir takvim almak
+onların hepsi bağırıyor-->onlar hepsi bağırmak
+şu kadın kim-->şu kadın kim ?
+o tamir oldu-->o tamir
+kimseden yardım almadık-->biz kimse yardım almak değil
+ablam sonunda evlendi-->benim abla sonunda evlenmek
+onlar aile gibiler-->onlar aile gibi
+tekrar gözlerimi kapattım-->ben tekrar göz kapatmak
+aile olmamızı istiyorum-->ben bizim aile olmak istemek
+öyle düşünüyor musun-->sen öyle düşünmek ?
+ne kadar uzakta-->o ne kadar uzak
+o herkese söyledi-->o herkes söylemek
+o işe gelmedi-->o iş gelmek değil
+ben hep kaybolurum-->ben hep kaybolmak
+bu gece içmiyorum-->ben bu gece içmek değil
+çok iyi hissetmiyorum-->ben çok iyi hissetmek değil
+sigarayı içmeyi bırak-->sen sigara_içmek bırakmak
+iki kişi gülümsedi-->iki kişi gülümsemek
+kan basıncım düşük-->benim kan basınç düşük
+ilaç alıyor mu-->o ilaç almak ?
+ben kardeşimi duymadım-->ben benim kardeş duymak değil
+o kapıyı kapat-->sen o kapı kapatmak
+sütten nefret ederim-->ben süt nefret_etmek
+o davet aldı-->o davet almak
+oğlumu gördün mü-->sen benim oğul görmek ?
+akşam yemeği nasıldı-->akşam yemek nasıl ?
+o işi aldı-->o iş almak
+şehirden dönerken kayboldum-->ben şehir dönmek kaybolmak
+bizi duymuş olmalı-->o biz duymak olmak
+ben üzgün hissettim-->ben üzgün hissetmek
+niçin dışarıya çıkmıyoruz-->biz niçin dışarı çıkmak değil ?
+hiç ses duymadım-->ben hiç ses duymak değil
+aynı cevabı aldık-->biz aynı cevap almak
+niçin onu düşünüyorsun-->sen niçin o düşünmek ?
+benzin kokusu alıyorum-->ben benzin koku almak
+biz herkese söyledik-->biz herkes söylemek
+yarın amcamla görüşüyorum-->ben yarın benim amca ile görüşmek
+ne kadar korkunç-->ne kadar korkunç
+çalışmaktan nefret ederim-->ben çalışmak nefret_etmek
+para cezası aldım-->ben para ceza almak
+çok mutlu hissetmiyorum-->ben çok mutlu hissetmek değil
+onlar zarar görmediler-->onlar zarar görmek değil
+bir cevap almadım-->ben bir cevap almak değil
+hiç kimse umursamadı-->hiç_kimse umursamamak
+araba kullanmaktan hoşlanmıyorum-->ben araba kullanmak hoşlanmak değil
+ona yardım ederim-->ben ona yardım_etmek
+kuzeni alışverişe gitti-->onun kuzen alışveriş gitmek
+sadece onu gördüm-->ben sade o görmek
+kahve almaya git-->sen kahve almak gitmek
+o hep gülümser-->o hep gülümsemek
+o sütü içmedim-->ben o süt içmek değil
+sanırım hasta oldum-->ben sanmak hasta_olmak
+kız benimle ilgilendi-->kız benim ile ilgilenmek
+tehlike çok düşük-->tehlike çok düşük
+kahvaltı yaptın mı-->sen kahvaltı yapmak ?
+neden onu kapattın-->sen neden o kapatmak ?
+o adam kimdi-->o adam kim ?
+annem beni anlıyor-->benim anne ben anlamak
+sigara içmeyi bırakıyorum-->ben sigara_içmek bırakmak
+onlar dün gitti-->onlar dün gitmek
+herkes iyi mi-->herkes iyi ?
+o dün öldü-->o dün ölmek
+kendimi iyi hissetmiyorum-->kendim iyi hissetmek değil
+onu asla görmedim-->ben o asla görmek değil
+köpeğimi gördün mü-->sen benim köpek görmek ?
+bir şey görmediler-->onlar bir_şey görmek değil
+ilaç aldın mı-->sen ilaç almak ?
+ölmeyi tercih ederim-->ben ölmek tercih_etmek
+ben aile değilim-->ben aile değil
+ben dışarıda çalışırım-->ben dışarı orada çalışmak
+o burada kaldı-->o burada kalmak
+ben sinirli hissetmedim-->ben sinirli hissetmek değil
+ben işten atıldım-->ben iş atılmak
+hep yalan söylüyorsun-->sen hep yalan_söylemek
+onları çok özledim-->ben onlar çok özlemek
+arkadaşım amcasıyla kalıyor-->benim arkadaş onun amca ile kalmak
+o alışverişe gitti-->o alışveriş gitmek
+kendimi berbat hissediyorum-->kendim berbat hissetmek
+onlar kitap okudular-->onlar kitap okumak
+bir şey hissetmiyorum-->ben bir_şey hissetmek değil
+burası biraz kalabalık-->bura biraz kalabalık
+ayıyı gördüğünde dondu-->o ayı görmek donmak
+çok güvende hissetmedi-->o çok güven hissetmek değil
+o hızlı koşar-->o hızlı koşmak
+ben onu duymadım-->ben o duymak değil
+sen kapıyı kapattın-->sen kapı kapatmak
+ben dışarıya gitmedim-->ben dışarı gitmek değil
+beş adam gördüm-->ben beş adam görmek
+orada dışarısı soğuk-->orada dışarı soğuk
+dışarı gidebilir miyim-->ben dışarı gitmek ?
+onlar geri döndü-->onlar geri dönmek
+dün gece tanıştık-->biz dün gece tanışmak
+yemek yapmak istiyorlardı-->onlar yemek yapmak istemek
+ben gelmeyi düşünüyorum-->ben gelmek düşünmek
+onları hiç sevmiyorum-->ben onlar sevmek değil
+o dışarı gitti-->o dışarı gitmek
+o hızlı öğrenir-->o hızlı öğrenmek
+ben onu hissettim-->ben o hissetmek
+tiyatro çok kalabalıktı-->tiyatro çok kalabalık
+ailemle oturmayı isterdim-->ben benim aile ile istemek
+o kadın kim-->o kadın kim ?
+bunu duymak istiyorum-->ben bu duymak istemek
+ben onu kapattım-->ben o kapatmak
+o yorgun hissetti-->o yorgun hissetmek
+ailem piknikten hoşlandı-->benim aile piknik hoşlanmak
+dün gece çalıştım-->ben dün gece çalışmak
+arkadaşım anlaşmayı biliyor-->benim arkadaş anlaşma bilmek değil
+telefonunun özellikleri çok iyi-->senin telefon özellik çok iyi
+hangi arabayı almayı düşünüyor-->o hangi araba almak düşünmek ?
+annenin telefonunu babası kaybetti-->senin anne telefon onun baba kaybetmek
+ben kitap okumayı seviyorum-->ben kitap okumak sevmek
+ben oraya geri dönüyorum-->ben oraya geri dönmek
+o iyi bir kalabalıktı-->o iyi bir kalabalık
+sanat tarihi ile ilgilendi-->o sanat tarih ile ilgilenmek
+telefon numaranı söyler misin-->sen senin telefon numara söylemek ?
+hiç kimse meşgul değil-->hiç_kimse meşgul değil
+eve dönerken yağmura yakalanmıştım-->ben ev dönmek yağmur yakalanmak
+arabanın fiyatı çok pahalı-->araba onun fiyat çok pahalı
+marketde büyük indirim vardı-->market orada büyük indirim var
+bunu tamir etmek imkansız-->bu tamir_etmek imkansız
+soğuk almış gibi görünüyorsun-->sen soğuk almak gibi görünmek
+ben bunu iyi anlamadım-->ben bu iyi anlamak değil
+daha fazla duymak istiyorum-->ben daha fazla duymak istemek
+ilgilenmek için işim vardı-->benim ilgilenmek için iş var
+burada kamera var mı-->burada kamera var ?
+yazı yazmayı hiç sevmiyorum-->ben yazı yazmak hiç sevmek değil
+sen yakında üniversiteye gideceksin-->sen yakında üniversite gitmek
+senin içeri girdiğini duymadım-->ben senin içeri girmek duymak değil
+biz bunu duymak istiyorduk-->biz bu duymak istemek
+bir battaniye almaya git-->sen bir battaniye almak gitmek
+benim hiç yiyeceğim yok-->benim hiç yiyecek yok
+benim şemsiyemi alıp git-->sen benim şemsiye almak gitmek
+sevgilisinin yaşadığına inanmak istiyordu-->o onun sevgili yaşamak inanmak istemek
+o şimdi bir kadın-->o şimdi bir kadın
+annemle beraber doktora gidiyoruz-->ben benim anne ile beraber doktor gitmek
+büyük bir kahvaltı yedim-->ben büyük bir kahvaltı yemek
+şimdi paramı almaya gideceğim-->ben şimdi benim para almak gitmek
+bu iyi bir kamera-->bu iyi bir kamera
+ben yakında üniversiteye gitmeyeceğim-->ben yakında üniversite gitmek değil
+o ne kadar yükseklikte-->o ne kadar yüksek ?
+ben spor yapmayı severim-->ben spor yapmak sevmek
+onun düşük çenesi var-->onun düşük çene var
+kuzeni soğuk almış görünüyordu-->onun kuzen soğuk almak görünmek
+birisi şemsiyeni almış olmalı-->biri senin şemsiye almak olmak
+ben siyahı tercih ederim-->ben siyah tercih_etmek
+ben bir saat aldım-->ben bir saat almak
+onun iyi yaptığını düşündüm-->ben onun iyi yapmak düşünmek
+insanları mutlu eden nedir-->insan x2 mutlu yapmak ne ?
+avrupadaki akrabalarını çok özledi-->o avrupa orada onun akraba çok özlemek
+onlar düşündüğünden daha zeki-->onlar senin düşünmek daha zeki
+o kutunun kapağını açtı-->o kutu kapak açmak
+babam amcasıyla birlikte yaşıyor-->benim baba onun amca ile birlikte yaşamak
+onlar düşündüğünden daha akıllı-->onlar senin düşünmek daha akıllı
+kuzenimi işe almak istiyorum-->ben benim kuzen iş almak istemek
+gidip yeni kitap aldım-->ben gitmek yeni kitap almak
+bu kamera kaç para-->bu kamera kaç_para ?
+aldığım biletler iade yapılamaz-->benim almak bilet iade yapmak değil
+havaalanı otobüsleri nereden kalkıyor-->havaalanı otobüs nereden kalkmak ?
+adama muzun fiyatını sordu-->o adam muz fiyat sormak
+sana aldığım kıyaget nerede-->sana benim almak kıyafet nerede ?
+hangi kadının oğlu hasta-->hangi kadın onun oğul hasta ?
+bu ilaç onu iyileştirebilir-->bu ilaç o iyileşmek
+ben yeni telefon alacağım-->ben yeni telefon almak
+derslerini bitirip dışarı çıktı-->o onun ders bitirmek dışarı çıkmak
+benim gücüm geri dönüyor-->benim güç geri dönmek
+arkadaşım onun erkek kardeşi-->benim arkadaş onun erkek kardeş
+dün aldığım saat budur-->dün benim almak saat bu
+arkadaşım dışarıda hasta olmuş-->benim arkadaş dışarı orada hasta_olmak
+annem hergün evi temizliyor-->benim anne her_gün ev temizlemek
+o kız kardeşimin oğludur-->o benim kız kardeş onun oğul
+bugün çok mutlu hissediyorum-->ben bugün çok mutlu hissetmek
+onlar arkadaşının kazandığını düşünüyor-->onlar senin arkadaş onun kazanmak düşünmek
+rahat bir duygu değildi-->rahat bir duygu değil
+ancak ben uzman değilim-->ancak ben uzman değil
+bir yavru köpek satıyorum-->ben bir yavru köpek satmak
+ben bunu almak istedim-->ben bu almak istemek değil
+çantasını çok fazla doldurdu-->o onun çanta çok doldurmak
+allaha şükür eve geldin-->sen allaha_şükür ev gelmek
+dışarıya çıkarttığım kedimi kaybettim-->ben dışarı çıkmak benim kedi kaybetmek
+o gemi yarın kalkıyor-->o gemi yarın kalkmak
+o hep yorgun görünüyor-->o hep yorgun görünmek
+bu sabah kahve içmedim-->ben sabah kahve içmek değil
+genç kadının yüzü kızardı-->genç kadın onun yüz kızarmak
+ilk o bana vurdu-->ilk o bana vurmak
+o içki içmeyi azalttı-->o içki_içmek azaltmak
+bu harika bir duygu-->bu harika bir duygu
+ben kitabı borç almadım-->ben kitap borç_almak değil
+sabahları erken uyanmayı seviyorum-->ben sabah erken uyanmak sevmek
+geçen hafta çocuklarımızla ilgilendi-->o geçen_hafta bizim çocuk onlar ilgilenmek
+onun iki köpeği var-->onun iki köpek var
+benim için ne düşünüyorsun-->sen benim için ne düşünmek ?
+o eve geri döndü-->o ev geri dönmek
+ben raporumu bugün yazdım-->ben benim rapor bugün yazmak
+tren ne zaman kalkıyor-->tren ne_zaman kalkmak ?
+havanın güzel olacağını düşünüyorum-->ben hava güzel olmak düşünmek
+kibar ama komik olun-->siz kibar ama komik olmak
+aldığım kamerayı kaybettin mi-->sen benim almak kamera kaybetmek ?
+o çok geç kaldı-->o çok geç kalmak
+erkek kardeşimin evine gidiyoruz-->biz benim erkek kardeş onun ev gitmek
+her sabah erken kalkıyorum-->ben her sabah erken kalkmak
+duş alırken telefon çaldı-->duş almak telefon çalmak
+ışıkları ne zaman kapattın-->sen ışık ne_zaman kapatmak ?
+ben çok hasta oldum-->ben çok hasta_olmak
+şimdi bununla ilgilenmek istemiyorum-->ben şimdi bu ilgilenmek istemek değil
+bir kadının bağırdığını duydum-->ben bir kadın onun bağırmak duymak
+sigara ve içki içmiyorum-->ben sigara ve içki_içmek değil
+o ona iş verdi-->o ona iş vermek
+o yalnız kahvaltı yaptı-->o yalnız kahvaltı yapmak
+arkadaşım kalabalık olduğunu söylüyor-->benim arkadaş kalabalık olmak söylemek
+günler çok hızlı geçer-->gün çok hızlı geçmek
+evden çalışmak çok zormuş-->ev orada çalışmak çok zor olmak
+o ne kadar derindir-->o ne kadar derin
+ben düşündüğünden daha gencim-->ben senin düşünmek daha genç
+polisler hırsızı gözaltına aldılar-->polis onlar hırsız gözaltı almak
+buraya ilk ben vardım-->bura ilk ben varmak
+annem öğle yemeğini hazırladı-->benim anne öğle yemek hazırlamak
+ben evde çiçek bakmıyorum-->ben ev orada çiçek bakmak değil
+hastanede onu ziyaret ettim-->ben hastane orada o ziyaret_etmek
+babam anlaşmayı kabul etmedi-->benim baba anlaşma kabul_etmek değil
+gerçekten öyle mi düşünüyorsun-->sen gerçek öyle düşünmek ?
+ben sadece telefonu kapattım-->ben sadece telefon kapatmak
+annem arkadaşımla fotoğrafımızı çekmedi-->benim anne benim arkadaş ile bizim fotoğraf_çekmek değil
+alışveriş yapmaktan nefret ediyorum-->ben alışveriş yapmak nefret_etmek
+kazandığı bütün parayı harcamış-->o onun kazanmak bütün para harcamak
+hırsız kadının çantasını çaldı-->hırsız kadın onun çanta çalmak
+bir hastanede çalışmak istiyorum-->ben bir hastane orada çalışmak istemek
+ağabeyim bizi duymuş olabilirdi-->benim abi biz duymak olabilir
+aldığım pantolon çok dar-->benim almak pantolon çok dar
+ilk defa yemek yaptım-->ben ilk defa yemek yapmak
+o hayvanları çok sever-->o hayvan onlar çok sevmek
+temizlik yapmayı çok seviyorum-->ben temizlik yapmak çok sevmek
+bilgisayarı mutlaka arkadaşı almıştır-->bilgisayar mutlaka onun arkadaş almak
+hangi arabayı almak istiyorsun-->sen hangi araba almak istemek ?
+çok yaramaz çocukları sevmez-->o yaramaz çocuk onlar sevmek değil
+ben iki dil biliyorum-->ben iki dil bilmek
+o haklı olduğumu düşünüyor-->o benim haklı olmak düşünmek
+amcamın evine hiç gitmedim-->ben benim amca onun ev hiç gitmek değil
+uçağınız saat kaçta kalkıyor-->sizin uçak saat kaç kalkmak ?
+biz intikam almak istiyoruz-->biz intikam almak istemek
+sınav sonucuma bakmak istemiyorum-->ben sınav sonuç bakmak istemek değil
+bize yardım edebilir misin-->sen bize yardım_etmek ?
+hayatım normale geri dönüyor-->benim hayat normal geri dönmek
+sağlığa zararlı yiyecekleri yemiyorum-->ben sağlık zarar yiyecek yemek değil
+kız kardeşim arkadaşımı seviyor-->benim kız kardeş benim arkadaş sevmek
+neden bu anlaşmayı yaptın-->sen neden bu anlaşma yapmak ?
+biz sadece onunla ilgilenmeliyiz-->biz sadece onun ile ilgilenmek
+komşu çocuklarıyla ilgilenmek zorundayım-->ben komşu çocuk onlar ile ilgilenmek mecbur
+otobüs ne zaman kalkıyor-->otobüs ne_zaman kalkmak ?
+kayıp çocuktan haber almadık-->biz kayıp çocuk haber_almak değil
+annem arkadaşımla fotoğrafımızı çekti-->benim anne benim arkadaş ile bizim fotoğraf_çekmek
+çocuklarım bana bunu aldılar-->benim çocuk onlar bana bu almak
+yazı yazmayı hiç sevmez-->o yazı yazmak hiç sevmek değil
+ilaç tedavisine ihtiyacı var-->onun ilaç tedavi ihtiyaç var
+bir kamera almak istiyorum-->ben bir kamera almak istemek
+ben hep iyi yerim-->ben hep iyi yemek
+bir şey duymadığımı söyledim-->ben bir_şey duymak değil söylemek
+daha fazla almak istiyorum-->ben daha fazla almak istemek
+onun imkansız olduğunu biliyorum-->onun imkansız olmak ben bilmek
+o bir kadın oldu-->o bir kadın olmak
+onlar hep partilerden hoşlanır-->onlar hep parti hoşlanmak
+hiç kimse hile yapmadı-->hiç_kimse hile yapmak değil
+o iyi bir kamera-->o iyi bir kamera
+annesinin yaşadığına inanmak istiyor-->o onun anne yaşamak inanmak istemek
+polis kaza ile ilgilendi-->polis kaza ile ilgilenmek
+amcamın kanserden öldüğünü duydum-->ben benim amca onun kanser ölmek duymak
+annenin telefonunu kardeşin kaybetti-->senin anne telefon senin kardeş kaybetmek
+biz birçok pul aldık-->biz birçok pul almak
+o arkadaşımın erkek kardeşi-->o benim arkadaş erkek kardeş
+ben çok iyi hissetmiyorum-->ben çok iyi hissetmek değil
+adama muzun fiyatını sordum-->ben adam muz fiyat sormak
+babası amcasıyla avrupada kalıyor-->onun baba onun amca ile avrupa orada kalmak
+her gün film izleriz-->biz her_gün film izlemek
+bir saat içinde gideceğim-->ben bir saat içinde gitmek
+otobüs sıcak ve kalabalıktı-->otobüs sıcak ve kalabalık
+bu ev amcama aittir-->bu ev benim amca ait
+sen tedavi oldun mu-->sen tedavi olmak ?
+markete ekmek almaya gidiyorum-->ben market ekmek almak gitmek
+ben istediğim arabayı almadım-->ben istek araba almak değil
+o bir gözünü kapattı-->o onun bir göz kapatmak
+ben aramana geri dönüyorum-->ben senin aramak geri dönmek
+ben alışveriş merkezine gidemem-->ben alışveriş merkez gitmek değil
+bu benim kız kardeşim-->bu benim kız kardeş
+program bitince radyoyu kapattık-->biz program bitmek biz radyo kapatmak
+ben hep bulaşıkları yıkarım-->ben hep bulaşık yıkamak
+onlar benim arkadaşımı seviyor-->onlar benim arkadaş sevmek
+amcamın tahta bacağı var-->ben benim amca onun tahta bıçak var
+şarkı söylediğini duymak istiyorum-->ben senin şarkı söylemek duymak istemek
+nehirin seviyesi çok düşük-->nehir seviye çok düşük
+kötü bir tane aldım-->ben kötü bir tane almak
+arkadaşlarımla birlikte çok çalışıyoruz-->biz benim arkadaş ile birlikte çok çalışmak
+seni almak için geldim-->ben sen almak için gelmek
+sana kim iş verdi-->sana kim iş vermek ?
+avrupada çok para kazanıyorum-->ben avrupa orada çok para kazanmak
+bir robot almak istiyorum-->ben bir robot almak istemek
+dün duymamış gibi yaptı-->o dün duymak değil gibi yapmak
+senin şişman olduğunu düşünüyorum-->ben senin şişman olmak düşünmek
+ablam odada çantasını hazırlıyor-->benim oda orada onun çanta hazırlamak
+kötü bir olay geçirdim-->ben kötü olay geçirmek
+havanın kuru olacağını düşünüyor-->o hava kuru olmak düşünmek
+hangi arabayı almayı düşünüyorsun-->sen hangi araba almak düşünmek ?
+arkadaşımın ağladığını hiç duymadım-->ben benim arkadaş ağlamak hiç duymak değil
+tüm duymak istediğim bu-->benim tüm duymak istemek bu
+onu duymamış gibi davranalım-->biz o duymak değil gibi yapmak
+annesinin yaşadığına inanmak istiyorum-->ben onun anne yaşamak inanmak istemek
+bugün ödevlerimi yapmayı unutmadım-->ben bugün benim ödev yapmak unutmak değil
+babam bir kamera aldı-->benim baba bir kamera almak
+o dolabı almak istiyorum-->ben o dolap almak istemek
+ben kızımı hastaneye götürdüm-->ben benim anne hastane götürmek
+o güzel bir kadın-->o güzel bir kadın
+onu kardeşim gibi seviyorum-->ben o benim kardeş gibi sevmek
+sen hiç başarılı değilsin-->sen hiç başarılı olmak değil
+başka insanlarla tanışmak istiyorum-->ben başka insan onlar ile tanışmak istemek
+oraya ilk olarak vardım-->oraya ilk ben varmak
+benim maaşım çok düşük-->benim maaş çok düşük
+evden bilgisayar satmak istedi-->o ev orada bilgisayar satmak istemek
+anne öğle yemeği hazırlıyor-->anne öğle yemek hazırlamak
+asla böyle çaresiz hissetmedim-->ben asla böyle çaresiz hissetmek değil
+ütü yapmaktan nefret ederim-->ben ütü yapmak nefret_etmek
+hiç daha güçlü hissetmedim-->ben hiç daha güçlü hissetmek değil
+ben geri döndüm mü-->ben geri dönmek ?
+korku filmlerini seyretmeyi seviyorum-->ben korku film seyretmek sevmek
+bugün çok mutlu görünüyordu-->o bugün çok mutlu görünmek
+uzun zamandır sigara içmedim-->ben uzun zaman sigara_içmek değil
+o ne kadar büyüktür-->o ne kadar büyük
+hiç kimseden yardım almadık-->biz hiç_kimse yardım almak değil
+erkek kardeşimin parası yok-->benim erkek kardeş onun para yok
+eski arkadaşlarımla az konuşuyorum-->ben benim eski arkadaş onlar ile az konuşmak
+benim biraz başım dönüyor-->benim biraz baş dönmek
+annem arkadaşıyla okula gitmedi-->benim anne onun arkadaş ile okul gitmek değil
+ben havalı olduğumu düşündüm-->ben benim havalı olmak düşünmek
+o aceleyle valizini hazırladı-->o acele valiz hazırlamak
+yarınki partide çok eğleneceğiz-->biz yarın parti orada çok eğlenmek
+onlar kitapları zorla aldılar-->onlar kitap zor almak
+sen ne iş yapıyorsun-->sen ne iş yapmak ?
+o hep yalan söyler-->o hep yalan_söylemek
+polis arkadaşımla dışarıda geziyor-->o benim polis arkadaş ile dışarı orada gezmek
+bu güzel bir duygu-->bu güzel bir duygu
+o iyi hissetmiyor mu-->o iyi hissetmek değil ?
+bu dün aldığım kitap-->bu dün benim almak kitap
+şeker hastalığın var mı-->senin şeker_hastalığı var ?
+arabasının koltuğu çok pisti-->onun araba koltuk çok pis
+hangi kitabı okumak istiyorsun-->sen hangi kitap okumak istemek ?
+kardeşim süt almayı unuttu-->benim kardeş süt almak unutmak
+çok dışarıya çıkar mısın-->sen çok dışarı çıkmak ?
+o bir şey hissetmedi-->o bir_şey hissetmek değil
+yeni aldığım telefonu kaybettim-->ben yeni almak telefon kaybetmek
+ben senin için endişelendim-->ben senin için endişelenmek
+gerçekten izin aldın mı-->sen gerçek izin_almak ?
+sana yardım edebilir miyim-->ben sana yardım_etmek ?
+o bir ilaç gibi-->o bir ilaç gibi
+siz hayvanları hiç sevmezsiniz-->siz hayvan onlar hiç sevmek değil
+adam dışarıda balık tutuyordu-->adam dışarı orada balık tutmak
+üç erkek kardeşi vardır-->onun üç erkek kardeş var
+bunu tekrar duymak istiyorum-->ben bu tekrar duymak istemek
+kardeşi bir kamera çaldı-->onun kardeş bir kamera çalmak
+arabam koltuğu çok pisti-->benim araba koltuk çok pis
+sonuna istediğim bilgisayarı aldım-->ben sonunda istek bilgisayar almak
+arkadaşlarımla dışarıda oturmayı seviyorum-->ben benim arkadaş onlar ile dışarı orada oturmak sevmek
+dışarıda çok trafik var-->dışarı orada çok trafik var
+annem mutfakta yemek yapıyor-->benim anne mutfak orada yemek yapmak
+bugün hava yağmurlu değil-->bugün hava yağmur değil
+telefonu artık çok eskidi-->onun telefon çok eski
+havanın sıcak olduğunu söylüyor-->o hava sıcak olmak söylemek
+onun doğru olduğunu düşünüyorum-->ben onun doğru olmak düşünmek
+annemin yemekleri çok güzel-->benim anne yemek çok güzel
+tren hangi istasyondan kalkıyor-->tren hangi istasyon kalkmak ?
+dışarıda çok yemek yerim-->ben dışarı orada çok yemek yemek
+onlar daha iyi hissetti-->onlar daha iyi hissetmek
+muzun fiyatı ne kadar-->muz fiyat ne_kadar ?
+o ancak bir çocuk-->o ancak bir çocuk
+ağabeyim duymamış gibi yaptı-->benim abi duymak değil gibi yapmak
+yarın erken kapatmayı planlıyoruz-->biz yarın erken kapatmak planlamak
+neden sadece izin almadın-->sen neden sadece izin_almak değil
+oğlum şimdi seni anlıyor-->benim oğul şimdi sen anlamak
+bir alışveriş listesi hazırladım-->ben bir alışveriş liste hazırlamak
+annemi bir hastaneye götürdüm-->ben benim anne hastane götürmek
+beni erkek kardeşime benzetirler-->onlar ben benim erkek kardeş benzetmek
+senin kapıyı vurduğunu duymadım-->ben senin kapı vurmak duymak değil
+ben not almak istiyorum-->ben not almak istemek
+o açığı kapatmayı düşünüyoruz-->biz o açık kapatmak düşünmek
+ben zeki olduğumu düşünüyorum-->ben benim zeki olmak düşünmek
+artık az para kazanıyorum-->ben artık az para kazanmak
+ben kız kardeşime benzerim-->ben benim kız kardeş benzemek
+ne tuhaf deneyim ama-->ne tuhaf deneyim ama
+ne berbat bir anne-->ne berbat bir anne
+burada hiç ilaç yok-->burada hiç ilaç yok
+bunu tamir edebilir miyiz-->biz bu tamir_etmek ?
+bugün dışarısı çok kalabalıktı-->bugün dışarı çok kalabalık olmak
+o eski bir kamera-->o eski bir kamera
+onun köpeği var mı-->onun köpek var ?
+temizlik yapmayı hiç sevmiyorum-->ben temizlik yapmak hiç sevmek değil
+herkes hikaye ile ilgilendi-->herkes hikaye ile ilgilenmek
+lüks bir ev aldım-->ben lüks bir ev almak
+bu amcamın yaşadığı evdir-->bu benim amca onun yaşamak ev
+okula ilk arkadaşım gelmiş-->okul ilk benim arkadaş gelmek
+kardeşimle alışveriş yapmayı seviyor-->o benim kardeş ile alışveriş yapmak sevmek
+ben seni hiç duymadım-->ben sen hiç duymak değil
+benimle ilgilenmek istediğini söyledin-->sen benim ile ilgilenmek söylemek
+hastanede kan örneğimi aldılar-->onlar hastane orada benim kan örnek almak
+patron anlaşmayı kabul etmemiş-->patron anlaşma kabul_etmek değil
+o sert bir kadın-->o sert bir kadın
+hangi mevsimi çok sever-->o hangi mevsim çok sevmek ?
+nazik ama saygılı ol-->sen nazik ama saygılı olmak
+aldığımız eti dondurucuya koydum-->ben bizim almak et dondurucu koymak
+o dışarıda yemek yedi-->o dışarı orada yemek yemek
+kalabalık yüksek sesle bağırıyordu-->kalabalık yüksek ses bağırmak
+onun dışarı çıktığını gördüm-->ben onun dışarı çıkmak görmek
+bunun imkansız olacağını biliyorum-->ben bu imkansız olmak bilmek
+ben işten nefret ediyorum-->ben iş nefret_etmek
+siz bugün çok yorulmuşsunuz-->siz bugün çok yorulmak
+onun için ne düşünüyorsun-->sen onun için ne düşünmek ?
+bu nedenle tatile gitmeyeceğim-->ben bu neden tatil gitmek değil
+üç yıldır içki içmiyorum-->ben üç yıl içki_içmek değil
+ben her zaman yürürüm-->ben her zaman yürümek
+o benim amcam değil-->o benim amca değil
+o akşam yemeği hazırlıyor-->o akşam yemek hazırlamak
+bu kamera nasıl çalışır-->bu kamera nasıl çalışmak ?
+onun düşük tansiyonu var-->onun düşük tansiyon var
+film izlemeyi hiç sevmiyorum-->ben film izlemek hiç sevmek değil
+hepimiz konserden zevk aldık-->hepimiz konser zevk_almak
+ben ketçap almayı unuttum-->ben ketçap almak unutmak
+benim hiç borcum yok-->benim hiç borç yok
+ben kahve kokusu alıyorum-->ben kahve koku almak
+annen nerede alışveriş yapar-->senin anne nerede alışveriş yapmak ?
+benim iki kitabım var-->benim iki kitap var
+annem babamla alışveriş yapıyor-->benim anne benim baba ile alışveriş yapmak
+bu kamera onun olmalı-->bu kamera onun olmak
+öğle yemeği almaya gidelim-->biz öğle yemek almak gitmek
+bu benim için imkansız-->bu benim için imkansız
+sen bana yardım edebilirsin-->sen bana yardım_etmek
+bu imkansız olarak düşünülmemeli-->bu imkansız düşünmek değil
+havaalanı otobüsü nereden kalkıyor-->havaalanı otobüs nereden kalkmak ?
+düne kadar mektubunu almadık-->biz dün kadar mektup almak değil
+ben haklı olduğumu düşünüyorum-->ben benim haklı olmak düşünmek
+o sessiz bir kadın-->o sessiz bir kadın
+dışarıdan yemek almak istemiyor-->o dışarı orada yemek almak istemek değil
+yeni aldığı telefonu kaybetti-->o yeni almak telefon kaybetmek
+polis para cezası verdi-->polis para ceza_vermek
+ona yardım eden benim-->ben ona yardım_etmek
+havalı olduğumu düşünüyor musun-->sen benim havalı olmak düşünmek ?
+havanın tekrar ısınacağını söylediler-->onlar hava tekrar ısınmak söylemek
+o lüks içinde yaşıyor-->o lüks içinde yaşamak
+yarın eve geri dönüyorum-->ben yarın ev geri dönmek
+annenin cüzdanını gördün mü-->sen senin anne cüzdan görmek ?
+küçük yaşta babasını kaybetti-->o küçük yaş baba kaybetmek
+kuzenim avrupada amcasıyla kalıyor-->benim kuzen avrupa orada onun amca ile kalmak
+ben bu şakadan hoşlanmıyorum-->ben bu şaka hoşlanmak değil
+arkadaşım yavaşça ayağa kalktı-->benim arkadaş yavaş ayak kalkmak
+onun iki kedisi var-->onun iki kedi var
+aldığım şeyi babama söylemeliyim-->ben benim almak şey benim baba söylemek
+onlar barış içinde yaşarlar-->onlar barış içinde yaşamak
+hiç daha iyi hissetmedim-->ben hiç daha iyi hissetmek değil
+bu benim erkek kardeşim-->bu benim erkek kardeş
+okula ilk arkadaşı geldi-->okul ilk onun arkadaş gelmek
+arkadaşımın iki arabası var-->benim arkadaş iki araba var
+babası kokain alırken yakalandı-->onun baba kokain almak yakalanmak
+o ne iş yapıyor-->o ne iş yapmak ?
+hangi arabayı almak istiyor-->o hangi araba almak istemek ?
+lezzetli bir salata hazırladı-->o lezzetli bir salata hazırlamak
+ben onların hepsini öldürdüm-->ben onlar hepsi öldürmek
+gerçekten sana inanmak istiyorum-->ben gerçek sana inanmak istemek
+ben biraz geç kaldım-->ben biraz geç_kalmak
+amcam bir araba sürer-->benim amca bir araba sürmek
+küçük yaşta müziğe başlamıştır-->o küçük yaş müzik başlamak
+ben erkek kardeşime benzerim-->ben benim erkek kardeş benzemek
+dükkanı ne zaman kapattın-->sen dükkan ne_zaman kapatmak ?
+çok güzel bir kadın-->o çok güzel bir kadın
+kardeşim çok erken kalkıyor-->benim kardeş çok erken kalkmak
+o düşük bir rüzgar-->o düşük bir rüzgar
+o bununla ilgilendi mi-->o bu ile ilgilenmek ?
+havanın soğuk olduğunu düşünmüyorum-->ben hava soğuk olmak düşünmek değil
+zamanın nasıl geçtiğini anlamadım-->ben zaman nasıl geçmek anlamak değil
+sen yakında üniversiteye gittin-->sen yakında üniversite gitmek
+ayrılmak istediğimi onlara söyledim-->ben ayrılmak istemek onlar söylemek
+hepimiz piknikten zevk aldık-->hepimiz piknik zevk_almak
+mutfakta akşam yemeğini hazırlıyor-->o mutfak orada akşam yemek hazırlamak
+beni rahatsız eden bu-->ben rahatsız_etmek bu
+ışıkları kapatmayı hatırladın mı-->sen ışık kapatmak hatırlamak ?
+bu ne kadar zor-->bu ne kadar zor
+amcamın evinde kalmayı planlıyorum-->ben benim amca onun ev orada kalmak planlamak
+ben hayvanları çok seviyorum-->ben hayvan onlar çok sevmek
+üniversitesindeki profesör çok başarılı-->üniversite orada profesör çok başarılı
+biz her önlemi aldık-->biz her önlem almak
+onları gördüğümde çok şaşırdım-->ben onlar görmek çok şaşırmak
+birkaç tenis topu aldık-->biz birkaç tenis top almak
+arkadaşımla okula yüreyerek gittik-->biz benim arkadaş ile okul yürümek gitmek
+o zengin bir adamla evliydi-->o zengin bir adam ile evli
+havanın soğuk olduğunu düşünüyor musun-->sen hava soğuk olmak düşünmek ?
+onun yardıma ihtiyacı var mıydı-->onun yardım ihtiyaç var ?
+ben kötü bir insan değilim-->ben kötü bir insan değil
+odasını temizleyip annesine yardım etti-->o onun oda temizlemek sonra onun anne yardım_etmek
+onun hiç kız kardeşi yok-->onun hiç kız kardeş yok
+sen çocuklar ile iyi anlaşamazsın-->sen çocuk onlar ile iyi anlaşmak değil
+o ne kadar geç kaldı-->o ne kadar geç_kalmak ?
+arkadaşı aradığı kitabı okulda bulmuş-->onun arkadaş aramak kitap okul orada bulmak
+o hiç çocuk sahibi olmamıştır-->o hiç çocuk sahip olmak değil
+yarın havanın sıcak olacağını düşünüyorum-->ben yarın hava sıcak olmak düşünmek
+o ilaç çok yardımcı oldu-->o ilaç çok yardımcı_olmak
+ablasıyla beraber dışarı çıkmak istiyor-->o onun abla ile beraber dışarı çıkmak istemek
+o benim için çok kıymetli-->o benim için çok kıymetli
+o oğluna bir kamera aldı-->o onun oğul bir kamera almak
+araba sürerken çok mutlu görünmüyor-->o araba sürmek çok mutlu görünmek değil
+gerçekten büyük bir indirim istiyorum-->ben gerçek büyük bir indirim istemek
+araba sürerken çok mutlu görünüyor-->o araba sürmek çok mutlu görünmek
+evet onun bir kardeşi var-->evet onun bir kardeş var
+telefonumun sarjı çok hızlı bitiyor-->benim telefon şarj çok hızlı bitmek
+evet onun iki kardeşi var-->evet onun iki kardeş var
+yağış mevsimi nihayet bitti gibi-->yağış mevsim nihayet bitmek gibi
+annem polisleri gördükten sonra endişenmişti-->benim anne polis onlar görmek sonra endişelenmek
+onun kız kardeşi gence benziyor-->onun kız kardeş genç benzemek
+o çantaları mutfak masasına koydu-->o çanta onlar mutfak masa koymak
+ablasıyla beraber dışarı çıkmak istemiyor-->o onun abla ile beraber dışarı çıkmak istemek değil
+yerde bulduğum telefonu polise verdim-->ben benim yer orada bulmak telefon polis vermek
+paramla yeni bir araba aldım-->ben benim para ile yeni araba almak
+ben bu kadar harika hissetmiyorum-->ben bu_kadar harika hissetmek değil
+o benim için çok önemli-->o benim için çok önemli
+araba sürerken çok mutlu görünüyordu-->o araba sürmek çok mutlu görünmek
+yerde bulduğu telefonu polise vermedim-->ben onun yer orada bulmak telefon polis vermek değil
+o benim ile konuşurken eğlendi-->o benim ile konuşmak eğlenmek
+salonda oturup televizyon seyretmeyi sevmiyor-->o salon orada oturmak televizyon seyretmek sevmek değil
+ben bugün ödevlerimi yapmayı unuttum-->ben bugün benim ödev yapmak unutmak
+ne kadar indirim alabileceğimizi düşünüyorsunuz-->siz düşünmek biz ne_kadar indirim almak ?
+sen futbol maçı izlemeyi seviyorsun-->sen futbol maç izlemek sevmek
+erkek kardeşimin bir köpeği var-->benim erkek kardeş onun bir köpek var
+araba sürerken çok mutlu görünüyorum-->ben araba sürmek çok mutlu görünmek
+boş zamanlarımda çok makale okurum-->ben boş zaman çok makale okumak
+öğrenciler okula gitmekten çok sıkılmışlardı-->öğrenci onlar okul gitmek çok sıkılmak
+onlar beni erkek kardeşimle karıştırırlar-->onlar ben benim erkek kardeş ile karıştırmak
+çocuklar her gün yaramazlık yapıyor-->çocuk her_gün yaramaz yapmak
+otobüs iki dakika içinde kalkıyor-->otobüs iki dakika içinde kalkmak
+ben çay içmeyi çok seviyorum-->ben çay içmek çok sevmek
+annem bana öğlen yemeği hazırladı-->benim anne bana öğle yemek hazırlamak
+evet benim bir kardeşim var-->evet benim bir kardeş var
+babası salonda oturmuş televizyon seyrediyor-->onun baba salon orada oturmak televizyon seyretmek
+dışarıdan gelen yemek çok soğuktu-->dışarı orada gelmek yemek çok soğuk
+trenimiz bir saat sonra kalkıyor-->bizim tren bir saat sonra kalkmak
+kız kardeşimin çok arkadaşı var-->benim kız kardeş onun çok arkadaş var
+dışarıda balık tutan adamları seyrediyordum-->ben dışarı orada balık tutmak adam onlar seyretmek
+ilk arabasını alırken mutlu görünüyordu-->o ilk onun araba almak mutlu görünmek
+sen ve ben çok eğleneceğiz-->sen ve ben çok eğlenmek
+o eşine bir servet bıraktı-->o onun eş bir servet bırakmak
+evinizde kaç tane pencere var-->sizin ev kaç tane pencere var ?
+o onun eski eşine aşık-->o onun eski eş aşık
+arkadaşlarının çok pahalı telefonları var-->onun arkadaş onlar çok pahalı telefon var
+çok fazla fotoğraf çekmeyi sevmiyorum-->ben çok fazla fotoğraf_çekmek sevmek değil
+sevgilisinin elini tutup arabayı gösterdim-->ben onun sevgili el tutmak araba göstermek
+o zengin bir kızla evlendi-->o zengin bir kız ile evlenmek
+eşim şimdi akşam yemeğini hazırlıyor-->benim eş şimdi akşam yemek hazırlamak
+o ve sen birbiriyle evliydiniz-->o ve sen birbiri ile evlenmek
+o evleri nasıl satacağını biliyor-->o ev nasıl satmak bilmek
+ben yeni bir kamera aldım-->ben yeni bir kamera almak
+zavallı yaşlı kadının parası kayboldu-->zavallı yaşlı kadın onun para kaybolmak
+onun kız kardeşi genç duruyor-->onun kız kardeş genç durmak
+onu akıl hocam gibi düşünüyorum-->ben o benim akıl hoca gibi düşünmek
+peşin ödersem indirim yapıyor musunuz-->ben peşin ödemek siz indirim yapmak ?
+ilaç tedavisi bana yardım etti-->ilaç tedavi bana yardım_etmek
+dışarıdan gelen yemek çok sıcaktı-->dışarı orada gelmek yemek çok sıcak
+sevgilimin elini tutup arabayı gösterdim-->ben benim sevgili el tutmak araba göstermek
+hergün yatmadan önce kitap okurum-->ben her_gün yatmak önce kitap okumak
+kız kardeşimin arabası pembe renklidir-->benim kız kardeş onun araba pembe renk
+şimdi her şey çok pahalı-->şimdi her_şey çok pahalı
+öğrenciler okula gitmekten çok sıkılmamışlardı-->öğrenci onlar okul gitmek çok sıkılmak değil
+okula giderken çantasını evde unuttum-->ben okul gitmek çanta ev orada unutmak
+ekmek almak için dışarı çıktı-->o ekmek almak için dışarı çıkmak
+annem polisleri gördükten sonra endişelendi-->benim anne polis onlar görmek sonra endişelenmek
+odamı temizleyip anneme yardım ettim-->ben benim oda temizlemek sonra benim anne yardım_etmek
+odasını temizleyip babasına yardım etti-->o onun oda temizlemek sonra onun baba yardım_etmek
+insanlarla nasıl başa çıkacağımı biliyorum-->ben insan onlar ile nasıl ilgilenmek bilmek değil
+bu bisiklet erkek kardeşime aittir-->bu bisiklet benim erkek kardeş ait
+annem güzel bir kahvaltı hazırlıyor-->benim anne güzel bir kahvaltı hazırlamak
+ben en az indirim istiyorum-->ben en az indirim istemek
+havanın çok soğuk olduğunu söyledin-->sen hava çok soğuk olmak söylemek
+ben galiba dün hasta oldum-->ben galiba dün hasta_olmak
+o bir denizci ile evlendi-->o bir denizci ile evlenmek
+bisikletimi erkek kardeşim tamir etti-->benim bisiklet benim erkek kardeş tamir_etmek
+son tren ne zaman kalkıyor-->son tren ne_zaman kalkmak ?
+onlar araba sürmeyi yeni öğrendi-->onlar araba sürmek yeni öğrenmek
+benim hocam başarılı bir profesör-->benim hoca başarılı bir profesör
+onun bir kız kardeşi var-->onun bir kız kardeş var
+onun hiç erkek kardeşi yok-->onun hiç erkek kardeş yok
+boş zamanlarımda hiç makale okumam-->ben boş zaman hiç makale okumak değil
+ağaçlardan düşen elmaları seyretmeyi sever-->o ağaç düşmek elma seyretmek sevmek
+ilk defa bu yemeği beğendim-->ben ilk defa bu yemek beğenmek
+dün akşam kargoyu arkadaşıma göndermedi-->o dün akşam kargo benim arkadaş göndermek değil
+yeni aldığım telefon hemen bozuldu-->ben yeni telefon almak hemen bozulmak
+odasını temizleyip babasına yardım etmedi-->o onun oda temizlemek sonra onun baba yardım_etmek değil
+o benim oraya gitmemi engelledi-->o benim oraya gitmek engellemek
+arkadaşı aradığı kitabı okulda bulamamış-->onun arkadaş aramak kitap okul orada bulmak değil
+sen bugün okula gittin mi-->sen bugün okul gitmek ?
+ben sadece buna inanmak istemiyorum-->ben sadece bu inanmak istemek değil
+ben sadece seninle ilgilenmek istedim-->ben sadece senin ile ilgilenmek istemek
+markete ekmek almaya gider misin-->sen market ekmek almak gitmek ?
+araba sürerken çok mutlu görünmüyorum-->ben araba sürmek çok mutlu görünmek değil
+sevgilimin ilk defa amcasıyla konuştum-->ben benim sevgili ilk defa onun amca ile konuşmak
+onun köpeği yok kuşu var-->onun köpek yok kuş var
+babam elli bin verirse başarırım-->benim baba elli bin vermek ben başarmak
+biz indirim oranı üzerinde anlaştık-->biz indirim oran anlaşmak
+yaşlı bir kadının sesi duydum-->ben yaşlı bir kadın onun ses duymak
+başarılı bir öğrenci olmak istiyorum-->ben başarılı öğrenci olmak istemek
+arkadaşımın çantasında üç cüzdan bulduk-->biz benim arkadaş onun çanta orada üç cüzdan bulmak
+ilgilenmek için kendi sorunlarım var-->ilgilenmek için kendi benim sorun var
+dışarıdan yemek almak ister misin-->sen dışarı orada yemek almak istemek ?
+erkek kardeşime benzediğimi düşünüyor musun-->sen benim erkek kardeş benim benzemek düşünmek ?
+bana bir indirim yapar mısınız-->bana bir indirim yapmak ?
+ağaçtan düşen elmaları seyretmeyi severim-->ben ağaç düşmek elma seyretmek sevmek
+akşamları denizde yüzmeyi çok seviyorum-->ben akşam deniz orada yüzmek çok sevmek
+üniversite kazanmak için çok çalışıyorum-->ben üniversite kazanmak için çok çalışmak
+evlendik ve yeni yatak aldık-->biz evlenmek ve yeni yatak almak
+müzik benim için bir zevktir-->müzik benim için bir zevk
+arkadaşım aradığı kitabı okulda bulmuş-->benim arkadaş aramak kitap okul orada bulmak
+o yataktan yavaşca ayağa kalktı-->o yatak yavaş ayak kalkmak
+arkadaşım ve ben birlikte gittik-->benim arkadaş ve ben birlikte gitmek
+onun için bir yemek hazırlıyor-->o onun için bir yemek hazırlamak
+kardeşim avrupadaki akrabalarımızı çok özlemiş-->benim kardeş avrupa orada bizim akraba çok özlemek
+o benim kız kardeşimin kamerası-->o benim kız kardeş onun kamera
+arabası eski olduğundan değiştirmek istiyor-->o onun araba eski olmak değiştirmek istemek
+onların evleri denize yakın durumdadır-->onların ev deniz yakın durum
+neden evinizde olduğumu ona söyledin-->siz neden benim sizin ev olmak ona söylemek değil
+avrupada çok para kazanıyor mu-->o avrupa orada çok para kazanmak ?
+sonunda işten ayrıldığı için mutluydu-->o sonunda iş ayrılmak için mutlu
+biz bunu iki defa yaptık-->biz bu iki defa yapmak
+o ve sen gençken evlendiniz-->o ve sen genç evlenmek
+ablası kardeşine çok kötü davranıyor-->onun abla onun kardeş çok kötü davranmak
+bana yüzde on indirim verildi-->bana yüzde on indirim vermek
+eski arkadaşlarıyla çok fazla konuşmaz-->o onun eski arkadaş onlar ile çok fazla konuşmak değil
+eve geldiğimde ben yorgun hissetmedim-->ben ev gelmek yorgun hissetmek değil
+arkadaşlarımla beraber okuldaki geziye katılmadık-->biz benim arkadaş onlar ile beraber okul orada gezi katılmak değil
+havanın nasıl olduğunu söyledi mi-->o hava nasıl olmak söylemek ?
+o bozuk bir kamera buldu-->o bozuk bir kamera bulmak
+öğretmenler ve öğrenciler okulda buluştu-->öğretmen ve öğrenci okul orada buluşmak
+sen gelince çok mutlu oldum-->ben sen gelmek çok mutlu olmak
+o ve sen genç evlendiniz-->o ve sen genç evlenmek
+okula giderken çantasını evde unuttu-->o okul gitmek çanta ev orada unutmak
+annemin yaptığı yemeğin tadı güzeldi-->benim anne yapmak yemek tat güzel
+başarılı bir öğrenci olmak istiyor-->o başarılı öğrenci olmak istemek
+o ve ben birlikte eğlendik-->o ve ben birlikte eğlenmek
+evime iki yeni koltuk aldım-->ben benim ev iki yeni koltuk almak
+ben bilmiyorum biz sağırlar böyleyiz-->ben bilmek değil biz sağır böyle
+ben bir hastanede çalışmak istiyorum-->ben bir hastane orada çalışmak istemek
+sabahları hep üç gazete alırım-->ben sabah hep üç gazete almak
+telefonumu evde unuttuğundan arkadaşımı arayamadım-->ben benim telefon ev orada unutmak benim arkadaş aramak değil
+benim iki kız kardeşim var-->benim iki kız kardeş var
+telefonumun özellikleri çok iyi değil-->benim telefon özellik çok iyi değil
+yakında ailemle beraber tatile gidiyoruz-->biz yakında benim aile ile beraber tatil gitmek
+ablamla beraber dışarı çıkmak istemiyor-->o benim abla ile beraber dışarı çıkmak istemek değil
+hava çok sıcak değil mi-->hava çok sıcak ?
+birçok insanın hiç evleri yoktu-->birçok insan hiç ev yok
+doktorum sağlığım iyi olduğunu söyledi-->benim doktor benim sağlık iyi olmak söylemek
+hangi ucuz telefonu almak istiyor-->o hangi ucuz telefon almak istemek ?
+onun iki kız kardeşi var-->onun iki kız kardeş var
+sevgilim ilk defa amcamla konuştu-->benim sevgili ilk defa benim amca ile konuşmak
+senin için bütün paramı harcadım-->ben senin için benim bütün para harcamak
+evinizde kaç tane saatiniz var-->sizin ev kaç saat var ?
+kadın dışarıda kaybettiği çocuğu aramıyordu-->kadın dışarı orada kaybetmek çocuk aramak değil
+iş için hangi arabayı alacaksın-->sen iş için hangi araba almak ?
+babam annemin aldığı hediyeyi gördü-->benim baba benim anne onun almak hediye görmek
+dün gece akşam yemeği hazırladı-->o dün gece akşam yemek hazırlamak
+senin sabah raporu hazırladığını gördüm-->ben senin sabah rapor hazırlamak görmek
+bugün bir gösteri izlemeye gittim-->ben bugün bir gösteri izlemek gitmek
+yerde bulduğu telefonu polise verdi-->o onun yer orada bulmak telefon polis vermek
+ben havanın iyi olacağını düşünüyorum-->ben hava iyi olmak düşünmek
+o benim kız kardeşim değil-->o benim kız kardeş değil
+salonda oturup televizyon seyretmeyi sevmiyorum-->ben salon orada oturmak televizyon seyretmek sevmek değil
+futbol maçı izlemeyi çok seviyorsun-->sen futbol maç izlemek çok sevmek
+başarılı olmak için çok çalışıyorum-->ben başarılı olmak için çok çalışmak
+onun en iyisi olduğunu düşünüyorum-->ben düşünmek o en iyi olmak
+o ve sen gizlice evlendiniz-->o ve sen gizli evlenmek
+öğrenciler için indirim var mı-->öğrenci için indirim var ?
+bugün markete kaç kişi geldi-->bugün market kaç kişi gelmek ?
+hastayım o yüzden bugün yapamam-->ben hasta o_yüzden ben bugün yapmak değil
+doktoru görmek için hastaneye gittim-->ben doktor görmek için hastane gitmek
+beni ikiz erkek kardeşime benzetti-->o ben benim ikiz kardeş benzetmek
+kitap okuyacağım ve film izleyeceğim-->ben kitap okumak ve film izlemek
+odamı temizleyip anneme yardım etti-->o benim oda temizlemek sonra benim anne yardım_etmek

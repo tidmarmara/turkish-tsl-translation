@@ -1,4 +1,4 @@
 path: 'dataset'
-train: 'train-tr2tsl-wordbased.txt'
-valid: 'valid-tr2tsl-wordbased.txt'
-test: 'test-tr2tsl-wordbased.txt'
+train: 'new_valid.txt'
+valid: 'new_train.txt'
+test: 'new_valid.txt'

@@ -25,7 +25,7 @@ def main(opts):
 
     model_creator = Model(opts, dataLoader)
     model = model_creator.get_model(input_tokenizer, target_tokenizer)
-    model = model_creator.load_model(model, os.path.join(opts.exp_path, 'ckpts', 'best'))
+    model = model_creator.load_model(model, os.path.join(opts.exp_path, 'ckpts', 'last'))
 
     evaluator = Evaluator(model, dataLoader, model_creator)
     model_scores = evaluator.eval(test_data_inp, test_data_tar, input_tokenizer, target_tokenizer, 50)

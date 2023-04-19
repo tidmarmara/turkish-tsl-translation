@@ -346,10 +346,10 @@ class Evaluator():
             # Post-process model output
             predicted_sentence = self.dataset.exclude_start_end_tokens(predicted_sentence, self.dataset.start_token, self.dataset.end_token)
 
-            # logger.info(f"Input: {input_sentence}")
-            # logger.info(f"Target: {target_text}")
-            # logger.info(f"Prediction: {predicted_sentence}")
-            # logger.info("\n")
+            logger.info(f"Input: {input_sentence}")
+            logger.info(f"Target: {target_text}")
+            logger.info(f"Prediction: {predicted_sentence}")
+            logger.info("\n")
 
             # Find model scores
             results_ter = ter.compute(predictions=[predicted_sentence], references=[target_text], case_sensitive=False)
